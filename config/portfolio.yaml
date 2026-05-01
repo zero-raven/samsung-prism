@@ -1,0 +1,13 @@
+portfolio:
+  - ticker: AAPL
+    shares: 10
+    sector: Technology
+  - ticker: MSFT
+    shares: 5
+    sector: Technology
+  - ticker: JPM
+    shares: 8
+    sector: Financials
+  - ticker: XOM
+    shares: 15
+    sector: Energy
