@@ -267,6 +267,22 @@ FinSight focuses on **explainability and decision support** rather than opaque p
 
 ---
 
+## 10. Running the New RAG Pipeline
+
+The `impact_analysis` skill has now been supercharged with Structured Hybrid RAG. It uses a manually curated `historical_events.yaml` "Golden Dataset" to prevent the LLM from hallucinating.
+
+**Setup Instructions:**
+1. Install the new dependencies: `pip install chromadb sentence-transformers`
+2. Configure your portfolio: Edit `config/portfolio.yaml` to include your actual holdings. A temporary test portfolio has been provided.
+3. The RAG pipeline will automatically parse `data/historical_events.yaml`, embed the events using `all-MiniLM-L6-v2`, and query ChromaDB with strict metadata filtering.
+
+To run the pipeline, start your local `LM Studio` instance and run:
+```bash
+python run_skill1.py
+```
+
+---
+
 ## License
 
 TBD
