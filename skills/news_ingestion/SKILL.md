@@ -1,54 +1,29 @@
 ---
-name: finsight-ingest
-description: >
-  Fetches financial news from Google News RSS (Indian markets), GDELT (global geopolitics),
-  and Finnhub (global markets). Deduplicates articles and writes a queue for extraction.
-  Runs on every heartbeat. No LLM calls — pure data fetching.
+name: news_ingestion
+description: "Fetches live news from external APIs and deduplicates them using SHA-256 hashing to prevent redundant processing."
 metadata:
   openclaw:
     requires:
       bins: ["python"]
 ---
+# Skill 1: News Ingestion & Deduplication
 
-# FinSight Skill 1 — News Ingestion & Deduplication
-
-## When to Run
-- On every heartbeat cycle
-- This is always the FIRST skill in the pipeline
-
-## Workflow
-1. Run `python C:\Users\Asus\OneDrive\Desktop\Prism\finsight/ingest.py`
-2. The script fetches news from configured sources (Google News RSS, GDELT, Finnhub)
-3. It deduplicates by headline similarity
-4. It writes new articles to the pending queue
+## Execution Trigger
+- Run continuously or manually via `python ingest.py`.
 
 ## Input / Output Contract
+- **INPUT:** Live API data (Finnhub, GDELT, RSS).
+- **OUTPUT:** `data/queue/pending_articles.yaml`
 
-### INPUT
-- `config.yaml` — news source configuration (queries, regions, limits)
-- `data/queue/seen_hashes.txt` — previously seen article hashes (for dedup)
-
-### OUTPUT
-- `data/queue/pending_articles.yaml` — list of new, deduplicated articles
-- `data/queue/seen_hashes.txt` — updated with new hashes
-- `data/logs/ingest.log` — timestamped log of ingestion results
-
-### Output Format (pending_articles.yaml)
+### Output YAML Schema Example
 ```yaml
 articles:
-  - id: "art_20260501_001"
-    headline: "RBI holds repo rate steady at 6.5%"
-    summary: "The Reserve Bank of India..."
-    source: "google_news"
+  - headline: "Fed cuts rates by 50 bps"
+    source: "Reuters"
     url: "https://..."
-    published: "2026-05-01T10:00:00"
-    topic: "central_bank"
-  - id: "art_20260501_002"
-    ...
+    published: "2026-05-02T10:00:00"
 ```
 
-## Rules
-- Never call any LLM — this is pure data fetching
-- If all sources fail, log the error and write an empty queue
-- If the queue already has pending articles, APPEND to it (don't overwrite)
-- Respect rate limits: max 60 Finnhub calls/minute
+## Strict Rules for LLM
+1. **Deduplication is Mandatory:** You must hash the headline and URL (SHA-256). Do not append an article if its hash already exists in the local cache.
+2. **Format:** Output must be strictly valid YAML. Do not use Markdown blocks in the final file write.

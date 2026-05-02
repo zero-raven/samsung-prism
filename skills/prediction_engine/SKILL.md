@@ -1,42 +1,34 @@
 ---
-name: finsight-signal
-description: >
-  Generates a directional trading signal (BULLISH/BEARISH/NEUTRAL) by synthesizing
-  the causal chain from Skill 3 with the portfolio exposure from Skill 4. Uses LLM
-  reasoning over the combined evidence — no statistical models or trained ML.
+name: prediction_engine
+description: "Synthesizes the Causal Chain, Portfolio Impact, and Knowledge Graph to generate a directional trading signal."
 metadata:
   openclaw:
     requires:
       bins: ["python"]
 ---
+# Skill 5: Prediction & Signal Generation
 
-# FinSight Skill 5 — LLM-Native Signal Generation
-
-## When to Run
-- After finsight-portfolio produces an impact report
+## Execution Trigger
+- Run `python signal_gen.py` after `impact_<id>.yaml` is generated.
 
 ## Input / Output Contract
+- **INPUT 1:** `data/analysis/chain_<id>.yaml`
+- **INPUT 2:** `data/analysis/impact_<id>.yaml`
+- **INPUT 3:** `data/graph/knowledge_graph.json`
+- **OUTPUT:** `data/analysis/signal_<id>.yaml`
 
-### INPUT
-- `data/analysis/chain_<event_id>.yaml`    → Causal chain from Skill 3
-- `data/analysis/impact_<event_id>.yaml`   → Portfolio impact from Skill 4
-
-### OUTPUT
-- `data/analysis/signal_<event_id>.yaml`   → Directional signal with reasoning
-- `data/logs/signal.log`                   → Processing log
-
-### Signal Output Format
+### Signal Output YAML Schema Example
 ```yaml
-event_id: "evt_20260501_001"
+event_id: "evt_20260502_001"
 signal:
-  direction: "BEARISH"
-  confidence: "HIGH"
-  horizon: "short_term"
-  affected_holdings:
-    - ticker: "RELIANCE.NS"
-      exposure_pct: 12.0
-      expected_impact: "negative, -3% to -7%"
-  reasoning: "2-3 sentence summary of why this signal was generated"
-  risk_flags:
-    - "Factor that could invalidate this signal"
+  direction: "BULLISH"
+  confidence: "MEDIUM"
+  horizon: "medium_term"
+  reasoning: "Tata manufacturing expansion highly correlates with Indian industrial growth."
+  risk_flags: ["Tata fails to meet Apple production standards."]
 ```
+
+## Strict Rules for LLM
+1. **Graph Injection:** You MUST query the `knowledge_graph.json` for 2nd-degree connections (e.g., suppliers, partners) and inject this context into your reasoning.
+2. **No Financial Advice:** Never use the words "BUY" or "SELL". Only use "BULLISH", "BEARISH", or "NEUTRAL".
+3. **Pessimistic Confidence:** If the historical analogues contradict each other, you MUST default `confidence` to "LOW".

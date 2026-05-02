@@ -1,54 +1,23 @@
 ---
-name: finsight-deliver
-description: >
-  Handles all user-facing output. Formats analysis results into clean Telegram messages,
-  routes alerts by confidence level, handles portfolio commands, on-demand queries,
-  and generates knowledge graph visualizations. The user's only interface to FinSight.
+name: delivery
+description: "Routes formatted markdown alerts to the user via Telegram based on signal confidence and portfolio exposure."
 metadata:
   openclaw:
     requires:
       bins: ["python"]
 ---
+# Skill 6: Alert Delivery & Routing
 
-# FinSight Skill 6 — Alert Delivery & Conversational Interface
-
-## When to Run
-- After finsight-signal produces a signal (proactive alert mode)
-- When user sends a Telegram message (on-demand query mode)
-- At briefing_time for morning briefing (scheduled mode)
+## Execution Trigger
+- Run `python deliver.py` as the final step of the pipeline.
 
 ## Input / Output Contract
+- **INPUT:** `data/analysis/signal_<id>.yaml`
+- **OUTPUT:** Markdown message sent via Telegram Bot API.
 
-### INPUT (Proactive Alert)
-- `data/analysis/chain_<event_id>.yaml`    → Causal chain
-- `data/analysis/impact_<event_id>.yaml`   → Portfolio impact
-- `data/analysis/signal_<event_id>.yaml`   → Trading signal
-- `data/graph/knowledge_graph.json`        → For visualization
-
-### INPUT (On-Demand Query)
-- User's Telegram message text
-- Triggers a fresh pipeline run: extract → hypothesize → portfolio → signal
-
-### INPUT (Commands)
-- `/portfolio show` — Display current portfolio
-- `/portfolio add TICKER QUANTITY PRICE` — Add holding
-- `/portfolio remove TICKER` — Remove holding
-- `/graph` — Send knowledge graph visualization
-- `/status` — System health and stats
-
-### OUTPUT
-- Formatted Telegram message with:
-  - 📰 What happened (trigger)
-  - 📊 Market impact (mechanism + affected sectors)
-  - 💼 Portfolio exposure (% affected, specific holdings)
-  - 📈 Signal (direction + confidence + horizon)
-  - 🔗 Reasoning chain (compressed)
-  - ⚠️ Risk flags
-- `data/briefing/queue.yaml` — Events queued for morning briefing
-- `data/visualizations/graph.html` — Knowledge graph visualization
-- `data/logs/deliver.log` — Delivery log
-
-## Confidence Routing
-- **HIGH confidence** → Immediate Telegram alert
-- **MEDIUM confidence** → Queued for morning briefing
-- **LOW confidence** → Logged only, not surfaced to user
+## Strict Rules for LLM
+1. **Routing Logic (CRITICAL):**
+   - **Immediate Alert:** Only send immediately if `confidence` == "HIGH" AND `exposure_pct` > 5%.
+   - **Batching:** If `confidence` == "MEDIUM", do NOT send. Append it to the morning briefing queue.
+   - **Silent:** If `confidence` == "LOW", do not send and do not batch.
+2. **Formatting:** Telegram requires strict Markdown V2. Ensure all special characters are escaped correctly to prevent API failure.

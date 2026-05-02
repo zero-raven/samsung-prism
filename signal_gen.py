@@ -29,6 +29,7 @@ from shared.config_loader import (
     load_config, get_workspace_path, read_yaml, write_yaml, append_to_log
 )
 from shared.llm_client import generate_yaml
+from shared.graph_manager import GraphManager
 
 
 SIGNAL_PROMPT = """You are a financial signal generator for Indian retail investors (NSE/BSE market).
@@ -49,6 +50,9 @@ PORTFOLIO EXPOSURE:
   Direction: {portfolio_direction}
   Affected Holdings:
 {affected_holdings_text}
+
+KNOWLEDGE GRAPH CONTEXT (2nd-Degree Exposures):
+{kg_context}
 
 Generate a trading signal. Return ONLY valid YAML:
 
@@ -116,6 +120,7 @@ def generate_signal(chain: dict, impact: dict, config: dict) -> dict:
         exposure_pct=exposure.get("exposure_pct", 0),
         portfolio_direction=exposure.get("direction", "neutral"),
         affected_holdings_text=holdings_text,
+        kg_context=chain.get("kg_context", "No graph context provided."),
     )
 
     result = generate_yaml(prompt, model_name=model)
@@ -178,6 +183,17 @@ def run_signal_generation():
         if not chain:
             print(f"  ⚠ No chain found for {event_id}. Skipping.")
             continue
+
+        # Load event to get entities for graph query
+        event_path = get_workspace_path("events", f"evt_{event_id}.yaml")
+        event_data = read_yaml(event_path)
+        if event_data:
+            graph = GraphManager()
+            kg_context = graph.get_context_for_event(event_data.get("entities", {}))
+        else:
+            kg_context = "No entity data found to query graph."
+        
+        chain["kg_context"] = kg_context
 
         summary = chain.get("event_summary", "Unknown")
         print(f"\n[Skill 5] Generating signal: {summary[:60]}...")
