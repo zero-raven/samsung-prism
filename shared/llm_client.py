@@ -1,12 +1,11 @@
 """
-FinSight LLM Client — Google Genai SDK Wrapper
+FinSight LLM Client — Groq (OpenAI-compatible)
 ================================================
-Provides a unified interface for all skills to call Google Gemini.
-Uses the new `google-genai` SDK (replaces deprecated google-generativeai).
-Handles retries, YAML parsing, and error recovery.
+Provides a unified interface for all skills.
+Uses Groq's OpenAI-compatible API for fast inference.
 
 Environment:
-    GEMINI_API_KEY  — Required. Your Google AI Studio API key.
+    GROQ_API_KEY  — Required. Get one at https://console.groq.com/keys
 """
 
 import os
@@ -14,49 +13,51 @@ import time
 import yaml
 import json
 
-from google import genai
-from google.genai import types
+from openai import OpenAI
 
 _client = None
 
 
 def _get_client():
-    """Get or create the Genai client."""
     global _client
     if _client is None:
-        api_key = os.environ.get("GEMINI_API_KEY")
+        api_key = os.environ.get("GROQ_API_KEY")
         if not api_key:
             raise EnvironmentError(
-                "GEMINI_API_KEY environment variable is not set. "
-                "Get a free key at https://aistudio.google.com/apikey"
+                "GROQ_API_KEY environment variable is not set. "
+                "Get a free key at https://console.groq.com/keys"
             )
-        _client = genai.Client(api_key=api_key)
+        _client = OpenAI(
+            api_key=api_key,
+            base_url="https://api.groq.com/openai/v1",
+        )
     return _client
 
 
-def generate(prompt: str, model_name: str = "gemini-2.0-flash",
+_MODEL_MAP = {
+    "gemini-2.0-flash": "llama-3.3-70b-versatile",
+    "gemini-1.5-flash": "llama-3.1-8b-instant",
+    "gemini-1.5-pro": "llama-3.3-70b-versatile",
+}
+
+
+def _resolve_model(model_name: str) -> str:
+    return _MODEL_MAP.get(model_name, model_name)
+
+
+def generate(prompt: str, model_name: str = "llama-3.3-70b-versatile",
              max_retries: int = 2, retry_delay: float = 3.0) -> str:
-    """
-    Generate text from Gemini.
-
-    INPUT:
-        prompt      — The full prompt string
-        model_name  — Gemini model identifier
-        max_retries — Number of retries on failure
-        retry_delay — Seconds between retries
-
-    OUTPUT:
-        str — The generated text response
-    """
     client = _get_client()
+    model = _resolve_model(model_name)
 
     for attempt in range(max_retries + 1):
         try:
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
+            response = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.3,
             )
-            return response.text
+            return response.choices[0].message.content
         except Exception as e:
             if attempt < max_retries:
                 print(f"[LLM] Attempt {attempt + 1} failed: {e}. Retrying in {retry_delay}s...")
@@ -65,21 +66,8 @@ def generate(prompt: str, model_name: str = "gemini-2.0-flash",
                 raise RuntimeError(f"[LLM] All {max_retries + 1} attempts failed: {e}")
 
 
-def generate_yaml(prompt: str, model_name: str = "gemini-2.0-flash",
+def generate_yaml(prompt: str, model_name: str = "llama-3.3-70b-versatile",
                   max_retries: int = 2) -> dict:
-    """
-    Generate structured YAML output from Gemini and parse it.
-
-    INPUT:
-        prompt      — Prompt that instructs the model to return YAML
-        model_name  — Gemini model identifier
-
-    OUTPUT:
-        dict — Parsed YAML as a Python dictionary
-
-    If the model wraps YAML in ```yaml ... ``` fences, they are stripped.
-    On parse failure, retries with an explicit correction prompt.
-    """
     for attempt in range(max_retries + 1):
         raw = generate(prompt, model_name)
         cleaned = _strip_yaml_fences(raw)
@@ -93,7 +81,6 @@ def generate_yaml(prompt: str, model_name: str = "gemini-2.0-flash",
         except Exception as e:
             if attempt < max_retries:
                 print(f"[LLM] YAML parse failed (attempt {attempt + 1}): {e}")
-                # Retry with a correction prompt
                 prompt = (
                     f"Your previous response was not valid YAML. "
                     f"Error: {e}\n\n"
@@ -106,30 +93,20 @@ def generate_yaml(prompt: str, model_name: str = "gemini-2.0-flash",
                 return {"error": str(e), "raw_output": raw}
 
 
-def generate_json(prompt: str, model_name: str = "gemini-2.0-flash",
+def generate_json(prompt: str, model_name: str = "llama-3.3-70b-versatile",
                   max_retries: int = 2) -> dict:
-    """
-    Generate structured JSON output from Gemini and parse it.
-
-    INPUT:
-        prompt      — Prompt that instructs the model to return JSON
-        model_name  — Gemini model identifier
-
-    OUTPUT:
-        dict — Parsed JSON as a Python dictionary
-    """
     client = _get_client()
+    model = _resolve_model(model_name)
 
     for attempt in range(max_retries + 1):
         try:
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json",
-                ),
+            response = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.3,
+                response_format={"type": "json_object"},
             )
-            return json.loads(response.text)
+            return json.loads(response.choices[0].message.content)
         except Exception as e:
             if attempt < max_retries:
                 print(f"[LLM] JSON generation failed (attempt {attempt + 1}): {e}")
@@ -140,7 +117,6 @@ def generate_json(prompt: str, model_name: str = "gemini-2.0-flash",
 
 
 def _strip_yaml_fences(text: str) -> str:
-    """Remove markdown code fences from LLM output."""
     text = text.strip()
     if text.startswith("```yaml"):
         text = text[7:]
