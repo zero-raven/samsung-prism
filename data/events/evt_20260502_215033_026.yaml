@@ -1,0 +1,19 @@
+event_id: evt_20260502_215033_026
+source_article:
+  headline: RBI Expected To Hold Rates Amid Growth Concerns, Says Report - BW Businessworld
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNalhQaXhJRnBiZzRDUC02eFpfb3J0Rkw2Q2gzNThDN3h4Unc5c1pjdHpPM09sdU1VaUNtWEUyakxnbnZqX0FpSzQwcW1PMmJQcmE4Y0tqeXRZVnJoaEJ4ZHVmSkxHUEVOVFM4UklqblJTQ1pTU1JuaDRvX3Z5SGQ2OHRNdlJzSVVhaE0yNXFUeVh1Q2o4Y3hJVDlqblhHMkZpVTUycnhR?oc=5
+  published: Sat, 02 May 2026 15:38:03 GMT
+entities:
+  companies:
+  - Reserve Bank of India
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: central_bank
+significance: 7
+one_line_summary: The Reserve Bank of India is expected to hold interest rates steady
+  due to growth concerns, which may impact the Indian economy and banking sector.
+extracted_at: '2026-05-02T21:50:33.486334'

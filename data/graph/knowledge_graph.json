@@ -1,0 +1,2125 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "evt_20260502_214922_000",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:22.109630",
+      "event_type": "corporate_action",
+      "summary": "The potential initial public offering of the National Stock Exchange of India may have significant implications for the country's financial markets and economy.",
+      "id": "evt_20260502_214922_000"
+    },
+    {
+      "label": "National Stock Exchange of India",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "id": "national_stock_exchange_of_india"
+    },
+    {
+      "label": "IT",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "updated_at": "2026-05-02T21:51:57.727634",
+      "id": "it"
+    },
+    {
+      "label": "banking",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "updated_at": "2026-05-02T21:52:00.225257",
+      "id": "banking"
+    },
+    {
+      "label": "FMCG",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "updated_at": "2026-05-02T21:51:55.320615",
+      "id": "fmcg"
+    },
+    {
+      "label": "metals",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "updated_at": "2026-05-02T21:49:46.405702",
+      "id": "metals"
+    },
+    {
+      "label": "realty",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "updated_at": "2026-05-02T21:49:46.405702",
+      "id": "realty"
+    },
+    {
+      "label": "infrastructure",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "updated_at": "2026-05-02T21:51:45.327062",
+      "id": "infrastructure"
+    },
+    {
+      "label": "telecom",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "updated_at": "2026-05-02T21:51:45.327062",
+      "id": "telecom"
+    },
+    {
+      "label": "media",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "updated_at": "2026-05-02T21:51:38.003617",
+      "id": "media"
+    },
+    {
+      "label": "India",
+      "type": "country",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "updated_at": "2026-05-02T21:51:25.996957",
+      "id": "india"
+    },
+    {
+      "label": "evt_20260502_214922_001",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:22.614931",
+      "event_type": "earnings",
+      "summary": "Vinyl Chemicals (India)'s anemic earnings may have a negative impact on the company's stock price and the broader chemicals sector.",
+      "id": "evt_20260502_214922_001"
+    },
+    {
+      "label": "Vinyl Chemicals (India)",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:22.614931",
+      "id": "vinyl_chemicals_(india)"
+    },
+    {
+      "label": "chemicals",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:22.614931",
+      "id": "chemicals"
+    },
+    {
+      "label": "evt_20260502_214922_002",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:22.962473",
+      "event_type": "corporate_action",
+      "summary": "The article discusses the best artificial intelligence stocks in India for 2026, which may have a moderate impact on the IT sector.",
+      "id": "evt_20260502_214922_002"
+    },
+    {
+      "label": "Groww",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:22.962473",
+      "id": "groww"
+    },
+    {
+      "label": "evt_20260502_214923_003",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:23.419853",
+      "event_type": "regulatory",
+      "summary": "The National Stock Exchange has scheduled an Extraordinary General Meeting to propose a governance overhaul and increase the cap for Non-Resident Indian investments, which may impact the Indian stock market.",
+      "id": "evt_20260502_214923_003"
+    },
+    {
+      "label": "National Stock Exchange",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:23.419853",
+      "updated_at": "2026-05-02T21:49:26.230142",
+      "id": "national_stock_exchange"
+    },
+    {
+      "label": "evt_20260502_214923_004",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:23.922662",
+      "event_type": "macroeconomic",
+      "summary": "The article lists the top losers in the Indian stock market, providing an update on the current market trends and performance of various stocks.",
+      "id": "evt_20260502_214923_004"
+    },
+    {
+      "label": "The Economic Times",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:23.922662",
+      "id": "the_economic_times"
+    },
+    {
+      "label": "evt_20260502_214924_005",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "event_type": "regulatory",
+      "summary": "The Bombay Stock Exchange and National Stock Exchange of India will be closed on May 1, which may have a minor impact on the Indian stock market.",
+      "id": "evt_20260502_214924_005"
+    },
+    {
+      "label": "Bombay Stock Exchange (BSE)",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "id": "bombay_stock_exchange_(bse)"
+    },
+    {
+      "label": "National Stock Exchange of India (NSE)",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "id": "national_stock_exchange_of_india_(nse)"
+    },
+    {
+      "label": "evt_20260502_214924_006",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:24.772641",
+      "event_type": "earnings",
+      "summary": "India Shelter Finance Corp reports a 27% increase in Q4 profit and declares a \u20b910 dividend, positively impacting the banking and realty sectors.",
+      "id": "evt_20260502_214924_006"
+    },
+    {
+      "label": "India Shelter Finance Corp",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:24.772641",
+      "id": "india_shelter_finance_corp"
+    },
+    {
+      "label": "evt_20260502_214925_007",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "event_type": "corporate_action",
+      "summary": "Several major Indian companies, including Jio, Zepto, and Tata, are expected to enter the stock market in the coming months, potentially causing a significant rush in the Indian stock market.",
+      "id": "evt_20260502_214925_007"
+    },
+    {
+      "label": "Reliance Jio",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "id": "reliance_jio"
+    },
+    {
+      "label": "Zepto",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "id": "zepto"
+    },
+    {
+      "label": "Tata Group",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "id": "tata_group"
+    },
+    {
+      "label": "evt_20260502_214925_008",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:25.808739",
+      "event_type": "regulatory",
+      "summary": "The stock market's operating status on Maharashtra Day has a minor impact on the market, with no significant effects on major sectors or companies.",
+      "id": "evt_20260502_214925_008"
+    },
+    {
+      "label": "evt_20260502_214926_009",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "event_type": "corporate_action",
+      "summary": "The National Stock Exchange is discussing the evolving landscape of India's corporate bond market with a Vice President from the exchange.",
+      "id": "evt_20260502_214926_009"
+    },
+    {
+      "label": "Zee Business",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "id": "zee_business"
+    },
+    {
+      "label": "evt_20260502_214926_010",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:26.610827",
+      "event_type": "geopolitical",
+      "summary": "The Indian stock market, including Nifty and Sensex, had its best month in nearly two years, despite concerns over the Iran war.",
+      "id": "evt_20260502_214926_010"
+    },
+    {
+      "label": "Iran",
+      "type": "country",
+      "created_at": "2026-05-02T21:49:26.610827",
+      "updated_at": "2026-05-02T21:52:20.309384",
+      "id": "iran"
+    },
+    {
+      "label": "evt_20260502_214927_011",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:27.085859",
+      "event_type": "macroeconomic",
+      "summary": "The Indian stock market declined significantly, with the Sensex falling over 850 points and the Nifty50 dropping below 24,200, due to rising oil prices.",
+      "id": "evt_20260502_214927_011"
+    },
+    {
+      "label": "energy",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:27.085859",
+      "updated_at": "2026-05-02T21:52:20.309384",
+      "id": "energy"
+    },
+    {
+      "label": "oil",
+      "type": "commodity",
+      "created_at": "2026-05-02T21:49:27.085859",
+      "id": "oil"
+    },
+    {
+      "label": "evt_20260502_214927_012",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:27.645530",
+      "event_type": "geopolitical",
+      "summary": "The Sensex shed 416 points due to concerns over US President Trump's dissatisfaction with Iran's truce proposal, indicating a potential escalation of geopolitical tensions.",
+      "id": "evt_20260502_214927_012"
+    },
+    {
+      "label": "United States",
+      "type": "country",
+      "created_at": "2026-05-02T21:49:27.645530",
+      "updated_at": "2026-05-02T21:52:20.309384",
+      "id": "united_states"
+    },
+    {
+      "label": "evt_20260502_214928_013",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:28.145273",
+      "event_type": "macroeconomic",
+      "summary": "The Sensex ended marginally higher, with Nifty above 24,350, in a day of relatively stable trading in the Indian stock market.",
+      "id": "evt_20260502_214928_013"
+    },
+    {
+      "label": "JSW",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:28.145273",
+      "id": "jsw"
+    },
+    {
+      "label": "evt_20260502_214931_014",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:31.701431",
+      "event_type": "macroeconomic",
+      "summary": "The Indian stock market bounced back with the Sensex rising 505 points and the Nifty crossing 24,350.",
+      "id": "evt_20260502_214931_014"
+    },
+    {
+      "label": "auto",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:31.701431",
+      "updated_at": "2026-05-02T21:52:20.309384",
+      "id": "auto"
+    },
+    {
+      "label": "evt_20260502_214936_015",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:36.273320",
+      "event_type": "macroeconomic",
+      "summary": "The Indian stock market rebounded, snapping a three-day losing streak, driven by a rally in IT and pharma sectors, led by Sun Pharma.",
+      "id": "evt_20260502_214936_015"
+    },
+    {
+      "label": "Sun Pharma",
+      "type": "company",
+      "created_at": "2026-05-02T21:49:36.273320",
+      "updated_at": "2026-05-02T21:50:09.354468",
+      "id": "sun_pharma"
+    },
+    {
+      "label": "pharma",
+      "type": "sector",
+      "created_at": "2026-05-02T21:49:36.273320",
+      "updated_at": "2026-05-02T21:50:09.354468",
+      "id": "pharma"
+    },
+    {
+      "label": "evt_20260502_214941_016",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:41.845677",
+      "event_type": "macroeconomic",
+      "summary": "The Indian stock market experienced a decline for the third consecutive day, with the Sensex and Nifty losing 2% this week, primarily due to the poor performance of the IT sector.",
+      "id": "evt_20260502_214941_016"
+    },
+    {
+      "label": "evt_20260502_214946_017",
+      "type": "event",
+      "created_at": "2026-05-02T21:49:46.405702",
+      "event_type": "macroeconomic",
+      "summary": "The Indian stock market is expected to be influenced by various factors on Monday, May 4, with key levels and strategies to be considered by investors.",
+      "id": "evt_20260502_214946_017"
+    },
+    {
+      "label": "evt_20260502_215008_018",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:08.989079",
+      "event_type": "macroeconomic",
+      "summary": "The Indian stock market declined sharply as Brent crude prices rose above $120 and the rupee fell, affecting investor sentiment and market performance.",
+      "id": "evt_20260502_215008_018"
+    },
+    {
+      "label": "crude oil",
+      "type": "commodity",
+      "created_at": "2026-05-02T21:50:08.989079",
+      "updated_at": "2026-05-02T21:52:20.309384",
+      "id": "crude_oil"
+    },
+    {
+      "label": "evt_20260502_215009_019",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:09.354468",
+      "event_type": "earnings",
+      "summary": "The Indian stock market ended higher, with the Sensex rising 639 points and the Nifty reaching around 24,100, driven in part by a 7% increase in Sun Pharma's share price.",
+      "id": "evt_20260502_215009_019"
+    },
+    {
+      "label": "evt_20260502_215009_020",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:09.779068",
+      "event_type": "central_bank",
+      "summary": "The Reserve Bank of India's governor has announced that they will deploy appropriate policy measures, which may have a significant impact on India's banking sector and overall economy.",
+      "id": "evt_20260502_215009_020"
+    },
+    {
+      "label": "Reserve Bank of India",
+      "type": "company",
+      "created_at": "2026-05-02T21:50:09.779068",
+      "updated_at": "2026-05-02T21:50:58.543965",
+      "id": "reserve_bank_of_india"
+    },
+    {
+      "label": "evt_20260502_215013_021",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:13.178461",
+      "event_type": "central_bank",
+      "summary": "The Reserve Bank of India's monetary policy and other economic factors such as GPS interference and heatwaves may impact the Indian economy and markets.",
+      "id": "evt_20260502_215013_021"
+    },
+    {
+      "label": "evt_20260502_215017_022",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:17.558840",
+      "event_type": "central_bank",
+      "summary": "The record low rupee may lead to a shift in the Reserve Bank of India's policy, potentially ending India's cheap-money era and impacting the country's banking sector.",
+      "id": "evt_20260502_215017_022"
+    },
+    {
+      "label": "evt_20260502_215021_023",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:21.993074",
+      "event_type": "central_bank",
+      "summary": "The Reserve Bank of India has launched three key surveys to gather input for its monetary policy decisions, which may impact the banking sector and the overall economy.",
+      "id": "evt_20260502_215021_023"
+    },
+    {
+      "label": "evt_20260502_215025_024",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:25.490052",
+      "event_type": "central_bank",
+      "summary": "The Reserve Bank of India has exempted small non-banking financial companies from certain registration and reserve fund rules, potentially easing regulatory burdens on the sector.",
+      "id": "evt_20260502_215025_024"
+    },
+    {
+      "label": "evt_20260502_215029_025",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:29.977264",
+      "event_type": "central_bank",
+      "summary": "Rohit Jain's appointment as RBI deputy governor for a three-year term may have implications for India's banking sector and monetary policy.",
+      "id": "evt_20260502_215029_025"
+    },
+    {
+      "label": "evt_20260502_215033_026",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:33.489429",
+      "event_type": "central_bank",
+      "summary": "The Reserve Bank of India is expected to hold interest rates steady due to growth concerns, which may impact the Indian economy and banking sector.",
+      "id": "evt_20260502_215033_026"
+    },
+    {
+      "label": "evt_20260502_215039_027",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:39.026962",
+      "event_type": "central_bank",
+      "summary": "The Reserve Bank of India's Deputy Governor stated that macro factors are strong and there is no pressure on the balance of payments, which may have a positive impact on the Indian economy.",
+      "id": "evt_20260502_215039_027"
+    },
+    {
+      "label": "evt_20260502_215043_028",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:43.614475",
+      "event_type": "macroeconomic",
+      "summary": "A regional drought in India may have national monetary policy implications, potentially affecting the infrastructure sector and overall economy.",
+      "id": "evt_20260502_215043_028"
+    },
+    {
+      "label": "evt_20260502_215048_029",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:48.014456",
+      "event_type": "central_bank",
+      "summary": "Rohit Jain has been appointed as the Deputy Governor of the Reserve Bank of India for a three-year term, succeeding Rabi Sankar.",
+      "id": "evt_20260502_215048_029"
+    },
+    {
+      "label": "evt_20260502_215053_030",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:53.589691",
+      "event_type": "regulatory",
+      "summary": "The Indian banking sector may need to implement a 'consent layer' to protect innocent account holders, which could lead to changes in banking regulations and practices.",
+      "id": "evt_20260502_215053_030"
+    },
+    {
+      "label": "evt_20260502_215055_031",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:55.029302",
+      "event_type": "central_bank",
+      "summary": "The Reserve Bank of India has stepped up its efforts to combat digital fraud, which may impact the banking sector and overall financial stability in India.",
+      "id": "evt_20260502_215055_031"
+    },
+    {
+      "label": "evt_20260502_215058_032",
+      "type": "event",
+      "created_at": "2026-05-02T21:50:58.543965",
+      "event_type": "central_bank",
+      "summary": "The Reserve Bank of India's new ECL framework is expected to have a significant impact on Indian banks and investors, potentially affecting the overall banking sector in the country.",
+      "id": "evt_20260502_215058_032"
+    },
+    {
+      "label": "India Infoline",
+      "type": "company",
+      "created_at": "2026-05-02T21:50:58.543965",
+      "id": "india_infoline"
+    },
+    {
+      "label": "evt_20260502_215103_033",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:03.036683",
+      "event_type": "regulatory",
+      "summary": "A man in India carried his deceased sister into a bank due to difficulties with paperwork, highlighting bureaucratic challenges in the country's banking sector.",
+      "id": "evt_20260502_215103_033"
+    },
+    {
+      "label": "Al Jazeera",
+      "type": "company",
+      "created_at": "2026-05-02T21:51:03.036683",
+      "id": "al_jazeera"
+    },
+    {
+      "label": "evt_20260502_215106_034",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:06.531978",
+      "event_type": "central_bank",
+      "summary": "The Indian central bank's gold share in forex reserves has increased, indicating a potential shift in the country's reserve management strategy.",
+      "id": "evt_20260502_215106_034"
+    },
+    {
+      "label": "gold",
+      "type": "commodity",
+      "created_at": "2026-05-02T21:51:06.531978",
+      "updated_at": "2026-05-02T21:52:20.309384",
+      "id": "gold"
+    },
+    {
+      "label": "evt_20260502_215110_035",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:10.011591",
+      "event_type": "geopolitical",
+      "summary": "Indian bank shares have declined due to increased provisions resulting from the West Asia crisis.",
+      "id": "evt_20260502_215110_035"
+    },
+    {
+      "label": "Indian Bank",
+      "type": "company",
+      "created_at": "2026-05-02T21:51:10.011591",
+      "updated_at": "2026-05-02T21:51:25.996957",
+      "id": "indian_bank"
+    },
+    {
+      "label": "evt_20260502_215113_036",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:13.546819",
+      "event_type": "geopolitical",
+      "summary": "A man in India took his sister's remains to a bank to prove her death, sparking shock and outrage in the country, but having little to no impact on financial markets.",
+      "id": "evt_20260502_215113_036"
+    },
+    {
+      "label": "The Guardian",
+      "type": "company",
+      "created_at": "2026-05-02T21:51:13.546819",
+      "id": "the_guardian"
+    },
+    {
+      "label": "evt_20260502_215118_037",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:18.946614",
+      "event_type": "earnings",
+      "summary": "Indian Bank's Q4 standalone profit grows 5% year-over-year to Rs 3,103 crore, with a dividend of Rs 18.25 per share declared.",
+      "id": "evt_20260502_215118_037"
+    },
+    {
+      "label": "evt_20260502_215122_038",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:22.466706",
+      "event_type": "macroeconomic",
+      "summary": "The Indian banking sector receives top updates from Boston Consulting Group, potentially impacting the sector's performance and investor decisions.",
+      "id": "evt_20260502_215122_038"
+    },
+    {
+      "label": "Boston Consulting Group",
+      "type": "company",
+      "created_at": "2026-05-02T21:51:22.466706",
+      "id": "boston_consulting_group"
+    },
+    {
+      "label": "evt_20260502_215125_039",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:25.996957",
+      "event_type": "earnings",
+      "summary": "Indian Bank is set to announce its Q4 FY26 results, which may have a notable impact on the banking sector and the company's investors.",
+      "id": "evt_20260502_215125_039"
+    },
+    {
+      "label": "evt_20260502_215128_040",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:28.367386",
+      "event_type": "geopolitical",
+      "summary": "The US troop drawdown in Germany may create deterrence gaps, but the impact on markets is expected to be limited.",
+      "id": "evt_20260502_215128_040"
+    },
+    {
+      "label": "defence",
+      "type": "sector",
+      "created_at": "2026-05-02T21:51:28.367386",
+      "updated_at": "2026-05-02T21:51:52.810697",
+      "id": "defence"
+    },
+    {
+      "label": "Germany",
+      "type": "country",
+      "created_at": "2026-05-02T21:51:28.367386",
+      "updated_at": "2026-05-02T21:52:20.309384",
+      "id": "germany"
+    },
+    {
+      "label": "evt_20260502_215130_041",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:30.730234",
+      "event_type": "geopolitical",
+      "summary": "The escalating U.S.-Iran war and Strait of Hormuz closure are causing a global economic ripple effect, impacting credit scores and mortgage applications.",
+      "id": "evt_20260502_215130_041"
+    },
+    {
+      "label": "Finnhub",
+      "type": "company",
+      "created_at": "2026-05-02T21:51:30.730234",
+      "updated_at": "2026-05-02T21:52:00.225257",
+      "id": "finnhub"
+    },
+    {
+      "label": "evt_20260502_215133_042",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:33.149862",
+      "event_type": "geopolitical",
+      "summary": "The rejection of Iran's proposal by the Trump administration may escalate geopolitical tensions and impact the global energy market.",
+      "id": "evt_20260502_215133_042"
+    },
+    {
+      "label": "evt_20260502_215135_043",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:35.610520",
+      "event_type": "geopolitical",
+      "summary": "Iran's execution of two spies for Israel may escalate geopolitical tensions in the region, potentially affecting market sentiment.",
+      "id": "evt_20260502_215135_043"
+    },
+    {
+      "label": "Reuters",
+      "type": "company",
+      "created_at": "2026-05-02T21:51:35.610520",
+      "updated_at": "2026-05-02T21:51:52.810697",
+      "id": "reuters"
+    },
+    {
+      "label": "Israel",
+      "type": "country",
+      "created_at": "2026-05-02T21:51:35.610520",
+      "id": "israel"
+    },
+    {
+      "label": "evt_20260502_215138_044",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:38.003617",
+      "event_type": "geopolitical",
+      "summary": "The hospitalization of Nobel laureate Mohammadi in Iran due to a cardiac crisis is unlikely to have a significant impact on financial markets.",
+      "id": "evt_20260502_215138_044"
+    },
+    {
+      "label": "evt_20260502_215140_045",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:40.415663",
+      "event_type": "geopolitical",
+      "summary": "The Iran standoff could have significant implications for the global economy and markets, potentially leaving the US worse off than before the conflict began.",
+      "id": "evt_20260502_215140_045"
+    },
+    {
+      "label": "evt_20260502_215142_046",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:42.787683",
+      "event_type": "geopolitical",
+      "summary": "The US Navy's naval blockade of Iranian ports, described by Trump as acting \"like pirates\", may escalate geopolitical tensions and impact global markets.",
+      "id": "evt_20260502_215142_046"
+    },
+    {
+      "label": "evt_20260502_215145_047",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:45.327062",
+      "event_type": "corporate_action",
+      "summary": "Spirit Airlines is at risk of shutting down overnight, potentially disrupting travel plans for its customers and impacting the airline industry.",
+      "id": "evt_20260502_215145_047"
+    },
+    {
+      "label": "Spirit Airlines",
+      "type": "company",
+      "created_at": "2026-05-02T21:51:45.327062",
+      "id": "spirit_airlines"
+    },
+    {
+      "label": "evt_20260502_215147_048",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:47.888171",
+      "event_type": "geopolitical",
+      "summary": "Tensions between the US and European leaders may impact trade and economic relations, potentially affecting various sectors.",
+      "id": "evt_20260502_215147_048"
+    },
+    {
+      "label": "European countries (implied, not specified)",
+      "type": "country",
+      "created_at": "2026-05-02T21:51:47.888171",
+      "id": "european_countries_(implied,_not_specified)"
+    },
+    {
+      "label": "evt_20260502_215150_049",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "event_type": "geopolitical",
+      "summary": "The US has warned its European allies, including the UK and Poland, of potential delays in arms shipments, which could impact the defence sector and geopolitical relations.",
+      "id": "evt_20260502_215150_049"
+    },
+    {
+      "label": "Financial Times",
+      "type": "company",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "id": "financial_times"
+    },
+    {
+      "label": "United Kingdom",
+      "type": "country",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "id": "united_kingdom"
+    },
+    {
+      "label": "Poland",
+      "type": "country",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "id": "poland"
+    },
+    {
+      "label": "evt_20260502_215152_050",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:52.810697",
+      "event_type": "geopolitical",
+      "summary": "The US is withdrawing 5,000 troops from Germany, which may have implications for global geopolitical stability and the defence sector.",
+      "id": "evt_20260502_215152_050"
+    },
+    {
+      "label": "US",
+      "type": "country",
+      "created_at": "2026-05-02T21:51:52.810697",
+      "id": "us"
+    },
+    {
+      "label": "evt_20260502_215155_051",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:55.320615",
+      "event_type": "corporate_action",
+      "summary": "Berkshire Hathaway's annual meeting saw lighter crowds as attention shifted to Greg Abel, indicating a potential shift in company leadership and strategy.",
+      "id": "evt_20260502_215155_051"
+    },
+    {
+      "label": "Berkshire Hathaway",
+      "type": "company",
+      "created_at": "2026-05-02T21:51:55.320615",
+      "id": "berkshire_hathaway"
+    },
+    {
+      "label": "evt_20260502_215157_052",
+      "type": "event",
+      "created_at": "2026-05-02T21:51:57.727634",
+      "event_type": "corporate_action",
+      "summary": "SanDisk's strategic move to capitalize on surging memory prices may have a notable impact on tech stocks.",
+      "id": "evt_20260502_215157_052"
+    },
+    {
+      "label": "SanDisk",
+      "type": "company",
+      "created_at": "2026-05-02T21:51:57.727634",
+      "id": "sandisk"
+    },
+    {
+      "label": "evt_20260502_215200_053",
+      "type": "event",
+      "created_at": "2026-05-02T21:52:00.225257",
+      "event_type": "regulatory",
+      "summary": "Trump's new executive order, supported by Congress, may increase US retirement wealth by up to 77 percent, according to researchers.",
+      "id": "evt_20260502_215200_053"
+    },
+    {
+      "label": "evt_20260502_215202_054",
+      "type": "event",
+      "created_at": "2026-05-02T21:52:02.551568",
+      "event_type": "geopolitical",
+      "summary": "Exxon's net income has fallen due to decreased output caused by the Iran war, potentially impacting the global energy market.",
+      "id": "evt_20260502_215202_054"
+    },
+    {
+      "label": "Exxon",
+      "type": "company",
+      "created_at": "2026-05-02T21:52:02.551568",
+      "id": "exxon"
+    },
+    {
+      "label": "evt_20260502_215220_055",
+      "type": "event",
+      "created_at": "2026-05-02T21:52:20.309384",
+      "event_type": "trade_policy",
+      "summary": "The US has raised tariffs on European autos to 25%, sparking concerns of a potential trade war and impacting the auto and energy sectors.",
+      "id": "evt_20260502_215220_055"
+    },
+    {
+      "label": "Canada",
+      "type": "country",
+      "created_at": "2026-05-02T21:52:20.309384",
+      "id": "canada"
+    },
+    {
+      "label": "Italy",
+      "type": "country",
+      "created_at": "2026-05-02T21:52:20.309384",
+      "id": "italy"
+    },
+    {
+      "label": "Spain",
+      "type": "country",
+      "created_at": "2026-05-02T21:52:20.309384",
+      "id": "spain"
+    }
+  ],
+  "edges": [
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "national_stock_exchange_of_india",
+      "target": "evt_20260502_214922_000"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "national_stock_exchange_of_india",
+      "target": "it"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "national_stock_exchange_of_india",
+      "target": "banking"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "national_stock_exchange_of_india",
+      "target": "fmcg"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "national_stock_exchange_of_india",
+      "target": "metals"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "national_stock_exchange_of_india",
+      "target": "realty"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "national_stock_exchange_of_india",
+      "target": "infrastructure"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "national_stock_exchange_of_india",
+      "target": "telecom"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "national_stock_exchange_of_india",
+      "target": "media"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "national_stock_exchange_of_india",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "it",
+      "target": "evt_20260502_214922_000"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.962473",
+      "source": "it",
+      "target": "evt_20260502_214922_002"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:23.419853",
+      "source": "it",
+      "target": "evt_20260502_214923_003"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "it",
+      "target": "evt_20260502_214924_005"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "it",
+      "target": "evt_20260502_214925_007"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:31.701431",
+      "source": "it",
+      "target": "evt_20260502_214931_014"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:36.273320",
+      "source": "it",
+      "target": "evt_20260502_214936_015"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:41.845677",
+      "source": "it",
+      "target": "evt_20260502_214941_016"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:46.405702",
+      "source": "it",
+      "target": "evt_20260502_214946_017"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:57.727634",
+      "source": "it",
+      "target": "evt_20260502_215157_052"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "banking",
+      "target": "evt_20260502_214922_000"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:23.419853",
+      "source": "banking",
+      "target": "evt_20260502_214923_003"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "banking",
+      "target": "evt_20260502_214924_005"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:24.772641",
+      "source": "banking",
+      "target": "evt_20260502_214924_006"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "source": "banking",
+      "target": "evt_20260502_214926_009"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:31.701431",
+      "source": "banking",
+      "target": "evt_20260502_214931_014"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:46.405702",
+      "source": "banking",
+      "target": "evt_20260502_214946_017"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:09.779068",
+      "source": "banking",
+      "target": "evt_20260502_215009_020"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:13.178461",
+      "source": "banking",
+      "target": "evt_20260502_215013_021"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:17.558840",
+      "source": "banking",
+      "target": "evt_20260502_215017_022"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:21.993074",
+      "source": "banking",
+      "target": "evt_20260502_215021_023"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:25.490052",
+      "source": "banking",
+      "target": "evt_20260502_215025_024"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:29.977264",
+      "source": "banking",
+      "target": "evt_20260502_215029_025"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:33.489429",
+      "source": "banking",
+      "target": "evt_20260502_215033_026"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:39.026962",
+      "source": "banking",
+      "target": "evt_20260502_215039_027"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:48.014456",
+      "source": "banking",
+      "target": "evt_20260502_215048_029"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:53.589691",
+      "source": "banking",
+      "target": "evt_20260502_215053_030"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:55.029302",
+      "source": "banking",
+      "target": "evt_20260502_215055_031"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:58.543965",
+      "source": "banking",
+      "target": "evt_20260502_215058_032"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:03.036683",
+      "source": "banking",
+      "target": "evt_20260502_215103_033"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:06.531978",
+      "source": "banking",
+      "target": "evt_20260502_215106_034"
+    },
+    {
+      "type": "exposed_to",
+      "created_at": "2026-05-02T21:51:06.531978",
+      "source": "banking",
+      "target": "gold"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:10.011591",
+      "source": "banking",
+      "target": "evt_20260502_215110_035"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:13.546819",
+      "source": "banking",
+      "target": "evt_20260502_215113_036"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:18.946614",
+      "source": "banking",
+      "target": "evt_20260502_215118_037"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:22.466706",
+      "source": "banking",
+      "target": "evt_20260502_215122_038"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:25.996957",
+      "source": "banking",
+      "target": "evt_20260502_215125_039"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:30.730234",
+      "source": "banking",
+      "target": "evt_20260502_215130_041"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:52:00.225257",
+      "source": "banking",
+      "target": "evt_20260502_215200_053"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "fmcg",
+      "target": "evt_20260502_214922_000"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:31.701431",
+      "source": "fmcg",
+      "target": "evt_20260502_214931_014"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:46.405702",
+      "source": "fmcg",
+      "target": "evt_20260502_214946_017"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:55.320615",
+      "source": "fmcg",
+      "target": "evt_20260502_215155_051"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "metals",
+      "target": "evt_20260502_214922_000"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:28.148395",
+      "source": "metals",
+      "target": "evt_20260502_214928_013"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:31.701431",
+      "source": "metals",
+      "target": "evt_20260502_214931_014"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:46.405702",
+      "source": "metals",
+      "target": "evt_20260502_214946_017"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "realty",
+      "target": "evt_20260502_214922_000"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:24.772641",
+      "source": "realty",
+      "target": "evt_20260502_214924_006"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:31.701431",
+      "source": "realty",
+      "target": "evt_20260502_214931_014"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:46.405702",
+      "source": "realty",
+      "target": "evt_20260502_214946_017"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "infrastructure",
+      "target": "evt_20260502_214922_000"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:31.701431",
+      "source": "infrastructure",
+      "target": "evt_20260502_214931_014"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:46.405702",
+      "source": "infrastructure",
+      "target": "evt_20260502_214946_017"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:43.614475",
+      "source": "infrastructure",
+      "target": "evt_20260502_215043_028"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:45.327062",
+      "source": "infrastructure",
+      "target": "evt_20260502_215145_047"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "telecom",
+      "target": "evt_20260502_214922_000"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "telecom",
+      "target": "evt_20260502_214925_007"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:31.701431",
+      "source": "telecom",
+      "target": "evt_20260502_214931_014"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:46.405702",
+      "source": "telecom",
+      "target": "evt_20260502_214946_017"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:45.327062",
+      "source": "telecom",
+      "target": "evt_20260502_215145_047"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.110642",
+      "source": "media",
+      "target": "evt_20260502_214922_000"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:23.922662",
+      "source": "media",
+      "target": "evt_20260502_214923_004"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "media",
+      "target": "evt_20260502_214924_005"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:25.808739",
+      "source": "media",
+      "target": "evt_20260502_214925_008"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "source": "media",
+      "target": "evt_20260502_214926_009"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:26.610827",
+      "source": "media",
+      "target": "evt_20260502_214926_010"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:27.645530",
+      "source": "media",
+      "target": "evt_20260502_214927_012"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:35.610520",
+      "source": "media",
+      "target": "evt_20260502_215135_043"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:38.003617",
+      "source": "media",
+      "target": "evt_20260502_215138_044"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.614931",
+      "source": "vinyl_chemicals_(india)",
+      "target": "evt_20260502_214922_001"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:22.614931",
+      "source": "vinyl_chemicals_(india)",
+      "target": "chemicals"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:22.614931",
+      "source": "vinyl_chemicals_(india)",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.614931",
+      "source": "chemicals",
+      "target": "evt_20260502_214922_001"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:22.962473",
+      "source": "groww",
+      "target": "evt_20260502_214922_002"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:22.962473",
+      "source": "groww",
+      "target": "it"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:22.962473",
+      "source": "groww",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:23.419853",
+      "source": "national_stock_exchange",
+      "target": "evt_20260502_214923_003"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "source": "national_stock_exchange",
+      "target": "banking"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:23.419853",
+      "source": "national_stock_exchange",
+      "target": "it"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "source": "national_stock_exchange",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "source": "national_stock_exchange",
+      "target": "evt_20260502_214926_009"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "source": "national_stock_exchange",
+      "target": "media"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:23.922662",
+      "source": "the_economic_times",
+      "target": "evt_20260502_214923_004"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:23.922662",
+      "source": "the_economic_times",
+      "target": "media"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:23.922662",
+      "source": "the_economic_times",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "bombay_stock_exchange_(bse)",
+      "target": "evt_20260502_214924_005"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "bombay_stock_exchange_(bse)",
+      "target": "banking"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "bombay_stock_exchange_(bse)",
+      "target": "it"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "bombay_stock_exchange_(bse)",
+      "target": "media"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "bombay_stock_exchange_(bse)",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "national_stock_exchange_of_india_(nse)",
+      "target": "evt_20260502_214924_005"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "national_stock_exchange_of_india_(nse)",
+      "target": "banking"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "national_stock_exchange_of_india_(nse)",
+      "target": "it"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "national_stock_exchange_of_india_(nse)",
+      "target": "media"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:24.358319",
+      "source": "national_stock_exchange_of_india_(nse)",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:24.772641",
+      "source": "india_shelter_finance_corp",
+      "target": "evt_20260502_214924_006"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:24.772641",
+      "source": "india_shelter_finance_corp",
+      "target": "banking"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:24.772641",
+      "source": "india_shelter_finance_corp",
+      "target": "realty"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:24.772641",
+      "source": "india_shelter_finance_corp",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "reliance_jio",
+      "target": "evt_20260502_214925_007"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "reliance_jio",
+      "target": "telecom"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "reliance_jio",
+      "target": "it"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "reliance_jio",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "zepto",
+      "target": "evt_20260502_214925_007"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "zepto",
+      "target": "telecom"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "zepto",
+      "target": "it"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "zepto",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "tata_group",
+      "target": "evt_20260502_214925_007"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "tata_group",
+      "target": "telecom"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "tata_group",
+      "target": "it"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:25.281943",
+      "source": "tata_group",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "source": "zee_business",
+      "target": "evt_20260502_214926_009"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "source": "zee_business",
+      "target": "media"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "source": "zee_business",
+      "target": "banking"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:26.230142",
+      "source": "zee_business",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:27.085859",
+      "source": "energy",
+      "target": "evt_20260502_214927_011"
+    },
+    {
+      "type": "exposed_to",
+      "created_at": "2026-05-02T21:49:27.085859",
+      "source": "energy",
+      "target": "oil"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:08.989079",
+      "source": "energy",
+      "target": "evt_20260502_215008_018"
+    },
+    {
+      "type": "exposed_to",
+      "created_at": "2026-05-02T21:52:20.309384",
+      "source": "energy",
+      "target": "crude_oil"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:33.149862",
+      "source": "energy",
+      "target": "evt_20260502_215133_042"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:40.415663",
+      "source": "energy",
+      "target": "evt_20260502_215140_045"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:52:02.551568",
+      "source": "energy",
+      "target": "evt_20260502_215202_054"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:52:20.309384",
+      "source": "energy",
+      "target": "evt_20260502_215220_055"
+    },
+    {
+      "type": "exposed_to",
+      "created_at": "2026-05-02T21:52:20.309384",
+      "source": "energy",
+      "target": "gold"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:28.148395",
+      "source": "jsw",
+      "target": "evt_20260502_214928_013"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:28.148395",
+      "source": "jsw",
+      "target": "metals"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:49:28.148395",
+      "source": "jsw",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:31.701431",
+      "source": "auto",
+      "target": "evt_20260502_214931_014"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:46.405702",
+      "source": "auto",
+      "target": "evt_20260502_214946_017"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:52:20.309384",
+      "source": "auto",
+      "target": "evt_20260502_215220_055"
+    },
+    {
+      "type": "exposed_to",
+      "created_at": "2026-05-02T21:52:20.309384",
+      "source": "auto",
+      "target": "crude_oil"
+    },
+    {
+      "type": "exposed_to",
+      "created_at": "2026-05-02T21:52:20.309384",
+      "source": "auto",
+      "target": "gold"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:36.273320",
+      "source": "sun_pharma",
+      "target": "evt_20260502_214936_015"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:49:36.273320",
+      "source": "sun_pharma",
+      "target": "it"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:50:09.354468",
+      "source": "sun_pharma",
+      "target": "pharma"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:09.354468",
+      "source": "sun_pharma",
+      "target": "evt_20260502_215009_019"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:50:09.354468",
+      "source": "sun_pharma",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:49:36.273320",
+      "source": "pharma",
+      "target": "evt_20260502_214936_015"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:09.354468",
+      "source": "pharma",
+      "target": "evt_20260502_215009_019"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:09.779068",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260502_215009_020"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:50:58.543965",
+      "source": "reserve_bank_of_india",
+      "target": "banking"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:50:58.543965",
+      "source": "reserve_bank_of_india",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:13.178461",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260502_215013_021"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:21.993074",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260502_215021_023"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:29.977264",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260502_215029_025"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:33.489429",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260502_215033_026"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:39.026962",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260502_215039_027"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:48.014456",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260502_215048_029"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:55.029302",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260502_215055_031"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:58.543965",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260502_215058_032"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:50:58.543965",
+      "source": "india_infoline",
+      "target": "evt_20260502_215058_032"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:50:58.543965",
+      "source": "india_infoline",
+      "target": "banking"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:50:58.543965",
+      "source": "india_infoline",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:03.036683",
+      "source": "al_jazeera",
+      "target": "evt_20260502_215103_033"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:03.036683",
+      "source": "al_jazeera",
+      "target": "banking"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:03.036683",
+      "source": "al_jazeera",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:10.011591",
+      "source": "indian_bank",
+      "target": "evt_20260502_215110_035"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:25.996957",
+      "source": "indian_bank",
+      "target": "banking"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:25.996957",
+      "source": "indian_bank",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:18.946614",
+      "source": "indian_bank",
+      "target": "evt_20260502_215118_037"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:25.996957",
+      "source": "indian_bank",
+      "target": "evt_20260502_215125_039"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:13.546819",
+      "source": "the_guardian",
+      "target": "evt_20260502_215113_036"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:13.546819",
+      "source": "the_guardian",
+      "target": "banking"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:13.546819",
+      "source": "the_guardian",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:22.466706",
+      "source": "boston_consulting_group",
+      "target": "evt_20260502_215122_038"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:22.466706",
+      "source": "boston_consulting_group",
+      "target": "banking"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:22.466706",
+      "source": "boston_consulting_group",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:28.367386",
+      "source": "defence",
+      "target": "evt_20260502_215128_040"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:42.787683",
+      "source": "defence",
+      "target": "evt_20260502_215142_046"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "source": "defence",
+      "target": "evt_20260502_215150_049"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:52.810697",
+      "source": "defence",
+      "target": "evt_20260502_215152_050"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:30.730234",
+      "source": "finnhub",
+      "target": "evt_20260502_215130_041"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:52:00.225257",
+      "source": "finnhub",
+      "target": "banking"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:52:00.225257",
+      "source": "finnhub",
+      "target": "united_states"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:30.730234",
+      "source": "finnhub",
+      "target": "iran"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:57.727634",
+      "source": "finnhub",
+      "target": "evt_20260502_215157_052"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:57.727634",
+      "source": "finnhub",
+      "target": "it"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:52:00.225257",
+      "source": "finnhub",
+      "target": "evt_20260502_215200_053"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:35.610520",
+      "source": "reuters",
+      "target": "evt_20260502_215135_043"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:38.003617",
+      "source": "reuters",
+      "target": "media"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:38.003617",
+      "source": "reuters",
+      "target": "iran"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:35.610520",
+      "source": "reuters",
+      "target": "israel"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:38.003617",
+      "source": "reuters",
+      "target": "evt_20260502_215138_044"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "source": "reuters",
+      "target": "evt_20260502_215150_049"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:52.810697",
+      "source": "reuters",
+      "target": "defence"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "source": "reuters",
+      "target": "united_states"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "source": "reuters",
+      "target": "united_kingdom"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "source": "reuters",
+      "target": "poland"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:52.810697",
+      "source": "reuters",
+      "target": "evt_20260502_215152_050"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:52.810697",
+      "source": "reuters",
+      "target": "us"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:52.810697",
+      "source": "reuters",
+      "target": "germany"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:45.327062",
+      "source": "spirit_airlines",
+      "target": "evt_20260502_215145_047"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:45.327062",
+      "source": "spirit_airlines",
+      "target": "telecom"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:45.327062",
+      "source": "spirit_airlines",
+      "target": "infrastructure"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:45.327062",
+      "source": "spirit_airlines",
+      "target": "united_states"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "source": "financial_times",
+      "target": "evt_20260502_215150_049"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "source": "financial_times",
+      "target": "defence"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "source": "financial_times",
+      "target": "united_states"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "source": "financial_times",
+      "target": "united_kingdom"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:51:50.372067",
+      "source": "financial_times",
+      "target": "poland"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:55.320615",
+      "source": "berkshire_hathaway",
+      "target": "evt_20260502_215155_051"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:55.320615",
+      "source": "berkshire_hathaway",
+      "target": "fmcg"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:51:57.727634",
+      "source": "sandisk",
+      "target": "evt_20260502_215157_052"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:51:57.727634",
+      "source": "sandisk",
+      "target": "it"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-02T21:52:02.551568",
+      "source": "exxon",
+      "target": "evt_20260502_215202_054"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-02T21:52:02.551568",
+      "source": "exxon",
+      "target": "energy"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:52:02.551568",
+      "source": "exxon",
+      "target": "iran"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-02T21:52:02.551568",
+      "source": "exxon",
+      "target": "united_states"
+    }
+  ]
+}

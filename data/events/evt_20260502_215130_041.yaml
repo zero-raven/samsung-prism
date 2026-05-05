@@ -1,0 +1,20 @@
+event_id: evt_20260502_215130_041
+source_article:
+  headline: The U.S.-Iran war is coming for your credit score and mortgage application
+  source: finnhub
+  url: https://www.cnbc.com/2026/05/02/us-iran-war-credit-score-loans-mortgage-rates.html
+  published: '2026-05-02T18:47:18'
+entities:
+  companies:
+  - Finnhub
+  sectors:
+  - banking
+  countries:
+  - United States
+  - Iran
+  commodities: []
+event_type: geopolitical
+significance: 8
+one_line_summary: The escalating U.S.-Iran war and Strait of Hormuz closure are causing
+  a global economic ripple effect, impacting credit scores and mortgage applications.
+extracted_at: '2026-05-02T21:51:30.721678'

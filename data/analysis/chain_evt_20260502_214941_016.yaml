@@ -1,0 +1,81 @@
+event_id: evt_20260502_214941_016
+event_summary: The Indian stock market experienced a decline for the third consecutive
+  day, with the Sensex and Nifty losing 2% this week, primarily due to the poor performance
+  of the IT sector.
+event_type: macroeconomic
+retrieved_analogues:
+- '{''event_id'': ''evt_1987_black_monday'', ''headline'': ''Global stock markets
+  crash in a single day, led by a 22.6% drop in the Dow Jones.'', ''event_type'':
+  ''financial_crash'', ''direction'': ''negative_macro'', ''primary_entities'': [''NYSE'',
+  ''SEC'', ''Program Trading Firms''], ''affected_sectors'': [{''sector'': ''financial_services'',
+  ''impact'': ''negative'', ''reasoning'': ''Brokerage firms and banks faced immediate
+  liquidity crunches and significant trading losses.''}, {''sector'': ''insurance'',
+  ''impact'': ''negative'', ''reasoning'': ''Insurers faced massive claims from portfolio
+  insurance strategies that failed to hedge the tail risk.''}], ''time_horizon'':
+  ''short_term''}'
+- '{''event_id'': ''evt_2015_china_crash'', ''headline'': ''Chinese stock market crashes
+  after speculative bubble bursts.'', ''event_type'': ''financial_crisis'', ''direction'':
+  ''negative_macro'', ''primary_entities'': [''China'', ''Shanghai Composite'', ''CSRC''],
+  ''affected_sectors'': [{''sector'': ''emerging_markets'', ''impact'': ''negative'',
+  ''reasoning'': ''Global sell-off wiped $5 trillion, with contagion to other EM equities.''},
+  {''sector'': ''commodities'', ''impact'': ''negative'', ''reasoning'': ''China slowdown
+  fears crushed industrial metals and oil demand.''}, {''sector'': ''luxury_goods'',
+  ''impact'': ''negative'', ''reasoning'': ''Chinese retail investor losses reduced
+  high-end consumption.''}], ''time_horizon'': ''medium_term''}'
+- '{''event_id'': ''evt_2000_dotcom_bubble'', ''headline'': ''NASDAQ peaks and begins
+  multi-year collapse as dot-com valuations unravel.'', ''event_type'': ''financial_crash'',
+  ''direction'': ''negative_sector'', ''primary_entities'': [''NASDAQ'', ''Tech Startups'',
+  ''Venture Capital Firms''], ''affected_sectors'': [{''sector'': ''internet_software'',
+  ''impact'': ''negative'', ''reasoning'': ''Hundreds of unprofitable companies with
+  high burn rates saw their valuations evaporate.''}, {''sector'': ''telecom_equipment'',
+  ''impact'': ''negative'', ''reasoning'': ''Overinvestment in fiber-optic infrastructure
+  led to massive write-downs and bankruptcies.''}, {''sector'': ''traditional_retail'',
+  ''impact'': ''positive'', ''reasoning'': ''Brick-and-mortar retailers gained relative
+  strength as speculative tech capital fled.''}], ''time_horizon'': ''long_term''}'
+causal_chain:
+  trigger: The Indian stock market experienced a decline for the third consecutive
+    day, with the Sensex and Nifty losing 2% this week, primarily due to the poor
+    performance of the IT sector.
+  mechanism: Historically, declines in the IT sector have led to a broader market
+    downturn, as seen in the 2000 dot-com bubble, where the collapse of tech valuations
+    led to a multi-year collapse of the NASDAQ. This event may propagate through the
+    market by reducing investor sentiment and leading to a sell-off in other sectors.
+    The poor performance of the IT sector may also lead to a decrease in consumer
+    spending, further exacerbating the market decline.
+  affected_sectors:
+  - sector: IT
+    direction: negative
+    magnitude: high
+    reasoning: The IT sector is directly affected by the current event, and historical
+      analogues such as the 2000 dot-com bubble suggest that a decline in this sector
+      can have a significant impact on the broader market.
+  - sector: financial_services
+    direction: negative
+    magnitude: medium
+    reasoning: The financial services sector may be affected by the decline in the
+      IT sector, as seen in the 1987 Black Monday event, where brokerage firms and
+      banks faced liquidity crunches and trading losses.
+  affected_companies:
+  - name: Infosys
+    ticker: INFY.NS
+    direction: negative
+    reasoning: As a major IT company in India, Infosys may be directly affected by
+      the decline in the IT sector, leading to a decrease in its stock price.
+  - name: Tata Consultancy Services
+    ticker: TCS.NS
+    direction: negative
+    reasoning: Similar to Infosys, TCS may also be affected by the decline in the
+      IT sector, leading to a decrease in its stock price.
+  time_horizon: short_term
+  confidence: MEDIUM
+  key_risks:
+  - The Indian government may intervene to support the IT sector, mitigating the decline.
+  - The global economic environment may be more resilient to a decline in the IT sector
+    than in the past.
+  summary_for_investor: The current decline in the Indian stock market, led by the
+    poor performance of the IT sector, may lead to a broader market downturn. Investors
+    should be cautious and consider reducing their exposure to the IT sector and other
+    affected sectors. However, it's essential to monitor the situation closely, as
+    government intervention or a resilient global economy may mitigate the decline.
+analyzed_at: '2026-05-02T21:55:50.503878'
+model_used: gemini-2.0-flash

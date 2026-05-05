@@ -1,0 +1,20 @@
+event_id: evt_20260502_215142_046
+source_article:
+  headline: Trump says US Navy acting 'like pirates' to carry out naval blockade of
+    Iranian ports - Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPbVc1ZkgxV3lpblVzQXlQU0oxM2xSbG15WmdYd0NscGg2Yy1xZVA2VFJ3RTJnTXpWQnhjRWdLQnBlSDlYTnBnS0NieGg4bXhYUEVFZGFkaHhfVlhEZ3ptNVk3dEZneTV5MmR0Y1A5dlpIczlxMGJtY3l3a1JRY1RPZGxPSWdfZFlBUVRnc0pPOE12WnN5X2I5MXpBYW5TWUkzWkNnRWJfelMzVGdYcmJkWWRuTnFlMk1UblNpSXFYcw?oc=5
+  published: '2026-05-02T07:30:00'
+entities:
+  companies: []
+  sectors:
+  - defence
+  countries:
+  - United States
+  - Iran
+  commodities: []
+event_type: geopolitical
+significance: 8
+one_line_summary: The US Navy's naval blockade of Iranian ports, described by Trump
+  as acting "like pirates", may escalate geopolitical tensions and impact global markets.
+extracted_at: '2026-05-02T21:51:42.781358'

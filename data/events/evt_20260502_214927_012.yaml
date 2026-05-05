@@ -1,0 +1,21 @@
+event_id: evt_20260502_214927_012
+source_article:
+  headline: 'Stock Market Highlights, Sensex Today: Sensex Sheds 416 Points As Trump
+    ''Unhappy'' With Iran''s Truce Proposal - NDTV'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxOV1hDc25JX2tuOVJyamRSeWtsaXpFUXhKUklIVERaSnVtd3d2OVJMUUlGUVpLYm9ONlJ4dVZrVEtpMnljcU9LalBKc3pTLURJVDRpYU5IdkV2Wkx5dVhDOFlIdEdSWHJXUHB5WE1lcFozRlJfbnlEVmNCM000eXB2MEprQ0g0ZVQ0ZG0wa3hPTUc3aVZfbU5PSm1VbE1yTUZ6Rkk5NlZQQTZDVnpROU1ta18tN003bmlMNHk5Snh5dC13N3VzeV9aV2tfdXJnUGZFWVRGZW5ZSFZSVllQWXFiR0RR0gHqAUFVX3lxTE8xd2RVcmNTOUJkWG1LV3NlNXRFN1d3Rnp4c1dQTFlYMkozMDd1UWtJMWtpdlhxSFdwRUdscUh5bVNpcWdtVW5TRVB1LWZOX3RwTEk3aWg4X3VaU09XSFFJM0lzdV9yWVRtcWRqbzlCT2h0TlNIQXN5dmFVVEMzY3dmVkU5ZURBdm1rN1c0a3MtY1NMTDRiWVJhaE1DWEJCbEdqMGxyd3B6a09WLUpmeVVSOHJPSjk0MVc0M2FqVEU0VWQ4Q3N4MThnUVNpQlRFaGNoR19WYkNGSlBOYkUxMjhpS3F2cjBFMHlVdw?oc=5
+  published: Tue, 28 Apr 2026 10:06:44 GMT
+entities:
+  companies: []
+  sectors:
+  - media
+  countries:
+  - United States
+  - Iran
+  commodities: []
+event_type: geopolitical
+significance: 8
+one_line_summary: The Sensex shed 416 points due to concerns over US President Trump's
+  dissatisfaction with Iran's truce proposal, indicating a potential escalation of
+  geopolitical tensions.
+extracted_at: '2026-05-02T21:49:27.645530'

@@ -1,0 +1,20 @@
+event_id: evt_20260502_215125_039
+source_article:
+  headline: 'Indian Bank Q4 FY26 Results Today: Announcement at 4:45 PM – What Investors
+    Should Watch - PSU Connect'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQVXNQTVFyYmtjMTZrcXQ0b3RLTEY5ODF1TXJXcTRoVEVOaktrTGt0Q2JvWEJCdnpsZ19qeVBfTnVocURMZ1BUWUIwMnBqTGhDTnh2STRMcUlmQlRmVGFQME45SE9kNjBHODJJczhwak1qb0JoMTZvYjJFbk5CVl9uWGFrNW8zMy03Q1o4UXdvdVlFR2xPZHdNdDdkS3g4ekItR0o2Yk5JNHBiOW4zNGd2V2w2NDhBcDdURmVFSDZ3?oc=5
+  published: Wed, 29 Apr 2026 06:22:00 GMT
+entities:
+  companies:
+  - Indian Bank
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: earnings
+significance: 5
+one_line_summary: Indian Bank is set to announce its Q4 FY26 results, which may have
+  a notable impact on the banking sector and the company's investors.
+extracted_at: '2026-05-02T21:51:25.993940'

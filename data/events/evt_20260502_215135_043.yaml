@@ -1,0 +1,20 @@
+event_id: evt_20260502_215135_043
+source_article:
+  headline: Iran executes two for spying for Israel - Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQNTZ6MVlYOW9YNzN6OXdzb0Fvbjk1WnY4Z3Z3ejdtRXFSY3NrTHhndHllel9xR0ZJM0k1SkFicnFpQS1wZC1HSXg2aU9yN1RENVRUYlB4M1FRV1Nub1lTUGFFc2R6ZlJZMTQ3Z0JBS0gtSTA5Sk9NWXZYM29SMDhxMVl6Yk1VMWt5dzFvLUxB?oc=5
+  published: '2026-05-02T12:33:24'
+entities:
+  companies:
+  - Reuters
+  sectors:
+  - media
+  countries:
+  - Iran
+  - Israel
+  commodities: []
+event_type: geopolitical
+significance: 5
+one_line_summary: Iran's execution of two spies for Israel may escalate geopolitical
+  tensions in the region, potentially affecting market sentiment.
+extracted_at: '2026-05-02T21:51:35.606966'

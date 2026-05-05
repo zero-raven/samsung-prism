@@ -1,0 +1,22 @@
+event_id: evt_20260502_214923_003
+source_article:
+  headline: NSE schedules EGM on May 25; proposes governance overhaul, higher NRI
+    cap - Moneycontrol.com
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxOVWFCZ2d3YkphYmFmREdKUm5jWXZSdHEyR3dWd2ZZSi1oQ2VDQlBVREFFT2dJVnV3NV9GMTJIUno4elk1ekFBSklBVldhMTk2ZTVBQzQzWHRpNEJ3V05Wc19zRmVlZzVqMEdXeGdDdnpSZlhoNksyVFFpMmVvaTFIS3h2R2RqX3hOUkxGYWNWSk9aSWdsSDdxb1ZvTjM1OWU2emxMRjJidENNRnh3LWlwbmNDWnhNMENhSXh3NnhKUS1UQlVJVTU00gHMAUFVX3lxTE1HRkktaXlXX25YNWVVNWRTelRLRFdWUnFzT2ljQ2IySXNMUmxaU3ByQ0s2eFUxakUydjVmT2lLd1piUUdHdHlteUlEamFxaTY4NDlucVJrekhnbVBrRXhOSVAwQ3NOZHR4UTlYTUIxRkd5ZjdMSk56VWNBWVVkQmt0aEhiU0x1bUp4MVVnd2ljYjM4blB3RlJyUzJLUjU5SlpTanVMVy1mRF9sbVlhZV9zejhHc0JqNk5vSXdobmJ5ZzRyY2pHNFRUanZzRA?oc=5
+  published: Sat, 02 May 2026 12:30:22 GMT
+entities:
+  companies:
+  - National Stock Exchange
+  sectors:
+  - banking
+  - IT
+  countries:
+  - India
+  commodities: []
+event_type: regulatory
+significance: 6
+one_line_summary: The National Stock Exchange has scheduled an Extraordinary General
+  Meeting to propose a governance overhaul and increase the cap for Non-Resident Indian
+  investments, which may impact the Indian stock market.
+extracted_at: '2026-05-02T21:49:23.416096'

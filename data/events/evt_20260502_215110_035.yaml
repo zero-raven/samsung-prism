@@ -1,0 +1,19 @@
+event_id: evt_20260502_215110_035
+source_article:
+  headline: Indian Bank Shares Tumble as Provisions Surge on West Asia Crisis - Whalesbook
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRXVaNDVET1NtRzJabTk3OE5OZ0U4cEpXS1pyMDF4aDJqLVMyZnhHOVo5YzRrMHVOOVJuX0ZWWjFoS3h5Wk9oOTVhcFFWenRuQ1lHeWFUdkIzc1BhVk5DaDRrb2UzLXNwckhaTlBsRjhfQ2dhLTRlejVqSi1LRTNUSU9pRXZENXhXbUhVcmpMbHMzdUJNOEhxdk1DSk9KTGk4c0ZBU1o0OU1pRjdBRktOc0UxS3BkV2NRQ0VSYzV4ejdZTG9LeHJPNWpFZUpGYVpGZ1VaZ0x5b1hTVzJNbGc?oc=5
+  published: Thu, 30 Apr 2026 05:57:08 GMT
+entities:
+  companies:
+  - Indian Bank
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: geopolitical
+significance: 6
+one_line_summary: Indian bank shares have declined due to increased provisions resulting
+  from the West Asia crisis.
+extracted_at: '2026-05-02T21:51:10.008478'

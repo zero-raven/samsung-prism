@@ -1,0 +1,24 @@
+event_id: evt_20260502_215150_049
+source_article:
+  headline: US warns European allies including UK and Poland of arms shipment delays,
+    FT reports - Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOVVuMDhCdXVSNFNJUmtLZDA3c0czTDJSRHJLMDI2c0tvY3VfNWZnZTRhaHRMV3gtb0R6OXJBX0NaZVBaM1ZZbmlhUjhFQlZTaXNYSEx6anlaUFBrTWpUR1ZqWXdwS3hYMy1lUTVqcHVPU09YYTktNFRzVTVpWnRtR1N2emQ3aERQc2RkMjVHUVl2djNxZVRzdWxBU2ZOSXZKUXA1NGlqMkh0ek16SEtIbnJQVk83SU9ILTc0blhsa1lLMFk?oc=5
+  published: '2026-05-02T03:21:43'
+entities:
+  companies:
+  - Reuters
+  - Financial Times
+  sectors:
+  - defence
+  countries:
+  - United States
+  - United Kingdom
+  - Poland
+  commodities: []
+event_type: geopolitical
+significance: 6
+one_line_summary: The US has warned its European allies, including the UK and Poland,
+  of potential delays in arms shipments, which could impact the defence sector and
+  geopolitical relations.
+extracted_at: '2026-05-02T21:51:50.370026'

@@ -1,0 +1,21 @@
+event_id: evt_20260502_214927_011
+source_article:
+  headline: 'Stock Market Today Highlights: Sensex ends over 850 points down; Nifty50
+    below 24,200 as oil prices rise - The Times of India'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMisgJBVV95cUxOMHpNd1A0X0JOZC1FcFNQcGZnOUxTamg0OFN0Tl9UbDI1cjExeURDb0dZamhkcWV5NzlBalV3U3JNelBqQ01QMWtoenozSk55T3Z4SDcwbTBUd2NGdk1UZXJFY05Ed0FTM3gxRkZyXzdDbVplbFEwRGdfdzEtZUdCakwyU25EaXhINTRHSWJjOFFFQ3pkdW51RHBPWGpoSGRERmVidW02Q19nOTF3XzNOekVnd0E2ZHRUdVI5ZURyOFlGcnAxaVF0aGRsTWl4bm9QMDNLbS1LUzN4RTRGZDU4bDdiSW5pSm1uOTZEN3JUbDZCMGJOTDZraVNZa0dON1hBX3VFTXkydTRDb1ZveU9LNkhvb09KRmtUR1BRQ2txRDBPNUFkVzc2eVBNd3NxVHZXNWfSAbcCQVVfeXFMTkxtQ055aTA2cUhWSFc1eVZFbmptSE1sSjRrdUpkc19qb0IteERsSFpENjVNdTZtbWQyc09uZ3VCbWhiWFRUc1B6UjFsOHItdmZBS0NxZ1NXOWx3VVhMdGRiWnJhanpVeEpEbVJrQlV1MU5vM2ZLdlNvaEtaWkFhcGNwN0l0Zl9ZVWhJdmRvR2gtaGFCWmYxZmF0T2dXeGZycklOLW8zcTE3c0wxZ0RzT09Mb3R0SEU2bEJ0Tl9qVGIyVjlXblluNVJoaUltejA1RVBQSnRyY29FR0lPVzBlTDlkR2EyMkJZQTFTMm9GSjM1YVFxRUdkcGdiUHJxM2kwcW0zeVFJNUt3Y3p1XzgtUEk4cDJqN05jeEEyaEk1YVprUklnSTZaZ3luT1dGUHVMcC05WDJBODg?oc=5
+  published: Thu, 23 Apr 2026 07:00:00 GMT
+entities:
+  companies: []
+  sectors:
+  - energy
+  countries:
+  - India
+  commodities:
+  - oil
+event_type: macroeconomic
+significance: 7
+one_line_summary: The Indian stock market declined significantly, with the Sensex
+  falling over 850 points and the Nifty50 dropping below 24,200, due to rising oil
+  prices.
+extracted_at: '2026-05-02T21:49:27.085859'

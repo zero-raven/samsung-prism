@@ -1,0 +1,23 @@
+event_id: evt_20260502_215008_018
+event_summary: The Indian stock market declined sharply as Brent crude prices rose
+  above $120 and the rupee fell, affecting investor sentiment and market performance.
+portfolio_exposure:
+  total_portfolio_value: 89957.15
+  affected_value: 18330.0
+  exposure_pct: 20.38
+  direction: negative
+affected_holdings:
+- ticker: XOM
+  name: Exxon Mobil Corp
+  sector: energy
+  current_price: 152.75
+  quantity: 120
+  holding_value: 18330.0
+  pct_of_portfolio: 20.38
+  impact_direction: negative
+  impact_magnitude: high
+  impact_reasoning: As seen in the 2020 oil price crisis, rising crude oil prices
+    have a direct negative impact on the energy sector, leading to increased production
+    costs and decreased profitability.
+unaffected_holdings_count: 4
+mapped_at: '2026-05-02T22:00:42.026669'

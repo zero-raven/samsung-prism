@@ -1,0 +1,72 @@
+event_id: evt_20260502_215017_022
+event_summary: The record low rupee may lead to a shift in the Reserve Bank of India's
+  policy, potentially ending India's cheap-money era and impacting the country's banking
+  sector.
+event_type: central_bank
+retrieved_analogues:
+- '{''event_id'': ''evt_2024_yen_carry_unwind'', ''headline'': ''Bank of Japan raises
+  rates, triggering the largest-ever unwinding of the yen carry trade.'', ''event_type'':
+  ''macro_policy'', ''direction'': ''negative_macro'', ''primary_entities'': [''Bank
+  of Japan'', ''Japanese Yen'', ''Global Carry Traders''], ''affected_sectors'': [{''sector'':
+  ''global_equities'', ''impact'': ''negative'', ''reasoning'': ''The forced liquidation
+  of carry trade positions triggered a global margin call, causing the S&P 500 to
+  drop over 9% and the Nikkei to crash 12% in a single day.''}, {''sector'': ''us_tech_stocks'',
+  ''impact'': ''negative'', ''reasoning'': "Investors heavily borrowed in yen to invest
+  in US tech giants; the trade''s unwind caused a violent sell-off in the Magnificent
+  7."}, {''sector'': ''japanese_exporters'', ''impact'': ''negative'', ''reasoning'':
+  ''A strengthening yen dramatically reduces the overseas earnings of Japanese auto
+  and electronics giants.''}], ''time_horizon'': ''short_term''}'
+- '{''event_id'': ''evt_1997_asian_crisis'', ''headline'': ''Thailand abandons baht
+  peg to the US dollar, triggering a financial contagion across Asia.'', ''event_type'':
+  ''financial_crisis'', ''direction'': ''negative_macro'', ''primary_entities'': [''Thailand'',
+  ''South Korea'', ''Indonesia'', ''IMF''], ''affected_sectors'': [{''sector'': ''emerging_markets'',
+  ''impact'': ''negative'', ''reasoning'': ''The crisis triggered a currency and stock
+  market collapse across Southeast Asia, wiping out dollar-based returns.''}, {''sector'':
+  ''banking'', ''impact'': ''negative'', ''reasoning'': ''Regional banks collapsed
+  under the weight of non-performing loans as corporations defaulted.''}, {''sector'':
+  ''commodities'', ''impact'': ''negative'', ''reasoning'': ''The economic slowdown
+  in Asia significantly reduced demand for base metals, copper, and other industrial
+  commodities.''}], ''time_horizon'': ''medium_term''}'
+- '{''event_id'': ''evt_1992_black_wednesday'', ''headline'': ''UK withdraws from
+  the European Exchange Rate Mechanism after speculative attacks.'', ''event_type'':
+  ''financial_crisis'', ''direction'': ''negative_macro'', ''primary_entities'': [''Bank
+  of England'', ''George Soros'', ''European Monetary System''], ''affected_sectors'':
+  [{''sector'': ''uk_banks'', ''impact'': ''negative'', ''reasoning'': ''Interest
+  rate spikes to defend the pound hurt mortgage lenders and banks.''}, {''sector'':
+  ''currency_traders'', ''impact'': ''positive'', ''reasoning'': ''Hedge funds like
+  Quantum Fund profited billions from shorting the pound.''}, {''sector'': ''uk_exports'',
+  ''impact'': ''positive'', ''reasoning'': ''Post-devaluation weaker pound boosted
+  competitiveness of British exporters.''}], ''time_horizon'': ''short_term''}'
+causal_chain:
+  trigger: The record low rupee may lead to a shift in the Reserve Bank of India's
+    policy, potentially ending India's cheap-money era.
+  mechanism: Historically, a shift in central bank policy can trigger a financial
+    crisis, as seen in the 1997 Asian crisis, where a currency devaluation led to
+    a contagion across Asia. This can lead to a credit crunch, reducing lending to
+    various sectors, and ultimately affecting the overall economy. The banking sector
+    is particularly vulnerable to such changes.
+  affected_sectors:
+  - sector: banking
+    direction: negative
+    magnitude: high
+    reasoning: As seen in the 1997 Asian crisis, a financial crisis can lead to a
+      collapse of regional banks under the weight of non-performing loans.
+  affected_companies:
+  - name: State Bank of India
+    ticker: SBIN.NS
+    direction: negative
+    reasoning: As a major lender in India, State Bank of India may be heavily exposed
+      to the potential credit crunch and non-performing loans.
+  time_horizon: short_term
+  confidence: MEDIUM
+  key_risks:
+  - The Indian government's ability to implement effective policy measures to mitigate
+    the crisis
+  summary_for_investor: The record low rupee may lead to a shift in the Reserve Bank
+    of India's policy, potentially ending India's cheap-money era and affecting the
+    banking sector. This could lead to a credit crunch and reduced lending, ultimately
+    impacting the overall economy. Investors should be cautious and consider reducing
+    their exposure to the banking sector, particularly companies like State Bank of
+    India.
+analyzed_at: '2026-05-02T21:56:56.276803'
+model_used: gemini-2.0-flash

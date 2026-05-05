@@ -1,0 +1,76 @@
+event_id: evt_20260502_214936_015
+event_summary: The Indian stock market rebounded, snapping a three-day losing streak,
+  driven by a rally in IT and pharma sectors, led by Sun Pharma.
+event_type: macroeconomic
+retrieved_analogues:
+- '{''event_id'': ''evt_1987_black_monday'', ''headline'': ''Global stock markets
+  crash in a single day, led by a 22.6% drop in the Dow Jones.'', ''event_type'':
+  ''financial_crash'', ''direction'': ''negative_macro'', ''primary_entities'': [''NYSE'',
+  ''SEC'', ''Program Trading Firms''], ''affected_sectors'': [{''sector'': ''financial_services'',
+  ''impact'': ''negative'', ''reasoning'': ''Brokerage firms and banks faced immediate
+  liquidity crunches and significant trading losses.''}, {''sector'': ''insurance'',
+  ''impact'': ''negative'', ''reasoning'': ''Insurers faced massive claims from portfolio
+  insurance strategies that failed to hedge the tail risk.''}], ''time_horizon'':
+  ''short_term''}'
+- '{''event_id'': ''evt_2000_dotcom_bubble'', ''headline'': ''NASDAQ peaks and begins
+  multi-year collapse as dot-com valuations unravel.'', ''event_type'': ''financial_crash'',
+  ''direction'': ''negative_sector'', ''primary_entities'': [''NASDAQ'', ''Tech Startups'',
+  ''Venture Capital Firms''], ''affected_sectors'': [{''sector'': ''internet_software'',
+  ''impact'': ''negative'', ''reasoning'': ''Hundreds of unprofitable companies with
+  high burn rates saw their valuations evaporate.''}, {''sector'': ''telecom_equipment'',
+  ''impact'': ''negative'', ''reasoning'': ''Overinvestment in fiber-optic infrastructure
+  led to massive write-downs and bankruptcies.''}, {''sector'': ''traditional_retail'',
+  ''impact'': ''positive'', ''reasoning'': ''Brick-and-mortar retailers gained relative
+  strength as speculative tech capital fled.''}], ''time_horizon'': ''long_term''}'
+- '{''event_id'': ''evt_2015_china_crash'', ''headline'': ''Chinese stock market crashes
+  after speculative bubble bursts.'', ''event_type'': ''financial_crisis'', ''direction'':
+  ''negative_macro'', ''primary_entities'': [''China'', ''Shanghai Composite'', ''CSRC''],
+  ''affected_sectors'': [{''sector'': ''emerging_markets'', ''impact'': ''negative'',
+  ''reasoning'': ''Global sell-off wiped $5 trillion, with contagion to other EM equities.''},
+  {''sector'': ''commodities'', ''impact'': ''negative'', ''reasoning'': ''China slowdown
+  fears crushed industrial metals and oil demand.''}, {''sector'': ''luxury_goods'',
+  ''impact'': ''negative'', ''reasoning'': ''Chinese retail investor losses reduced
+  high-end consumption.''}], ''time_horizon'': ''medium_term''}'
+causal_chain:
+  trigger: The Indian stock market rebounded, driven by a rally in IT and pharma sectors,
+    led by Sun Pharma.
+  mechanism: Historically, sector-specific rallies in the Indian market have been
+    driven by a combination of factors, including earnings growth, government policies,
+    and global trends. The IT and pharma sectors, in particular, have been sensitive
+    to global demand and regulatory changes. As seen in the 2000 dot-com bubble, a
+    strong rally in one sector can have a positive impact on related sectors and the
+    broader market.
+  affected_sectors:
+  - sector: IT
+    direction: positive
+    magnitude: medium
+    reasoning: The IT sector is likely to benefit from the current rally, as seen
+      in the 2000 dot-com bubble, where the sector's growth was driven by strong demand
+      and investment in technology.
+  - sector: pharma
+    direction: positive
+    magnitude: high
+    reasoning: The pharma sector, led by Sun Pharma, is likely to see a significant
+      positive impact, driven by strong earnings growth and regulatory approvals,
+      similar to the 2015 China crash, where the luxury goods sector was affected
+      by Chinese retail investor losses.
+  affected_companies:
+  - name: Sun Pharma
+    ticker: SUNPHARMA.NS
+    direction: positive
+    reasoning: As the leader of the pharma sector, Sun Pharma is likely to benefit
+      from the current rally, driven by its strong earnings growth and regulatory
+      approvals.
+  time_horizon: short_term
+  confidence: MEDIUM
+  key_risks:
+  - Global economic trends and trade policies could impact the Indian market and the
+    IT and pharma sectors.
+  - Regulatory changes in the pharma sector could affect Sun Pharma's growth prospects.
+  summary_for_investor: The Indian stock market's rebound, driven by the IT and pharma
+    sectors, is a positive sign for investors. However, it's essential to keep an
+    eye on global economic trends and regulatory changes that could impact these sectors.
+    Investors may consider investing in Sun Pharma and other IT and pharma companies,
+    but should be aware of the potential risks and uncertainties.
+analyzed_at: '2026-05-02T21:55:31.293700'
+model_used: gemini-2.0-flash

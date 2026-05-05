@@ -1,0 +1,21 @@
+event_id: evt_20260502_215140_045
+source_article:
+  headline: Iran standoff could leave Trump worse off than before he went to war -
+    Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU0F5dU0yQWlzdGU4SlE5TVpWQlQ0X2RCMTgtYW5iYk9kZ0F2ekstUEpfYUdnS3FqOGlkbGNLY0RLR0YzTjNYMGUtREY2ZWtuQmF3Z2xWaDJMbkxMWklaOEJtQm80SXJKZGFta1FJTk43Y09sLTExUFVaTFNUdEo5bmdldy1DalR0NmhiNVh6YnJKdW9ZN1JmclRGOUpQLUsxT0ZuQ2xnSTJHWk1qODYwOGRic0RJV3JK?oc=5
+  published: '2026-05-02T10:32:00'
+entities:
+  companies: []
+  sectors:
+  - energy
+  countries:
+  - Iran
+  - United States
+  commodities: []
+event_type: geopolitical
+significance: 8
+one_line_summary: The Iran standoff could have significant implications for the global
+  economy and markets, potentially leaving the US worse off than before the conflict
+  began.
+extracted_at: '2026-05-02T21:51:40.407178'

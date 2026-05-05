@@ -1,0 +1,20 @@
+event_id: evt_20260502_214936_015
+source_article:
+  headline: 'Stock Market Highlights Apr 27: Sensex, Nifty rebound, snap three-day
+    losing streak on IT, Sun Pharma rally - BusinessLine'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOTk1JZ19ZcllRcUM5Zk84cjZZNVNjSHp5VHBrSzlDcU5yVlJ2bGlUbF9mT0Yta1VETDhEZktUMnRhVm5hcUJ3UVJLTmo3Ymw2U3AtOWZyQldBUnpqOWc5MkRLNlB2S0dkem1GNVBRZGRKMV8yZTRWUkFxUUs2VlJDeHFmdm5KZEUzeEUyRm9hQVFfa2dSSUdpOVBCZ1BDWU9qWm9vbllGY9IBrgFBVV95cUxPS3ltaWYzcDh0QzZSSHRCNk41WEUwNlh2WWVxM1dYaDhZc1FCb0JsTVNvdzRaNHI5eWJDV1hkNHp1VEpVREc4blM1WGdvLXZTcFRxZWNHVW1paUNVeUtjZEQ5aWVGakdyLWpnUkdoRGE3M042S1B3T1dsYmRKNEI5NlZzTHFZeTRySW5TeG9RdnpvTHFLbDRodHJ6TnVjLThVM1ZtLVVaYlBvZjByZ3c?oc=5
+  published: Mon, 27 Apr 2026 10:50:26 GMT
+entities:
+  companies:
+  - Sun Pharma
+  sectors:
+  - IT
+  - pharma
+  countries: []
+  commodities: []
+event_type: macroeconomic
+significance: 6
+one_line_summary: The Indian stock market rebounded, snapping a three-day losing streak,
+  driven by a rally in IT and pharma sectors, led by Sun Pharma.
+extracted_at: '2026-05-02T21:49:36.268480'

@@ -1,0 +1,27 @@
+event_id: evt_20260502_214922_000
+source_article:
+  headline: 'NSE India IPO: Is the World’s Largest Exchange Finally Ready - UnlistedZone'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNnFoeE0xZjIyT2M4eDBMMkhuS1oteEUyWmdEcndra2J4V1NMejAtZmV6SU4xZzVRWTJqV21oSXdITG1tZUEyTXp4ako5NHBDU0FyUk9vd1FLbVBxNTdXTk9kNnVqZG9lQlZnOEJlQzEzdExycTM2aklzTVpLZHRla3NZd2hZNXBTdEhDVTVJMjhuVDRxaXQtTy1UbWF2RkFxVm91V1dpeXI3UQ?oc=5
+  published: Wed, 29 Apr 2026 13:28:44 GMT
+entities:
+  companies:
+  - National Stock Exchange of India
+  sectors:
+  - IT
+  - banking
+  - FMCG
+  - metals
+  - realty
+  - infrastructure
+  - telecom
+  - media
+  countries:
+  - India
+  commodities: []
+event_type: corporate_action
+significance: 6
+one_line_summary: The potential initial public offering of the National Stock Exchange
+  of India may have significant implications for the country's financial markets and
+  economy.
+extracted_at: '2026-05-02T21:49:22.104839'

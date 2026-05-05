@@ -1,0 +1,24 @@
+event_id: evt_20260502_214925_007
+source_article:
+  headline: Jio, Zepto, and Tata, too? The big stock market rush India could see in
+    the coming months - theweek.in
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMie0FVX3lxTE8zNEh5NEU1S080aHNzM19ySVN5NkpiZE4wRVJPY3otSnlhb2RBNGdyaEp2UUpwcHBtY3RabDVBaThjaDZQNENVNFExRlg0Y3hYcUtJVnZ5SW4yeTQ0Z2lseTRUTlRhUWpGWnpnWm1IMHpXbnI5YUxBZldaTdIBgAFBVV95cUxOcWtDR0p0RDdpamlobjBheXkzVVJVeHFONU1vTzdsMHgtWGVyV3BFWFNCNGdSSEF5SjNSRGdobVdnZGFHUFhvOW96VWpaSmFqZ3ctR0owRTBfcEVLV21yQ082V2duSEpoT293bXdFcWFIanl1SE9KUUd2OENzUXVlMw?oc=5
+  published: Sat, 02 May 2026 09:26:08 GMT
+entities:
+  companies:
+  - Reliance Jio
+  - Zepto
+  - Tata Group
+  sectors:
+  - telecom
+  - IT
+  countries:
+  - India
+  commodities: []
+event_type: corporate_action
+significance: 6
+one_line_summary: Several major Indian companies, including Jio, Zepto, and Tata,
+  are expected to enter the stock market in the coming months, potentially causing
+  a significant rush in the Indian stock market.
+extracted_at: '2026-05-02T21:49:25.276925'

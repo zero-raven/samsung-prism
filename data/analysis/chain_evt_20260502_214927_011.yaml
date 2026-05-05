@@ -1,0 +1,74 @@
+event_id: evt_20260502_214927_011
+event_summary: The Indian stock market declined significantly, with the Sensex falling
+  over 850 points and the Nifty50 dropping below 24,200, due to rising oil prices.
+event_type: macroeconomic
+retrieved_analogues:
+- '{''event_id'': ''evt_1987_black_monday'', ''headline'': ''Global stock markets
+  crash in a single day, led by a 22.6% drop in the Dow Jones.'', ''event_type'':
+  ''financial_crash'', ''direction'': ''negative_macro'', ''primary_entities'': [''NYSE'',
+  ''SEC'', ''Program Trading Firms''], ''affected_sectors'': [{''sector'': ''financial_services'',
+  ''impact'': ''negative'', ''reasoning'': ''Brokerage firms and banks faced immediate
+  liquidity crunches and significant trading losses.''}, {''sector'': ''insurance'',
+  ''impact'': ''negative'', ''reasoning'': ''Insurers faced massive claims from portfolio
+  insurance strategies that failed to hedge the tail risk.''}], ''time_horizon'':
+  ''short_term''}'
+- '{''event_id'': ''evt_2015_china_crash'', ''headline'': ''Chinese stock market crashes
+  after speculative bubble bursts.'', ''event_type'': ''financial_crisis'', ''direction'':
+  ''negative_macro'', ''primary_entities'': [''China'', ''Shanghai Composite'', ''CSRC''],
+  ''affected_sectors'': [{''sector'': ''emerging_markets'', ''impact'': ''negative'',
+  ''reasoning'': ''Global sell-off wiped $5 trillion, with contagion to other EM equities.''},
+  {''sector'': ''commodities'', ''impact'': ''negative'', ''reasoning'': ''China slowdown
+  fears crushed industrial metals and oil demand.''}, {''sector'': ''luxury_goods'',
+  ''impact'': ''negative'', ''reasoning'': ''Chinese retail investor losses reduced
+  high-end consumption.''}], ''time_horizon'': ''medium_term''}'
+- '{''event_id'': ''evt_2018_crypto_crash'', ''headline'': ''Cryptocurrency market
+  crashes, losing 80% from peaks.'', ''event_type'': ''crypto_crisis'', ''direction'':
+  ''negative_sector'', ''primary_entities'': [''Bitcoin'', ''Ethereum'', ''Crypto
+  Exchanges''], ''affected_sectors'': [{''sector'': ''cryptocurrency'', ''impact'':
+  ''negative'', ''reasoning'': ''Total market cap fell from $800B to under $150B.''},
+  {''sector'': ''fintech'', ''impact'': ''negative'', ''reasoning'': ''Exposure to
+  crypto dragged related platforms.''}, {''sector'': ''venture_capital'', ''impact'':
+  ''negative'', ''reasoning'': ''Heavy losses on crypto investments.''}], ''time_horizon'':
+  ''medium_term''}'
+causal_chain:
+  trigger: The Indian stock market declined significantly due to rising oil prices.
+  mechanism: Historically, rising oil prices have led to increased costs for energy
+    and transportation sectors, which can reduce consumer spending and lead to a decline
+    in economic activity. This decline can then propagate through the market, affecting
+    various sectors and companies. The energy sector is particularly vulnerable to
+    oil price shocks, as seen in the 2015 China crash analogue.
+  affected_sectors:
+  - sector: energy
+    direction: negative
+    magnitude: high
+    reasoning: The energy sector is directly affected by rising oil prices, as seen
+      in the 2015 China crash analogue, where China's slowdown fears crushed industrial
+      metals and oil demand.
+  - sector: financial_services
+    direction: negative
+    magnitude: medium
+    reasoning: The financial services sector may be affected due to potential liquidity
+      crunches and trading losses, as seen in the 1987 Black Monday analogue.
+  affected_companies:
+  - name: Oil and Natural Gas Corporation
+    ticker: ONGC.NS
+    direction: negative
+    reasoning: As a major oil and gas company, ONGC's profitability may be affected
+      by rising oil prices and reduced demand.
+  - name: State Bank of India
+    ticker: SBIN.NS
+    direction: negative
+    reasoning: As a major bank, SBI may face potential liquidity crunches and trading
+      losses due to the market decline.
+  time_horizon: short_term
+  confidence: MEDIUM
+  key_risks:
+  - Global economic trends and trade policies
+  - Geopolitical tensions affecting oil prices
+  summary_for_investor: The Indian stock market decline due to rising oil prices may
+    lead to a short-term downturn, particularly affecting the energy and financial
+    services sectors. Investors should be cautious and consider diversifying their
+    portfolios to mitigate potential losses. It is essential to monitor the situation
+    closely and be prepared for potential further declines.
+analyzed_at: '2026-05-02T21:54:47.611405'
+model_used: gemini-2.0-flash

@@ -1,0 +1,19 @@
+event_id: evt_20260502_215157_052
+source_article:
+  headline: What Sandisk's play on surging memory prices means for our tech stocks
+  source: finnhub
+  url: https://www.cnbc.com/2026/05/01/what-sandisks-play-on-surging-memory-prices-means-for-our-tech-stocks.html
+  published: '2026-05-02T00:57:52'
+entities:
+  companies:
+  - SanDisk
+  - Finnhub
+  sectors:
+  - IT
+  countries: []
+  commodities: []
+event_type: corporate_action
+significance: 5
+one_line_summary: SanDisk's strategic move to capitalize on surging memory prices
+  may have a notable impact on tech stocks.
+extracted_at: '2026-05-02T21:51:57.725799'

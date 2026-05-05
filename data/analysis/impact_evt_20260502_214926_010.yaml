@@ -1,0 +1,11 @@
+event_id: evt_20260502_214926_010
+event_summary: The Indian stock market, including Nifty and Sensex, had its best month
+  in nearly two years, despite concerns over the Iran war.
+portfolio_exposure:
+  total_portfolio_value: 89957.15
+  affected_value: 0
+  exposure_pct: 0.0
+  direction: positive
+affected_holdings: []
+unaffected_holdings_count: 5
+mapped_at: '2026-05-02T22:00:41.071190'

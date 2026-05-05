@@ -1,0 +1,20 @@
+event_id: evt_20260502_215118_037
+source_article:
+  headline: 'Indian Bank Q4 Results: Standalone profit grows 5% YoY to Rs 3,103 crore;
+    Rs 18.25/share dividend declared - The Economic Times'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMijAJBVV95cUxOUVhHLUx6cS1UUFdpVUF5QjdTb3ZkRnhMa0pySWZwNVk2OHBFM21LaXdvVlhvLW84dFppYkFxTzJBMi1jWExYbHBIQm5ndUhYZWhHSVVpTEwyTld1OFZqdHNCNlQ0S0ZYR21kLUlrTFp6dkZaNUdCaDZCeFdGX1ZVLWZjTWZyNm5pa0ZPb1NlQk1oZGlXclFNZlVDZFhxUEJfYURGa3Z6Zm5jb2MtcFQzSU9sQ1cwMk1hV1ZZSEZhdFROSThsdEx3UkpNZW51bWprR2FFU3BuQ256VzdSVGdsLTRJeklwaHRsVTd3X1J0SG9TT3pkWHBBb3puTkdTbWlnVlhfR1ZoWUNpSjE10gGSAkFVX3lxTFBhcF9sUVVHYVdOYXkzdHNnQmV1bWNSRWI2RHNMTEctcDFDNWo0UmMzcGpTRkNleFhwd3huaElROURScks3YTkxUlVLNWM0UW1UZi1IeUNkUFpPVi1tejhaenFWSi05OU5Ld2ViU3ZCaWg5ajM5ZnROVS1GekxpckcxeGUybEVFdkdJLUNVcE9qcEFjb20xYUNwSktDY1VRdmRGTTZkZ2liYlNtOEZkd3daQzcxZ1R3ZDBlREY5cFBMUmNCa2ZjQWdEaDRZVUdENk1IaUV6RWs5NktmMGxtQXpIZ2lCWjRZZWZwSFpuYnlKRUdtc19qMlZwcHJMUE5IVlZoNG42bm5uSlZZR1lWN3U5Tmc?oc=5
+  published: Wed, 29 Apr 2026 09:29:04 GMT
+entities:
+  companies:
+  - Indian Bank
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: earnings
+significance: 6
+one_line_summary: Indian Bank's Q4 standalone profit grows 5% year-over-year to Rs
+  3,103 crore, with a dividend of Rs 18.25 per share declared.
+extracted_at: '2026-05-02T21:51:18.946614'

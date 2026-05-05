@@ -1,0 +1,24 @@
+event_id: evt_20260502_215021_023
+event_summary: The Reserve Bank of India has launched three key surveys to gather
+  input for its monetary policy decisions, which may impact the banking sector and
+  the overall economy.
+portfolio_exposure:
+  total_portfolio_value: 89957.15
+  affected_value: 23435.25
+  exposure_pct: 26.05
+  direction: positive
+affected_holdings:
+- ticker: JPM
+  name: JPMorgan Chase & Co
+  sector: banking
+  current_price: 312.47
+  quantity: 75
+  holding_value: 23435.25
+  pct_of_portfolio: 26.05
+  impact_direction: positive
+  impact_magnitude: medium
+  impact_reasoning: As seen in the 2008 quantitative easing analogue, central bank
+    actions can restore liquidity and boost bank balance sheets, potentially benefiting
+    the banking sector.
+unaffected_holdings_count: 4
+mapped_at: '2026-05-02T22:00:42.857226'

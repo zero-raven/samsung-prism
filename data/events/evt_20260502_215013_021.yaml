@@ -1,0 +1,20 @@
+event_id: evt_20260502_215013_021
+source_article:
+  headline: 'UPSC Prelims S.E.E. Snapshot: GPS interference, RBI’s Monetary Policy,
+    Heatwaves - The Indian Express'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQUtBcXo0a0JsdlVlbC1lZ2oyZjFDOF9FSjM1UmVSVGZqMUt5aU9HT21rMFdOZWw4TFdKekpsZ1RJOVNaZGwzUGNaWExUakc1M1A1UTJHNzFBanRvLUw0UjVuVzQzcmY2Nm9xWGU2amhweHJNdTE3R3ZIOUtGQXBzWmNpNVpkZVlYbHhqVkZvM3dpX296Xy1Lbmh5czNHVHhHTUhwRGI5cURnN05QUXJTajRGTl9PSUlJNjMwbjdoV2R2TXczenVrWnFkRjZ3RnUxTkZwZ0hCNkVkX1Ix0gHjAUFVX3lxTE9ESGNzUElaLXlmeEswVU9QN1NHdUZ4Vkg4RUxqSmZPT19tblFZZW1tVFB5aEpUSzY0QWVla3hudXMwLUdvUUVncXViOTdHSUZZX0dCQmNOblBSRHZnVDcyemtNc3MzaFRWMEowM1ZVN3k5TUpsLXFfY2MzYVo1Z0laaHlkeUNaRDEtdFJ3MTNKbzVZb0t2QzV5UEpqTkVaZ2QtZzJTQUMwcGp2SG9rUnlHUmN5OHBXOG5yVWhWVS1TTjA1MlBBVkhtRllkNVcxR004UWFWVG5zNW1laEVYMWJCbmZN?oc=5
+  published: Thu, 30 Apr 2026 05:54:00 GMT
+entities:
+  companies:
+  - Reserve Bank of India
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: central_bank
+significance: 6
+one_line_summary: The Reserve Bank of India's monetary policy and other economic factors
+  such as GPS interference and heatwaves may impact the Indian economy and markets.
+extracted_at: '2026-05-02T21:50:13.175441'

@@ -1,0 +1,19 @@
+event_id: evt_20260502_215122_038
+source_article:
+  headline: 'Indian Banking Sector: Top Updates | BCG - Boston Consulting Group'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EV0FOU0dQZDNiamc4dzlDRDN2MTlDelQzUVhzZ0t4SkFDcFRwQ1dyUEFvZVVOd0lwd1JsVlRqUTR3TVFLVjBtMlN3M1Z4dUlJeWJCLUU1X3FZdw?oc=5
+  published: Mon, 02 Mar 2026 08:00:00 GMT
+entities:
+  companies:
+  - Boston Consulting Group
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: macroeconomic
+significance: 5
+one_line_summary: The Indian banking sector receives top updates from Boston Consulting
+  Group, potentially impacting the sector's performance and investor decisions.
+extracted_at: '2026-05-02T21:51:22.463922'

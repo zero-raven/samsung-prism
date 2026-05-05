@@ -1,0 +1,20 @@
+event_id: evt_20260502_215200_053
+source_article:
+  headline: Trump's new executive order, with help from Congress, could increase U.S.
+    retirement wealth up to 77%, researchers find
+  source: finnhub
+  url: https://www.cnbc.com/2026/05/01/legislative-action-could-increase-us-retirement-wealth.html
+  published: '2026-05-02T00:30:09'
+entities:
+  companies:
+  - Finnhub
+  sectors:
+  - banking
+  countries:
+  - United States
+  commodities: []
+event_type: regulatory
+significance: 6
+one_line_summary: Trump's new executive order, supported by Congress, may increase
+  US retirement wealth by up to 77 percent, according to researchers.
+extracted_at: '2026-05-02T21:52:00.225257'

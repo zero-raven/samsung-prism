@@ -1,0 +1,21 @@
+event_id: evt_20260502_215009_019
+source_article:
+  headline: 'Sensex, Nifty 50 | Stock Market Highlights: Sensex ends 639 points higher,
+    Nifty around 24,100; Sun Pharma share up 7% - Mint'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMilwJBVV95cUxPSHAtbEJDekloWEdLU1V3WVhpU0lwOUQ3VUlYcmtZdVBNczJnUHhXWkNQSUMzRzB1dndfdXU4S3hocTlqb2pOeE5nSnJ2OXVlazdzR19tejEyR2h0RlBMdHQwajFKSFEwTmdaMGg3QURtRkFRT1FvSVZ0cXNCeGo4Nk4xNmxlYWNtZkhVbGhmeEk3NXJ2cVdTZWJDS0RFNzkzLUJUV216QlNNZ1gyd0FSTGRxd0NDVE81bTZhXzFMd3JfQ2hRY0lWbnlhZlgycHpHZUVOLTg1YXNxNGM1N0tLVXdEM1lVSjY0MjhSUVBxYlFkOGhnaUJYVDFBRUdUTE5feGJDQ2FoeFU2T3JCajBwc2ZBYXVIV3PSAZwCQVVfeXFMTTVCdmk2bEd4RW1XYVNZUF9HeDhDV3ExV1cyanJKY2I5NVZKTTdmbGJHVldnSzNMZmJQM3BMNXFtTVpHWV91ZFpmcEFFZ1BQRXJPdUEwUzBYVHNXRXBVeV9oWGxQUUlwSS01UDdlc2htMUYyR09jQ3QzbHhBcG56bXNzQk9XSUxsenhHWS0xcFF3RUVWVC1TZU9yY2pkUV9oaFp6TW1yNW1JUlBqUVRCdVIyb2VkQ0o0Y2RKdTA4LTJhYlFnVG0tRE9yaXUwSUVhUmtkdENlR2V2NGx6eDA1TGZhVUhnQm85ejBqUmZEUXNxMHNfWV8tb1dBRGt5VGFpdHViR2VGYktlWkNkUjlIajBsT0h3MF82amdYSVg?oc=5
+  published: Mon, 27 Apr 2026 10:54:47 GMT
+entities:
+  companies:
+  - Sun Pharma
+  sectors:
+  - pharma
+  countries:
+  - India
+  commodities: []
+event_type: earnings
+significance: 5
+one_line_summary: The Indian stock market ended higher, with the Sensex rising 639
+  points and the Nifty reaching around 24,100, driven in part by a 7% increase in
+  Sun Pharma's share price.
+extracted_at: '2026-05-02T21:50:09.347815'

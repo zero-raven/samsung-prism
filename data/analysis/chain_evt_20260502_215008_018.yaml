@@ -1,0 +1,83 @@
+event_id: evt_20260502_215008_018
+event_summary: The Indian stock market declined sharply as Brent crude prices rose
+  above $120 and the rupee fell, affecting investor sentiment and market performance.
+event_type: macroeconomic
+retrieved_analogues:
+- '{''event_id'': ''evt_1987_black_monday'', ''headline'': ''Global stock markets
+  crash in a single day, led by a 22.6% drop in the Dow Jones.'', ''event_type'':
+  ''financial_crash'', ''direction'': ''negative_macro'', ''primary_entities'': [''NYSE'',
+  ''SEC'', ''Program Trading Firms''], ''affected_sectors'': [{''sector'': ''financial_services'',
+  ''impact'': ''negative'', ''reasoning'': ''Brokerage firms and banks faced immediate
+  liquidity crunches and significant trading losses.''}, {''sector'': ''insurance'',
+  ''impact'': ''negative'', ''reasoning'': ''Insurers faced massive claims from portfolio
+  insurance strategies that failed to hedge the tail risk.''}], ''time_horizon'':
+  ''short_term''}'
+- '{''event_id'': ''evt_2020_oil_price_negative'', ''headline'': ''WTI crude futures
+  briefly trade negative due to storage crisis amid lockdowns.'', ''event_type'':
+  ''macro_economic'', ''direction'': ''negative_sector'', ''primary_entities'': [''OPEC+'',
+  ''US Shale'', ''Cushing Storage''], ''affected_sectors'': [{''sector'': ''energy'',
+  ''impact'': ''negative'', ''reasoning'': ''Producers faced extreme pressure with
+  negative prices forcing shutdowns.''}, {''sector'': ''oil_storage'', ''impact'':
+  ''positive'', ''reasoning'': ''Companies with storage capacity profited from contango
+  and lease rates.''}, {''sector'': ''midstream'', ''impact'': ''negative'', ''reasoning'':
+  ''Pipeline and logistics firms struggled with lack of throughput.''}], ''time_horizon'':
+  ''short_term''}'
+- '{''event_id'': ''evt_2015_china_crash'', ''headline'': ''Chinese stock market crashes
+  after speculative bubble bursts.'', ''event_type'': ''financial_crisis'', ''direction'':
+  ''negative_macro'', ''primary_entities'': [''China'', ''Shanghai Composite'', ''CSRC''],
+  ''affected_sectors'': [{''sector'': ''emerging_markets'', ''impact'': ''negative'',
+  ''reasoning'': ''Global sell-off wiped $5 trillion, with contagion to other EM equities.''},
+  {''sector'': ''commodities'', ''impact'': ''negative'', ''reasoning'': ''China slowdown
+  fears crushed industrial metals and oil demand.''}, {''sector'': ''luxury_goods'',
+  ''impact'': ''negative'', ''reasoning'': ''Chinese retail investor losses reduced
+  high-end consumption.''}], ''time_horizon'': ''medium_term''}'
+causal_chain:
+  trigger: The Indian stock market declined sharply due to rising Brent crude prices
+    above $120 and a falling rupee.
+  mechanism: Historically, sharp increases in crude oil prices have led to decreased
+    investor sentiment and market performance, as seen in the 2020 oil price crisis.
+    This event propagates through the market by affecting energy and commodity prices,
+    leading to a ripple effect on other sectors. The decline in the rupee further
+    exacerbates the issue, making imports more expensive and contributing to higher
+    production costs.
+  affected_sectors:
+  - sector: energy
+    direction: negative
+    magnitude: high
+    reasoning: As seen in the 2020 oil price crisis, rising crude oil prices have
+      a direct negative impact on the energy sector, leading to increased production
+      costs and decreased profitability.
+  - sector: commodities
+    direction: negative
+    magnitude: medium
+    reasoning: The decline in the Indian stock market and the rise in crude oil prices
+      may lead to decreased demand for commodities, as seen in the 2015 China crash,
+      where a slowdown in China led to decreased demand for industrial metals and
+      oil.
+  affected_companies:
+  - name: Indian Oil Corporation
+    ticker: IOC.NS
+    direction: negative
+    reasoning: As a major oil refining and marketing company, Indian Oil Corporation
+      will likely face increased costs due to the rise in crude oil prices, negatively
+      impacting its profitability.
+  - name: Reliance Industries
+    ticker: RELIANCE.NS
+    direction: negative
+    reasoning: As a major player in the energy sector, Reliance Industries will likely
+      face decreased demand for its products and increased production costs, negatively
+      impacting its profitability.
+  time_horizon: short_term
+  confidence: MEDIUM
+  key_risks:
+  - The Indian government's potential policy interventions to mitigate the effects
+    of the rising crude oil prices
+  - The impact of the declining rupee on the overall economy and investor sentiment
+  summary_for_investor: The recent decline in the Indian stock market due to rising
+    crude oil prices and a falling rupee may lead to a short-term downturn in the
+    energy and commodities sectors. Investors should be cautious and consider diversifying
+    their portfolios to mitigate potential losses. It is essential to monitor the
+    government's policy responses and the overall economic situation to make informed
+    investment decisions.
+analyzed_at: '2026-05-02T21:55:53.688460'
+model_used: gemini-2.0-flash

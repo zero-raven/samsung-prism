@@ -1,0 +1,21 @@
+event_id: evt_20260502_214924_006
+source_article:
+  headline: 'India Shelter Finance Corp Q4 Results: Profit up 27%, declares ₹10 dividend
+    - CNBC TV18'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPbkdTQUFjZ1MteVcxQlBTb0ZmdHJpLWRQb0F3MGJXY1E0R1V5cElQNTE0UXVWZ3JBQUxzMmctTkhId3dZSkZHLVoyRmpRZXM0dzI1SzVYQlpsYnVYaEJkeUtILVE1ZmZyclhyTFFCVTJ2bndzd0pfTUQzN2t6dUZEV0kyLVlLTFB0aUlFWEhpZDJQYmIwTjhiVUQxNnBPTXRzWnEwYWk2SDM1aHhaTnBkUy1mRU9NVnZPc1kyTGRyX2tzTXJ5UlHSAcsBQVVfeXFMTTRLVmNOOVFUMXBVZm9SWGl4U2gxd21FS0xkNGRVc2JUeldDc3NRbnNKSjJiSUU1LTlGY2paTFRob01wMzN5UU1Vak45UE1WaHJEMW14bk9WeTFodXh1a1dTUEMtbVFxb0NxRDY5dGtQaXM0bWEyRnFRbV81TXo4QXJsOEdCTkZEWi1scnNHLVBsM3RKRUNwVVgwRHNCb3Fvb3YtOGx4NTdmRGR3aVdGQjlmaHNuNXJVaFFNUTdMYjRPUDBKaXZLVU1mdG8?oc=5
+  published: Sat, 02 May 2026 12:58:19 GMT
+entities:
+  companies:
+  - India Shelter Finance Corp
+  sectors:
+  - banking
+  - realty
+  countries:
+  - India
+  commodities: []
+event_type: earnings
+significance: 6
+one_line_summary: India Shelter Finance Corp reports a 27% increase in Q4 profit and
+  declares a ₹10 dividend, positively impacting the banking and realty sectors.
+extracted_at: '2026-05-02T21:49:24.767606'

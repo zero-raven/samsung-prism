@@ -1,0 +1,19 @@
+event_id: evt_20260502_215055_031
+source_article:
+  headline: 'RBI: India’s central bank steps up fight against digital fraud - BBC'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5keDhzNGEweDhzMS1zM1hodTRHTnNiSWJhUUNkblRsN0E1Wmd1aTRWeVZMRmNmVUt1eTNYWGF4bjNNQnI3a2ZhUDRzS2E4U21zSkl1TTNKeDFKUQ?oc=5
+  published: Wed, 29 Apr 2026 23:36:31 GMT
+entities:
+  companies:
+  - Reserve Bank of India
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: central_bank
+significance: 6
+one_line_summary: The Reserve Bank of India has stepped up its efforts to combat digital
+  fraud, which may impact the banking sector and overall financial stability in India.
+extracted_at: '2026-05-02T21:50:55.027292'

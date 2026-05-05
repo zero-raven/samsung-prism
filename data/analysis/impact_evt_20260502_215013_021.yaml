@@ -1,0 +1,23 @@
+event_id: evt_20260502_215013_021
+event_summary: The Reserve Bank of India's monetary policy and other economic factors
+  such as GPS interference and heatwaves may impact the Indian economy and markets.
+portfolio_exposure:
+  total_portfolio_value: 89957.15
+  affected_value: 23435.25
+  exposure_pct: 26.05
+  direction: positive
+affected_holdings:
+- ticker: JPM
+  name: JPMorgan Chase & Co
+  sector: banking
+  current_price: 312.47
+  quantity: 75
+  holding_value: 23435.25
+  pct_of_portfolio: 26.05
+  impact_direction: positive
+  impact_magnitude: medium
+  impact_reasoning: As seen in the 2022 inflation peak analogue, rising interest rates
+    can expand net interest margins for banks, potentially benefiting the banking
+    sector.
+unaffected_holdings_count: 4
+mapped_at: '2026-05-02T22:00:42.511997'

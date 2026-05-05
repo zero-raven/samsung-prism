@@ -1,0 +1,21 @@
+event_id: evt_20260502_215202_054
+source_article:
+  headline: Exxon net income falls, output hit by Iran war - Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNWnc1S3VOZEI5bVhCUjFLbGQ0LWZmLTFRYl9iU3pMTjl2WjNRRjRDZlN6dDFabEtYaFBrNExOQXlaSlM1dnFncjdzeWNWT2JiNXV6NW9wTW5fWUNBMkVNOWRUQkVLYVdHSWxiNWhTTHpQTEhCRHN6NldMbllwc0tLN0VjUm5yTnYzd1hGVW9YT3d2MlRiSWt1MDhyZmhRUDlQVmM0TnhMN25wM3c1MjFnR090aU1PU1VXTjQxMVl3?oc=5
+  published: '2026-05-02T00:21:46'
+entities:
+  companies:
+  - Exxon
+  sectors:
+  - energy
+  countries:
+  - Iran
+  - United States
+  commodities:
+  - crude oil
+event_type: geopolitical
+significance: 8
+one_line_summary: Exxon's net income has fallen due to decreased output caused by
+  the Iran war, potentially impacting the global energy market.
+extracted_at: '2026-05-02T21:52:02.551568'

@@ -1,0 +1,80 @@
+event_id: evt_20260502_215021_023
+event_summary: The Reserve Bank of India has launched three key surveys to gather
+  input for its monetary policy decisions, which may impact the banking sector and
+  the overall economy.
+event_type: central_bank
+retrieved_analogues:
+- '{''event_id'': ''evt_2024_yen_carry_unwind'', ''headline'': ''Bank of Japan raises
+  rates, triggering the largest-ever unwinding of the yen carry trade.'', ''event_type'':
+  ''macro_policy'', ''direction'': ''negative_macro'', ''primary_entities'': [''Bank
+  of Japan'', ''Japanese Yen'', ''Global Carry Traders''], ''affected_sectors'': [{''sector'':
+  ''global_equities'', ''impact'': ''negative'', ''reasoning'': ''The forced liquidation
+  of carry trade positions triggered a global margin call, causing the S&P 500 to
+  drop over 9% and the Nikkei to crash 12% in a single day.''}, {''sector'': ''us_tech_stocks'',
+  ''impact'': ''negative'', ''reasoning'': "Investors heavily borrowed in yen to invest
+  in US tech giants; the trade''s unwind caused a violent sell-off in the Magnificent
+  7."}, {''sector'': ''japanese_exporters'', ''impact'': ''negative'', ''reasoning'':
+  ''A strengthening yen dramatically reduces the overseas earnings of Japanese auto
+  and electronics giants.''}], ''time_horizon'': ''short_term''}'
+- '{''event_id'': ''evt_2008_quantitative_easing'', ''headline'': ''Federal Reserve
+  launches first round of quantitative easing to combat financial crisis.'', ''event_type'':
+  ''macro_policy'', ''direction'': ''positive_macro'', ''primary_entities'': [''Federal
+  Reserve'', ''US Treasury'', ''Mortgage-Backed Securities''], ''affected_sectors'':
+  [{''sector'': ''financial_services'', ''impact'': ''positive'', ''reasoning'': ''QE
+  restored liquidity and boosted bank balance sheets.''}, {''sector'': ''housing'',
+  ''impact'': ''positive'', ''reasoning'': ''Lower mortgage rates supported housing
+  recovery and homebuilder stocks.''}, {''sector'': ''gold_mining'', ''impact'': ''positive'',
+  ''reasoning'': ''Concerns over currency debasement drove gold to record highs.''}],
+  ''time_horizon'': ''long_term''}'
+- '{''event_id'': ''evt_2022_inflation_peak'', ''headline'': ''US CPI hits 9.1% year-over-year,
+  forcing aggressive Federal Reserve rate hikes.'', ''event_type'': ''macro_economic'',
+  ''direction'': ''negative_macro'', ''primary_entities'': [''Federal Reserve'', ''US
+  Treasury'', ''Consumers''], ''affected_sectors'': [{''sector'': ''growth_tech'',
+  ''impact'': ''negative'', ''reasoning'': ''Higher discount rates crushed valuations
+  of long-duration tech stocks.''}, {''sector'': ''financials_banks'', ''impact'':
+  ''positive'', ''reasoning'': ''Net interest margins expanded with rapidly rising
+  rates.''}, {''sector'': ''real_estate'', ''impact'': ''negative'', ''reasoning'':
+  ''Mortgage rates doubled, freezing home sales and hammering REITs.''}], ''time_horizon'':
+  ''medium_term''}'
+causal_chain:
+  trigger: The Reserve Bank of India has launched three key surveys to gather input
+    for its monetary policy decisions.
+  mechanism: Historically, central bank surveys and subsequent policy decisions have
+    triggered market reactions, as seen in the Bank of Japan's rate hike, which unwound
+    the yen carry trade and affected global equities. The surveys may indicate a shift
+    in the Reserve Bank of India's monetary policy stance, influencing the banking
+    sector and overall economy. This, in turn, could have a ripple effect on various
+    sectors and companies.
+  affected_sectors:
+  - sector: banking
+    direction: positive
+    magnitude: medium
+    reasoning: As seen in the 2008 quantitative easing analogue, central bank actions
+      can restore liquidity and boost bank balance sheets, potentially benefiting
+      the banking sector.
+  - sector: global_equities
+    direction: negative
+    magnitude: low
+    reasoning: The unwinding of the yen carry trade, as seen in the Bank of Japan's
+      rate hike, triggered a global margin call, causing equities to drop, and a similar
+      scenario could play out in response to the Reserve Bank of India's surveys.
+  affected_companies:
+  - name: HDFC Bank
+    ticker: HDFCBANK.NS
+    direction: positive
+    reasoning: As a major bank in India, HDFC Bank may benefit from the potential
+      boost to the banking sector resulting from the Reserve Bank of India's surveys
+      and subsequent policy decisions.
+  time_horizon: short_term
+  confidence: MEDIUM
+  key_risks:
+  - The Reserve Bank of India's surveys may not lead to significant policy changes,
+    reducing the impact on the banking sector and overall economy.
+  summary_for_investor: The Reserve Bank of India's surveys may indicate a shift in
+    monetary policy, potentially benefiting the banking sector, but also posing risks
+    to global equities. Investors should monitor the situation closely, as the impact
+    may be felt in the short term. The banking sector, including companies like HDFC
+    Bank, may see a positive effect, while global equities may experience a negative
+    impact.
+analyzed_at: '2026-05-02T21:57:16.604514'
+model_used: gemini-2.0-flash

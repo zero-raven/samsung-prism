@@ -1,0 +1,27 @@
+holdings:
+- ticker: NVDA
+  name: NVIDIA Corp
+  sector: semiconductors
+  quantity: 50
+  avg_cost: 85.5
+- ticker: AAPL
+  name: Apple Inc
+  sector: consumer_electronics
+  quantity: 100
+  avg_cost: 150.0
+- ticker: JPM
+  name: JPMorgan Chase & Co
+  sector: banking
+  quantity: 75
+  avg_cost: 135.2
+- ticker: XOM
+  name: Exxon Mobil Corp
+  sector: energy
+  quantity: 120
+  avg_cost: 60.4
+- ticker: LMT
+  name: Lockheed Martin
+  sector: defense
+  quantity: 20
+  avg_cost: 400.0
+last_updated: '2026-05-02T22:00:37.766706'

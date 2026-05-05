@@ -1,0 +1,21 @@
+event_id: evt_20260502_215145_047
+source_article:
+  headline: Spirit Airlines could shut down overnight. Here's what travelers need
+    to know
+  source: finnhub
+  url: https://www.cnbc.com/2026/05/01/spirit-airlines-flights-shut-down.html
+  published: '2026-05-02T05:56:40'
+entities:
+  companies:
+  - Spirit Airlines
+  sectors:
+  - telecom
+  - infrastructure
+  countries:
+  - United States
+  commodities: []
+event_type: corporate_action
+significance: 6
+one_line_summary: Spirit Airlines is at risk of shutting down overnight, potentially
+  disrupting travel plans for its customers and impacting the airline industry.
+extracted_at: '2026-05-02T21:51:45.323022'

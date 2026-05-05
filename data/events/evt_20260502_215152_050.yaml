@@ -1,0 +1,20 @@
+event_id: evt_20260502_215152_050
+source_article:
+  headline: US withdrawing 5,000 troops from Germany, US officials say - Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPLUxnTi1fcnFiX0tMTlpIQmdIOGFIQk80clBPWENGTS1FcllKZHRqVlhDZGlud0FGam1WVGctME5QdHgtZHVaUDdaRnhPeUYtTmJrVm5qVldOSDN3N0haYVpzOUU4SVFhSnRXU3FBWkdmckloU1FsQ01DSlA2eS1vaXlvb1E4Mmc2alJ4bVplZXYyNVYtb2FwOA?oc=5
+  published: '2026-05-02T03:01:00'
+entities:
+  companies:
+  - Reuters
+  sectors:
+  - defence
+  countries:
+  - US
+  - Germany
+  commodities: []
+event_type: geopolitical
+significance: 6
+one_line_summary: The US is withdrawing 5,000 troops from Germany, which may have
+  implications for global geopolitical stability and the defence sector.
+extracted_at: '2026-05-02T21:51:52.802554'

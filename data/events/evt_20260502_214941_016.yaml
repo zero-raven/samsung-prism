@@ -1,0 +1,20 @@
+event_id: evt_20260502_214941_016
+source_article:
+  headline: 'Stock Market Crash Highlights: Sensex, Nifty fall for 3rd day; lose 2%
+    this week as IT drags - CNBC TV18'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMi_gFBVV95cUxOek5VVUhxZzE2VGliZ0RTODE0ZW1KaWpqRlFIRUJLSGtyT1pBVTRCZVFXUXJFLUV1NHJ3eHB1Q3NzcWtmcDIyVUd3alFKYUo3S3VBVDJ2MXB1OF9yLW1JOGFzNGI0cmQxSDdLMGFRdVRsbnkzN0luUUNVTFVYclpHR3JfT0hyUFdoY2tjNmEwTncwNUR3U3pfN0E0anpEbEtuMlRYUXZibWdTaXhUYVBUYkdMdElwdEstajg1ZFpxTFg0dmpkVlc5Q21Fakw5TTVTTld3N0xaNU15WTZxYXdMOHFveExRNzNpWGxzZHdncUVFZG5iOTNGNE15OFJMZ9IBgwJBVV95cUxQZFhUZ3F6dzd3U1lNQXV6dHl5N3IzUGJMQkJBa0V1bkVva3pjUjJFLTd5SFRIVzQzLTRTSmhRUnR5bFF0djQtODdPbVlVQTR1dG9yN0dKWGdMWmpxd1RYek9GZHM2S2xUZ3A4c3BXRjltY2hCelpfYlNxSVVqWVdZX2hIcGdUc0Jhc2R3T1RQRHkzWkQ1Yk9PeVFZeTFCRU9UZ1lvdDlabFFhc0hsQzAwX1JpMG0zX292bXhVVnBBWUhKNHJMY3RIMW9kZHBRTG1IWDBvZWtWdk9YbWozS04zT3gwSEU2WHUxaVRyM094MTNVZjJGQ1ZGVUxnelVqT1UyMUVR?oc=5
+  published: Fri, 24 Apr 2026 07:00:00 GMT
+entities:
+  companies: []
+  sectors:
+  - IT
+  countries:
+  - India
+  commodities: []
+event_type: macroeconomic
+significance: 6
+one_line_summary: The Indian stock market experienced a decline for the third consecutive
+  day, with the Sensex and Nifty losing 2% this week, primarily due to the poor performance
+  of the IT sector.
+extracted_at: '2026-05-02T21:49:41.840537'

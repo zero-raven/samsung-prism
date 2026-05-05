@@ -1,0 +1,11 @@
+event_id: evt_20260502_214936_015
+event_summary: The Indian stock market rebounded, snapping a three-day losing streak,
+  driven by a rally in IT and pharma sectors, led by Sun Pharma.
+portfolio_exposure:
+  total_portfolio_value: 89957.15
+  affected_value: 0
+  exposure_pct: 0.0
+  direction: positive
+affected_holdings: []
+unaffected_holdings_count: 5
+mapped_at: '2026-05-02T22:00:41.699656'

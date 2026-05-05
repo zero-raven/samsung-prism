@@ -1,0 +1,27 @@
+event_id: evt_20260502_215220_055
+source_article:
+  headline: 'investingLive Americas market news wrap: Trump raises tariffs on European
+    autos'
+  source: finnhub
+  url: https://investinglive.com/news/investinglive-americas-market-news-wrap-trump-raises-tariffs-on-european-autos-20260501/
+  published: '2026-05-02T02:49:55'
+entities:
+  companies: []
+  sectors:
+  - auto
+  - energy
+  countries:
+  - United States
+  - Iran
+  - Canada
+  - Germany
+  - Italy
+  - Spain
+  commodities:
+  - crude oil
+  - gold
+event_type: trade_policy
+significance: 8
+one_line_summary: The US has raised tariffs on European autos to 25%, sparking concerns
+  of a potential trade war and impacting the auto and energy sectors.
+extracted_at: '2026-05-02T21:52:20.303773'

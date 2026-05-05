@@ -1,0 +1,23 @@
+event_id: evt_20260502_215029_025
+event_summary: Rohit Jain's appointment as RBI deputy governor for a three-year term
+  may have implications for India's banking sector and monetary policy.
+portfolio_exposure:
+  total_portfolio_value: 89957.15
+  affected_value: 23435.25
+  exposure_pct: 26.05
+  direction: positive
+affected_holdings:
+- ticker: JPM
+  name: JPMorgan Chase & Co
+  sector: banking
+  current_price: 312.47
+  quantity: 75
+  holding_value: 23435.25
+  pct_of_portfolio: 26.05
+  impact_direction: positive
+  impact_magnitude: medium
+  impact_reasoning: As seen in the historical analogue of the US regional bank crisis,
+    a change in central bank leadership can lead to a flight to quality, benefiting
+    larger banks.
+unaffected_holdings_count: 4
+mapped_at: '2026-05-02T22:00:43.156430'

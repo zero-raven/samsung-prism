@@ -1,0 +1,12 @@
+event_id: evt_20260502_215009_019
+event_summary: The Indian stock market ended higher, with the Sensex rising 639 points
+  and the Nifty reaching around 24,100, driven in part by a 7% increase in Sun Pharma's
+  share price.
+portfolio_exposure:
+  total_portfolio_value: 89957.15
+  affected_value: 0
+  exposure_pct: 0.0
+  direction: positive
+affected_holdings: []
+unaffected_holdings_count: 5
+mapped_at: '2026-05-02T22:00:42.187882'

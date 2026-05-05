@@ -1,0 +1,19 @@
+event_id: evt_20260502_215106_034
+source_article:
+  headline: Indian central bank's gold share in forex reserves rises - Reuters
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMiogFBVV95cUxOcGNyYjA1eXVBbHJWTkNwSVRLemRfSENZaVdpRktDU1BDWV9FbmZYUWN2OHJoZUdpLUdSaFo2MElmX2cwTGF1c1pOOVpEOWprdVAtQm1qSUlyd3A1RzVRdlRVXzA4N0dXWXVQOEV4bk1RY0M1TFpMaW5jWmtZeF9uTEhBaXYwcXAyRzIzVS04eFE1QzhiMkZxaHNFM0MxaEZ5aHc?oc=5
+  published: Thu, 30 Apr 2026 15:03:47 GMT
+entities:
+  companies: []
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities:
+  - gold
+event_type: central_bank
+significance: 6
+one_line_summary: The Indian central bank's gold share in forex reserves has increased,
+  indicating a potential shift in the country's reserve management strategy.
+extracted_at: '2026-05-02T21:51:06.525231'

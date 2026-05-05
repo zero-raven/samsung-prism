@@ -1,0 +1,116 @@
+event_id: evt_20260502_214931_014
+event_summary: The Indian stock market bounced back with the Sensex rising 505 points
+  and the Nifty crossing 24,350.
+event_type: macroeconomic
+retrieved_analogues:
+- '{''event_id'': ''evt_1987_black_monday'', ''headline'': ''Global stock markets
+  crash in a single day, led by a 22.6% drop in the Dow Jones.'', ''event_type'':
+  ''financial_crash'', ''direction'': ''negative_macro'', ''primary_entities'': [''NYSE'',
+  ''SEC'', ''Program Trading Firms''], ''affected_sectors'': [{''sector'': ''financial_services'',
+  ''impact'': ''negative'', ''reasoning'': ''Brokerage firms and banks faced immediate
+  liquidity crunches and significant trading losses.''}, {''sector'': ''insurance'',
+  ''impact'': ''negative'', ''reasoning'': ''Insurers faced massive claims from portfolio
+  insurance strategies that failed to hedge the tail risk.''}], ''time_horizon'':
+  ''short_term''}'
+- '{''event_id'': ''evt_2000_dotcom_bubble'', ''headline'': ''NASDAQ peaks and begins
+  multi-year collapse as dot-com valuations unravel.'', ''event_type'': ''financial_crash'',
+  ''direction'': ''negative_sector'', ''primary_entities'': [''NASDAQ'', ''Tech Startups'',
+  ''Venture Capital Firms''], ''affected_sectors'': [{''sector'': ''internet_software'',
+  ''impact'': ''negative'', ''reasoning'': ''Hundreds of unprofitable companies with
+  high burn rates saw their valuations evaporate.''}, {''sector'': ''telecom_equipment'',
+  ''impact'': ''negative'', ''reasoning'': ''Overinvestment in fiber-optic infrastructure
+  led to massive write-downs and bankruptcies.''}, {''sector'': ''traditional_retail'',
+  ''impact'': ''positive'', ''reasoning'': ''Brick-and-mortar retailers gained relative
+  strength as speculative tech capital fled.''}], ''time_horizon'': ''long_term''}'
+- '{''event_id'': ''evt_2015_china_crash'', ''headline'': ''Chinese stock market crashes
+  after speculative bubble bursts.'', ''event_type'': ''financial_crisis'', ''direction'':
+  ''negative_macro'', ''primary_entities'': [''China'', ''Shanghai Composite'', ''CSRC''],
+  ''affected_sectors'': [{''sector'': ''emerging_markets'', ''impact'': ''negative'',
+  ''reasoning'': ''Global sell-off wiped $5 trillion, with contagion to other EM equities.''},
+  {''sector'': ''commodities'', ''impact'': ''negative'', ''reasoning'': ''China slowdown
+  fears crushed industrial metals and oil demand.''}, {''sector'': ''luxury_goods'',
+  ''impact'': ''negative'', ''reasoning'': ''Chinese retail investor losses reduced
+  high-end consumption.''}], ''time_horizon'': ''medium_term''}'
+causal_chain:
+  trigger: The Indian stock market bounced back with the Sensex rising 505 points
+    and the Nifty crossing 24,350.
+  mechanism: Historically, a strong market rebound in India has been driven by a combination
+    of factors including economic growth, monetary policy, and investor sentiment.
+    This event can propagate through the market by boosting investor confidence, increasing
+    consumption, and stimulating economic activity. As seen in past events, such as
+    the recovery from the 2015 China crash, a strong market rebound can have a positive
+    impact on various sectors.
+  affected_sectors:
+  - sector: banking
+    direction: positive
+    magnitude: medium
+    reasoning: The banking sector is likely to be positively affected as a strong
+      market rebound can lead to increased lending and borrowing, as seen in the aftermath
+      of the 2000 dot-com bubble.
+  - sector: IT
+    direction: positive
+    magnitude: high
+    reasoning: The IT sector is likely to be positively affected as a strong market
+      rebound can lead to increased investment in technology and digital transformation,
+      as seen in the recovery from the 2015 China crash.
+  - sector: auto
+    direction: positive
+    magnitude: medium
+    reasoning: The auto sector is likely to be positively affected as a strong market
+      rebound can lead to increased consumer spending and demand for vehicles, as
+      seen in the aftermath of the 2000 dot-com bubble.
+  - sector: FMCG
+    direction: positive
+    magnitude: low
+    reasoning: The FMCG sector is likely to be positively affected as a strong market
+      rebound can lead to increased consumer spending, but the impact may be limited
+      due to the essential nature of FMCG products.
+  - sector: metals
+    direction: positive
+    magnitude: medium
+    reasoning: The metals sector is likely to be positively affected as a strong market
+      rebound can lead to increased investment in infrastructure and construction,
+      as seen in the recovery from the 2015 China crash.
+  - sector: realty
+    direction: positive
+    magnitude: medium
+    reasoning: The realty sector is likely to be positively affected as a strong market
+      rebound can lead to increased investment in real estate and construction, as
+      seen in the aftermath of the 2000 dot-com bubble.
+  - sector: infrastructure
+    direction: positive
+    magnitude: high
+    reasoning: The infrastructure sector is likely to be positively affected as a
+      strong market rebound can lead to increased investment in infrastructure projects,
+      as seen in the recovery from the 2015 China crash.
+  - sector: telecom
+    direction: positive
+    magnitude: medium
+    reasoning: The telecom sector is likely to be positively affected as a strong
+      market rebound can lead to increased investment in digital infrastructure and
+      telecommunications, as seen in the aftermath of the 2000 dot-com bubble.
+  affected_companies:
+  - name: HDFC Bank
+    ticker: HDFCBANK.NS
+    direction: positive
+    reasoning: As a leading bank in India, HDFC Bank is likely to benefit from the
+      strong market rebound and increased lending and borrowing activity.
+  - name: Infosys
+    ticker: INFY.NS
+    direction: positive
+    reasoning: As a leading IT company in India, Infosys is likely to benefit from
+      the strong market rebound and increased investment in technology and digital
+      transformation.
+  time_horizon: short_term
+  confidence: MEDIUM
+  key_risks:
+  - Global economic uncertainty
+  - Monetary policy changes
+  - Geopolitical tensions
+  summary_for_investor: The Indian stock market's strong rebound is likely to have
+    a positive impact on various sectors, including banking, IT, and infrastructure.
+    Investors can consider investing in companies such as HDFC Bank and Infosys, which
+    are likely to benefit from the rebound. However, investors should be cautious
+    of potential risks such as global economic uncertainty and monetary policy changes.
+analyzed_at: '2026-05-02T21:55:11.426968'
+model_used: gemini-2.0-flash

@@ -1,0 +1,20 @@
+event_id: evt_20260502_215021_023
+source_article:
+  headline: RBI launches 3 key surveys for monetary policy input - The Economic Times
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNcEQ2UDVBdG9tOUxiZnZzbkp0T2tnOWZPRHYxMHdTQXdtZlhRRzh6VFFxT2xEWXg2NVpJUC1xcVc2Zm9PUnBQYUtIcHBZXzlfblpEWW9acGx4S1Y3MEE2bTYyTm9Qc0VENGZsZjUzNWpfbmlDNTJUT2hRNUlCd1AybUM3OWVGekxZUmRVdVJTQkFPUkxLNHJ2elZWV0I4blVhVnRTMURyWTVmd3F3ZjU5eVl5VXBHS3JkUmN3eDcyRTRheVF50gHKAUFVX3lxTE9DVXRENnI2YkdMU0R6b2pUSGZOS3RCT2p1ZXhObi1lVU01OUNZTXotcHBhenlpSkZCQ3pqbU1ONzlLSC0xdEhxTlNFUUg5NnRYeUNJY1BVWlNxcHJrd2k2U2s1d29mRHZtTHFHdjh1SDlsRGluWW13V1F2TkxSUjU5UUlOZUVJb0I0U0NxaGNRdjhTR2ptOUhIdXd6UUZOOXI5dUczWnRXQkVmdUxVZ1RSNnBMU1MyNUpyY01oOVJ1b0RHejNNb0hnYVE?oc=5
+  published: Wed, 29 Apr 2026 16:09:37 GMT
+entities:
+  companies:
+  - Reserve Bank of India
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: central_bank
+significance: 6
+one_line_summary: The Reserve Bank of India has launched three key surveys to gather
+  input for its monetary policy decisions, which may impact the banking sector and
+  the overall economy.
+extracted_at: '2026-05-02T21:50:21.984539'

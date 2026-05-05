@@ -1,0 +1,20 @@
+event_id: evt_20260502_215008_018
+source_article:
+  headline: 'Stock Market Highlights, Sensex Today: Sensex Tanks 580 Points As Brent
+    Crude Rises Above $120, Rupee Falls - NDTV'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxNR0VaMFRRME82eGQ3M3VQNHZmX3pwbjV6dWNORUVEek9VYWlXdlYwTkZ3Qk9rS2V3NkFvOFZkaU1LZEtVaWFjQUZaWmxaZXltMThrOVJxekdBQWdZSmctaGlLNDBjVTVsT1pNQWpTU3dQYWk3MHczYWFZcW03Q05aTmdHV1lFdGdFQm1nOGtEbzJ0TlNIeEtVOEVRaV9XV25CRmZlSUdwTGkwRXAyUkNQWVhNMkpoZWhCRFZFSE92TjlGNnZpTURULXNjRkNkcWFNNl96cUdBNWNfei15MFAxT0JHZHA1M05qZmIxSNIB9AFBVV95cUxQNlBlOEl0bWJrd1haR2k4eGtRTzQ1QUVuNUd0QUhDT1FMR0tQVU5LaDcwVDFPN084NGs2OEhQSEJjQjkyRVJMUXI2Zlo4a2w0bzlqS2hRNE12bld4U0RaZGc0cWhtWUd1bHBCWG94cjA2MlA1d2hRMTlDTGlCLTdxQXY2OHppYnFrNjE3WExoMm5UU2lmV3JTMVoydk5WSm9sMDYwdzNGRHZxdi1ZcGJtVUJTbEg5bUM5eHAxODNDa3NjTTFseW9kd291R3lGX1lDVmwzQlQyb1ItenpLNU5WZXo0bURhR1BCVFJIbEppVDdiMEgx?oc=5
+  published: Thu, 30 Apr 2026 10:20:06 GMT
+entities:
+  companies: []
+  sectors:
+  - energy
+  countries:
+  - India
+  commodities:
+  - crude oil
+event_type: macroeconomic
+significance: 7
+one_line_summary: The Indian stock market declined sharply as Brent crude prices rose
+  above $120 and the rupee fell, affecting investor sentiment and market performance.
+extracted_at: '2026-05-02T21:50:08.982553'

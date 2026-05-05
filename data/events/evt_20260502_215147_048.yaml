@@ -1,0 +1,18 @@
+event_id: evt_20260502_215147_048
+source_article:
+  headline: Trump's attacks on Europe's leaders worsen transatlantic frost - Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNW1HYzBXc3FEM1o1Z0U5MlFuUzU0QW1kdHNqVEUwYUF1V2Fqb1VPYWVKelBZNlh4MVJlMkNWSzN1YksyLXVHYnBHM05FbjZxdFhlY3ZzTHlxNVk5S0FrWlZJUk16QkNqZzZ1a0Z4eGdJVnE0ZEVYS2EtV0Vfeno3TXZCN3ZZM0pFVlVialY5RmpuSWFYNVpMdVJOa0N1TzJ3Mlhsa3Jta202UQ?oc=5
+  published: '2026-05-02T03:36:27'
+entities:
+  companies: []
+  sectors: []
+  countries:
+  - United States
+  - European countries (implied, not specified)
+  commodities: []
+event_type: geopolitical
+significance: 6
+one_line_summary: Tensions between the US and European leaders may impact trade and
+  economic relations, potentially affecting various sectors.
+extracted_at: '2026-05-02T21:51:47.882756'

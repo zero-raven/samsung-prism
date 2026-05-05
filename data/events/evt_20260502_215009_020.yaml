@@ -1,0 +1,20 @@
+event_id: evt_20260502_215009_020
+source_article:
+  headline: Will Deploy Appropriate Policy Measures Says RBI Gov - Deccan Chronicle
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNanZoMVhIS1g3Skhzck5nSUxhejJFQUxrVmpWN3hVTXJqZllHSEZzdHlPeVNENXdLQk15MUN5ZlZIdjF5NVVWTlFPNkpUaWxDT3c0WmY5RFV5dW9fWjBkNVRJaENfMC1iYldCTE03WVVvYWF6eG43MFU0NEtidTkyVWRWclhxbDctQlZlY0dlUEVwWUgxUTI4SEJ6dlFnNzd00gGmAUFVX3lxTE9KeWhNZ0FvUHhVRGhjbTN5NWFib000eWJveGhMX2w2NzVqeGs1c3JUMzRDbmp4MWJpa0tPWU5qeENNd2MybTRNMExpV3VCRHJQSTgyalRxcENiaWlya05hWFltOXEtR25icnc1SjA3UVM5UVpsdVVVWHJBZ1ZQNlBNTlNXeGNoS1hmOXNiVy1VWHFYNjRYYVZhSjgyeGp5eTZ0eTRrRVE?oc=5
+  published: Fri, 01 May 2026 18:09:45 GMT
+entities:
+  companies:
+  - Reserve Bank of India
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: central_bank
+significance: 8
+one_line_summary: The Reserve Bank of India's governor has announced that they will
+  deploy appropriate policy measures, which may have a significant impact on India's
+  banking sector and overall economy.
+extracted_at: '2026-05-02T21:50:09.775216'

@@ -1,0 +1,26 @@
+event_id: evt_20260502_214931_014
+source_article:
+  headline: 'Closing Bell: Market bounces back; Sensex up 505 pts, Nifty crosses 24,350
+    - Moneycontrol.com'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMikwJBVV95cUxNZ25rSllJYmhIUzVmeEFBZlF4cG9SSTZFdkJWZlJheFZrVjdDOXNiLVlnUUMxVV8wMC10U1NCQVhITkxUajFqaWp4MGRQbFBLS0JRUWpHZDJGOHNlVldwS2lBTGNqWW5GSDNZdEFIOEluWnhqNThyTU5CbHNUMGtoY3k5YzI4b2VyYlUtbE4tZ2VBd2pDRXNGTi14LTlrR1lEZlNwV0hrWTBDSXNHdWZmUHlyQlFsbEdHX3VMN05TUkNacXg0T2Z0ZEJSTS11LWxZTzExWGdyYjI5aHhwZ3llaTNkcTNVRnFXWUc2QXdYM2g3M180Z09fSC1fOEp1VDBLeHgyMlpDRXVTZlk0c0pHdlNNRdIBmAJBVV95cUxQSERObDhVaVplQWkzckE3U2dRWXpLTmVncGs2bnJBaVVEdl91TWhHNWNtbnlIWGtKVmhaMXRHaXpvQUNMeVl1aFd1b1VQb2dJazZROFRpdnlnc0VxU3VzaHRRX3d4SlFtd2lNbmFFR3dvMkI1S1lBQTlHb05NbHFObzN5MklyQVRZRFMxWTBETnJoUjNVQ0ZjN2VyZWNOOVdYU3pvUF9vRV82MzgxWk9rZ2lFcFVfTGhrSHYxSGp6NVRnNF9EVlFfdU84TmlqQ2I0QTJidWFtQnhqeTFSbnptd09HOFhCS3JGcDNVdy04cHg5dVE5dmtxZ3dsOEdUZXNndDZQakpZcHZFUXctZFZqOUI1WjlqRU1m?oc=5
+  published: Fri, 17 Apr 2026 07:00:00 GMT
+entities:
+  companies: []
+  sectors:
+  - banking
+  - IT
+  - auto
+  - FMCG
+  - metals
+  - realty
+  - infrastructure
+  - telecom
+  countries:
+  - India
+  commodities: []
+event_type: macroeconomic
+significance: 6
+one_line_summary: The Indian stock market bounced back with the Sensex rising 505
+  points and the Nifty crossing 24,350.
+extracted_at: '2026-05-02T21:49:31.693921'
