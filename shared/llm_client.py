@@ -16,6 +16,17 @@ import json
 from openai import OpenAI
 
 _client = None
+_last_call_ts = 0.0
+_MIN_INTERVAL_SEC = 2.5  # ≤ 24 RPM, well under Groq's 30 RPM ceiling
+
+
+def _throttle():
+    global _last_call_ts
+    now = time.time()
+    wait = _MIN_INTERVAL_SEC - (now - _last_call_ts)
+    if wait > 0:
+        time.sleep(wait)
+    _last_call_ts = time.time()
 
 
 def _get_client():
@@ -52,6 +63,7 @@ def generate(prompt: str, model_name: str = "llama-3.3-70b-versatile",
 
     for attempt in range(max_retries + 1):
         try:
+            _throttle()
             response = client.chat.completions.create(
                 model=model,
                 messages=[{"role": "user", "content": prompt}],
@@ -59,9 +71,13 @@ def generate(prompt: str, model_name: str = "llama-3.3-70b-versatile",
             )
             return response.choices[0].message.content
         except Exception as e:
+            msg = str(e).lower()
+            backoff = retry_delay * (2 ** attempt)
+            if "rate" in msg or "429" in msg:
+                backoff = max(backoff, 20.0)
             if attempt < max_retries:
-                print(f"[LLM] Attempt {attempt + 1} failed: {e}. Retrying in {retry_delay}s...")
-                time.sleep(retry_delay)
+                print(f"[LLM] Attempt {attempt + 1} failed: {e}. Retrying in {backoff:.1f}s...")
+                time.sleep(backoff)
             else:
                 raise RuntimeError(f"[LLM] All {max_retries + 1} attempts failed: {e}")
 
@@ -100,6 +116,7 @@ def generate_json(prompt: str, model_name: str = "llama-3.3-70b-versatile",
 
     for attempt in range(max_retries + 1):
         try:
+            _throttle()
             response = client.chat.completions.create(
                 model=model,
                 messages=[{"role": "user", "content": prompt}],
@@ -108,9 +125,13 @@ def generate_json(prompt: str, model_name: str = "llama-3.3-70b-versatile",
             )
             return json.loads(response.choices[0].message.content)
         except Exception as e:
+            msg = str(e).lower()
+            backoff = 3.0 * (2 ** attempt)
+            if "rate" in msg or "429" in msg:
+                backoff = max(backoff, 20.0)
             if attempt < max_retries:
-                print(f"[LLM] JSON generation failed (attempt {attempt + 1}): {e}")
-                time.sleep(3)
+                print(f"[LLM] JSON generation failed (attempt {attempt + 1}): {e}. Sleeping {backoff:.1f}s.")
+                time.sleep(backoff)
             else:
                 print(f"[LLM] JSON generation failed after all retries: {e}")
                 return {"error": str(e)}

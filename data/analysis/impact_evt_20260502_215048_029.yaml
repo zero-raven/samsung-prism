@@ -1,0 +1,24 @@
+event_id: evt_20260502_215048_029
+event_summary: Rohit Jain has been appointed as the Deputy Governor of the Reserve
+  Bank of India for a three-year term, succeeding Rabi Sankar.
+portfolio_exposure:
+  total_portfolio_value: 90127.05
+  affected_value: 22970.25
+  exposure_pct: 25.49
+  direction: mixed
+affected_holdings:
+- ticker: JPM
+  name: JPMorgan Chase & Co
+  sector: banking
+  current_price: 306.27
+  quantity: 75
+  holding_value: 22970.25
+  pct_of_portfolio: 25.49
+  impact_direction: neutral
+  impact_magnitude: medium
+  impact_reasoning: As seen in historical analogues such as the appointment of Fed
+    Chair Paul Volcker, changes in central bank leadership can have significant effects
+    on the banking sector, but the direction of the impact depends on the new leader's
+    policies and approach.
+unaffected_holdings_count: 4
+mapped_at: '2026-05-08T09:18:37.075213'

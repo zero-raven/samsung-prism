@@ -1,0 +1,22 @@
+event_id: evt_20260508_091255_000
+source_article:
+  headline: NSE Launches Electronic Gold Receipts to Formalise Gold Market - News
+    On AIR
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMilwFBVV95cUxOaGpfaGZEazQ1dDBMMjBSRTFDd0k3QjZvTVc2WW9QaExLT0lURDVQLW9RZzd0aWZpYnZiNF9nMTFURWc5ZVdZZEd2WVI0eDRXRVE1YThYQjdsQU04aUYycU52SHpPSTdYT2pTVHZ5ZmxRV0lIZlVyZHJVTElnNVItV0pZOGlOOFZ0ODY4Q0RuN2ZIUndDN3I4?oc=5
+  published: Tue, 05 May 2026 13:19:00 GMT
+entities:
+  companies:
+  - National Stock Exchange (NSE)
+  sectors:
+  - metals
+  countries:
+  - India
+  commodities:
+  - gold
+event_type: regulatory
+significance: 6
+one_line_summary: The National Stock Exchange has launched electronic gold receipts
+  to formalize the gold market, potentially increasing transparency and efficiency
+  in the sector.
+extracted_at: '2026-05-08T09:12:55.688680'

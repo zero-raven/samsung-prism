@@ -1,0 +1,20 @@
+event_id: evt_20260508_091308_006
+source_article:
+  headline: Oil prices jump on renewed US-Iran hostilities - Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMilAFBVV95cUxPb1ZZWVlWYlVTaXhlS2ZkTnQ0UUhrNGpVbTRVeHhMRGpkNmRSMTdySFdQWTZBT3VIa1d4VXRqZ3hXZklsX0V1MkxOSmN3LW9GUnV6UFFySXE5YnhXTmpiM3FQUTFlQ2ZmNkFvVG95ckZnX29oZVlRdnNxaElDWG1YeTlzczR1UkhxR1RXcWhqdzdQdDQx?oc=5
+  published: '2026-05-08T03:50:00'
+entities:
+  companies: []
+  sectors:
+  - energy
+  countries:
+  - United States
+  - Iran
+  commodities:
+  - crude oil
+event_type: geopolitical
+significance: 8
+one_line_summary: Oil prices have increased due to renewed hostilities between the
+  United States and Iran, potentially disrupting global energy markets.
+extracted_at: '2026-05-08T09:13:08.583176'

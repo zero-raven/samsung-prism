@@ -1,0 +1,27 @@
+event_id: evt_20260502_215008_018
+event_summary: The Indian stock market declined sharply as Brent crude prices rose
+  above $120 and the rupee fell, affecting investor sentiment and market performance.
+signal:
+  direction: BEARISH
+  confidence: MEDIUM
+  horizon: days
+  affected_holdings:
+  - ticker: EXXONMOBIL.NS
+    exposure_pct: 20.38
+    expected_impact: negative, estimated range like -2% to -5%
+  reasoning: The sharp decline in the Indian stock market due to rising Brent crude
+    prices above $120 and a falling rupee has negatively impacted investor sentiment.
+    Historically, such events have led to decreased market performance, and the high
+    exposure of Exxon Mobil Corp in the portfolio amplifies this risk. The affected
+    holding's negative direction and high magnitude further support this bearish signal.
+  risk_flags:
+  - Indian government's potential policy interventions to mitigate the effects of
+    rising crude oil prices
+  - Further decline in the rupee exacerbating the impact on the overall economy and
+    investor sentiment
+  action_insight: Retail investors should be aware of the potential for further market
+    volatility due to the ongoing crude oil price surge and its ripple effects on
+    the economy.
+portfolio_exposure_pct: 20.38
+generated_at: '2026-05-08T09:19:30.357335'
+model_used: gemini-2.0-flash

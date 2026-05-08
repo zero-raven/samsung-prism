@@ -1,0 +1,20 @@
+event_id: evt_20260508_091303_004
+source_article:
+  headline: '''Anti-farmer’ banking rules: Leaders seek RBI intervention in Karnataka
+    - Deccan Herald'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNT2lBYllOQXRILVJzRndVMFE2a2hxV2pKdzEtdzN6aEFZV0VMa2RncFNzREdnbHNBLUs5cUp1X2tNNlFBVnk2Q1BHUDl0VkRwRVA5aDBRdmNMQU9fUFdrY0FTaGlXOFlncjc0YW9MeWhZaE1QN1VXd1RvLW0wcmQ2MHB6T1lGbFowdTkxUzhaTUZVZGRvVlZUZUs5b250WlIxUU44cEJlSkxfcjFfRE9MUDNvMzhSdTAzWmFXb0J3?oc=5
+  published: Thu, 07 May 2026 21:35:34 GMT
+entities:
+  companies: []
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: regulatory
+significance: 6
+one_line_summary: Leaders in Karnataka are seeking intervention from the Reserve Bank
+  of India to address "anti-farmer" banking rules that may impact the agricultural
+  sector and related banking activities.
+extracted_at: '2026-05-08T09:13:03.528072'

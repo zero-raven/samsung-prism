@@ -1,0 +1,21 @@
+event_id: evt_20260508_091306_005
+source_article:
+  headline: RBI likely to hold rates in June amid two conflicting objectives, says
+    HSBC Chief India Economist - BusinessLine
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMigAJBVV95cUxQck5PVDJWYmg0T0d4SnRSbzJGd1pZLUFQQ2ZIX3dsMzlYZThXa29KR1d5RGs3Z2dWSUFiM09ubDJHWTBTTC1hSnNFVXBGUkxoWnJxSXc2TmtXQVZ4YUU3XzYzbHNSMWprdjJiZjM1QUR3Ti1BT0I3NGx0b09iS3o1Wnc3d25FdTNVdWM0UkpTZjNNaEJtckc0T0tmOEtSNVR5NW5kTktsMTRMWUF1UzRSazBFWmw1RzNDVW1VYnhpZE9mRloxZTVqVGJ5ZkRFTHpyZ1htbWk4d2pIU2VwNk5TOE8tb0p3QWdDNUZMVS1ULU5ELUhSanJ2Z1JxZTQtQmZ50gGHAkFVX3lxTE80dFJHWVB1WEc1dk1UWU9DUjd0eUl5eHpJOWFWZkVGMTZXOG5nRU1XQ2EzcjQwMkhwa0ZISVExMUV1VktGYkhBSkthVzlwdXVHLXhOQTdfQ3JaVTJMVVdVaXhxSUp5LV9FRTQzaXlQTlB1SU5CdVJrWE10X3VtMTFLR2ZJbFkySzA0eVZiRGRqYjdVOHVpdC1LalIwOE12QzZJbEZpVUVTNXMtUmVfLTdIYVJoTWhyUXNDclNMYlBqMXRqaGNxeDNKdGIyM0ItbXRId3hfY2FsS2tFanU0cjNwTm14TGxxNVN4bFBhVExKNEJ1bHNQTkduRjFkSXlsRkhCYXRIRnJR?oc=5
+  published: Thu, 07 May 2026 09:41:17 GMT
+entities:
+  companies:
+  - HSBC
+  - Reserve Bank of India
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: central_bank
+significance: 6
+one_line_summary: The Reserve Bank of India is likely to hold interest rates in June
+  due to conflicting objectives, according to HSBC's Chief India Economist.
+extracted_at: '2026-05-08T09:13:06.034753'

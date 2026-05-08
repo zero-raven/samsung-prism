@@ -1,0 +1,19 @@
+event_id: evt_20260508_091311_007
+source_article:
+  headline: US military says it carries out retaliatory strikes against Iran - Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?oc=5
+  published: '2026-05-08T03:37:43'
+entities:
+  companies: []
+  sectors:
+  - defence
+  countries:
+  - United States
+  - Iran
+  commodities: []
+event_type: geopolitical
+significance: 8
+one_line_summary: The US military's retaliatory strikes against Iran may escalate
+  geopolitical tensions and impact global markets, particularly the defence sector.
+extracted_at: '2026-05-08T09:13:11.033926'

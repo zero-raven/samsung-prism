@@ -15,6 +15,7 @@
       "label": "National Stock Exchange of India",
       "type": "company",
       "created_at": "2026-05-02T21:49:22.110642",
+      "updated_at": "2026-05-08T09:12:56.288625",
       "id": "national_stock_exchange_of_india"
     },
     {
@@ -28,7 +29,7 @@
       "label": "banking",
       "type": "sector",
       "created_at": "2026-05-02T21:49:22.110642",
-      "updated_at": "2026-05-02T21:52:00.225257",
+      "updated_at": "2026-05-08T10:01:33.645444",
       "id": "banking"
     },
     {
@@ -42,7 +43,7 @@
       "label": "metals",
       "type": "sector",
       "created_at": "2026-05-02T21:49:22.110642",
-      "updated_at": "2026-05-02T21:49:46.405702",
+      "updated_at": "2026-05-08T10:12:20.368928",
       "id": "metals"
     },
     {
@@ -77,7 +78,7 @@
       "label": "India",
       "type": "country",
       "created_at": "2026-05-02T21:49:22.110642",
-      "updated_at": "2026-05-02T21:51:25.996957",
+      "updated_at": "2026-05-08T10:01:33.645444",
       "id": "india"
     },
     {
@@ -237,7 +238,7 @@
       "label": "Iran",
       "type": "country",
       "created_at": "2026-05-02T21:49:26.610827",
-      "updated_at": "2026-05-02T21:52:20.309384",
+      "updated_at": "2026-05-08T10:12:20.368928",
       "id": "iran"
     },
     {
@@ -252,7 +253,7 @@
       "label": "energy",
       "type": "sector",
       "created_at": "2026-05-02T21:49:27.085859",
-      "updated_at": "2026-05-02T21:52:20.309384",
+      "updated_at": "2026-05-08T09:13:08.592525",
       "id": "energy"
     },
     {
@@ -273,7 +274,7 @@
       "label": "United States",
       "type": "country",
       "created_at": "2026-05-02T21:49:27.645530",
-      "updated_at": "2026-05-02T21:52:20.309384",
+      "updated_at": "2026-05-08T10:12:20.368928",
       "id": "united_states"
     },
     {
@@ -355,7 +356,7 @@
       "label": "crude oil",
       "type": "commodity",
       "created_at": "2026-05-02T21:50:08.989079",
-      "updated_at": "2026-05-02T21:52:20.309384",
+      "updated_at": "2026-05-08T09:13:08.592525",
       "id": "crude_oil"
     },
     {
@@ -378,7 +379,7 @@
       "label": "Reserve Bank of India",
       "type": "company",
       "created_at": "2026-05-02T21:50:09.779068",
-      "updated_at": "2026-05-02T21:50:58.543965",
+      "updated_at": "2026-05-08T10:01:33.645444",
       "id": "reserve_bank_of_india"
     },
     {
@@ -509,7 +510,7 @@
       "label": "gold",
       "type": "commodity",
       "created_at": "2026-05-02T21:51:06.531978",
-      "updated_at": "2026-05-02T21:52:20.309384",
+      "updated_at": "2026-05-08T10:12:20.368928",
       "id": "gold"
     },
     {
@@ -583,7 +584,7 @@
       "label": "defence",
       "type": "sector",
       "created_at": "2026-05-02T21:51:28.367386",
-      "updated_at": "2026-05-02T21:51:52.810697",
+      "updated_at": "2026-05-08T10:12:19.965947",
       "id": "defence"
     },
     {
@@ -628,7 +629,7 @@
       "label": "Reuters",
       "type": "company",
       "created_at": "2026-05-02T21:51:35.610520",
-      "updated_at": "2026-05-02T21:51:52.810697",
+      "updated_at": "2026-05-08T09:13:13.891881",
       "id": "reuters"
     },
     {
@@ -804,6 +805,133 @@
       "type": "country",
       "created_at": "2026-05-02T21:52:20.309384",
       "id": "spain"
+    },
+    {
+      "label": "evt_20260508_091255_000",
+      "type": "event",
+      "created_at": "2026-05-08T09:12:55.688680",
+      "event_type": "regulatory",
+      "summary": "The National Stock Exchange has launched electronic gold receipts to formalize the gold market, potentially increasing transparency and efficiency in the sector.",
+      "id": "evt_20260508_091255_000"
+    },
+    {
+      "label": "National Stock Exchange (NSE)",
+      "type": "company",
+      "created_at": "2026-05-08T09:12:55.688680",
+      "updated_at": "2026-05-08T09:12:58.608843",
+      "id": "national_stock_exchange_(nse)"
+    },
+    {
+      "label": "evt_20260508_091256_001",
+      "type": "event",
+      "created_at": "2026-05-08T09:12:56.288625",
+      "event_type": "regulatory",
+      "summary": "The National Stock Exchange of India has introduced a new way to own gold digitally, yet physically, through its Gold EGR, which may impact the metals and banking sectors in India.",
+      "id": "evt_20260508_091256_001"
+    },
+    {
+      "label": "Kedia Advisory",
+      "type": "company",
+      "created_at": "2026-05-08T09:12:56.288625",
+      "id": "kedia_advisory"
+    },
+    {
+      "label": "evt_20260508_091258_002",
+      "type": "event",
+      "created_at": "2026-05-08T09:12:58.608843",
+      "event_type": "regulatory",
+      "summary": "The introduction of Electronic Gold Receipts by the National Stock Exchange is expected to provide a new investment option for gold investors in India.",
+      "id": "evt_20260508_091258_002"
+    },
+    {
+      "label": "evt_20260508_091301_003",
+      "type": "event",
+      "created_at": "2026-05-08T09:13:01.173815",
+      "event_type": "central_bank",
+      "summary": "The RBI Monetary Policy Committee's decision to keep the repo rate unchanged at 5.25% may have significant implications for India's banking sector and overall economy amid global uncertainties.",
+      "id": "evt_20260508_091301_003"
+    },
+    {
+      "label": "evt_20260508_091303_004",
+      "type": "event",
+      "created_at": "2026-05-08T09:13:03.543719",
+      "event_type": "regulatory",
+      "summary": "Leaders in Karnataka are seeking intervention from the Reserve Bank of India to address \"anti-farmer\" banking rules that may impact the agricultural sector and related banking activities.",
+      "id": "evt_20260508_091303_004"
+    },
+    {
+      "label": "evt_20260508_091306_005",
+      "type": "event",
+      "created_at": "2026-05-08T09:13:06.041614",
+      "event_type": "central_bank",
+      "summary": "The Reserve Bank of India is likely to hold interest rates in June due to conflicting objectives, according to HSBC's Chief India Economist.",
+      "id": "evt_20260508_091306_005"
+    },
+    {
+      "label": "HSBC",
+      "type": "company",
+      "created_at": "2026-05-08T09:13:06.041614",
+      "id": "hsbc"
+    },
+    {
+      "label": "evt_20260508_091308_006",
+      "type": "event",
+      "created_at": "2026-05-08T09:13:08.592525",
+      "event_type": "geopolitical",
+      "summary": "Oil prices have increased due to renewed hostilities between the United States and Iran, potentially disrupting global energy markets.",
+      "id": "evt_20260508_091308_006"
+    },
+    {
+      "label": "evt_20260508_091311_007",
+      "type": "event",
+      "created_at": "2026-05-08T09:13:11.037603",
+      "event_type": "geopolitical",
+      "summary": "The US military's retaliatory strikes against Iran may escalate geopolitical tensions and impact global markets, particularly the defence sector.",
+      "id": "evt_20260508_091311_007"
+    },
+    {
+      "label": "evt_20260508_091313_008",
+      "type": "event",
+      "created_at": "2026-05-08T09:13:13.891881",
+      "event_type": "geopolitical",
+      "summary": "Iran's accusation of the US violating a ceasefire with new attacks may escalate geopolitical tensions and impact global markets.",
+      "id": "evt_20260508_091313_008"
+    },
+    {
+      "label": "none",
+      "type": "commodity",
+      "created_at": "2026-05-08T09:13:13.891881",
+      "id": "none"
+    },
+    {
+      "label": "evt_20260508_100133_000",
+      "type": "event",
+      "created_at": "2026-05-08T10:01:33.645444",
+      "event_type": "central_bank",
+      "summary": "Economists expect the Reserve Bank of India to maintain its current policy rate, indicating no urgency to tighten monetary policy.",
+      "id": "evt_20260508_100133_000"
+    },
+    {
+      "label": "evt_20260508_101219_000",
+      "type": "event",
+      "created_at": "2026-05-08T10:12:19.965947",
+      "event_type": "geopolitical",
+      "summary": "The UAE is countering an Iranian air attack, escalating tensions in the region and potentially impacting global markets, despite President Trump's assertion that a ceasefire is still in effect.",
+      "id": "evt_20260508_101219_000"
+    },
+    {
+      "label": "United Arab Emirates",
+      "type": "country",
+      "created_at": "2026-05-08T10:12:19.965947",
+      "id": "united_arab_emirates"
+    },
+    {
+      "label": "evt_20260508_101220_001",
+      "type": "event",
+      "created_at": "2026-05-08T10:12:20.368928",
+      "event_type": "geopolitical",
+      "summary": "Gold is on track for a weekly gain as markets focus on the prospects of a US-Iran deal, potentially impacting metal prices and global trade.",
+      "id": "evt_20260508_101220_001"
     }
   ],
   "edges": [
@@ -821,7 +949,7 @@
     },
     {
       "type": "belongs_to",
-      "created_at": "2026-05-02T21:49:22.110642",
+      "created_at": "2026-05-08T09:12:56.288625",
       "source": "national_stock_exchange_of_india",
       "target": "banking"
     },
@@ -833,7 +961,7 @@
     },
     {
       "type": "belongs_to",
-      "created_at": "2026-05-02T21:49:22.110642",
+      "created_at": "2026-05-08T09:12:56.288625",
       "source": "national_stock_exchange_of_india",
       "target": "metals"
     },
@@ -863,9 +991,15 @@
     },
     {
       "type": "headquartered_in",
-      "created_at": "2026-05-02T21:49:22.110642",
+      "created_at": "2026-05-08T09:12:56.288625",
       "source": "national_stock_exchange_of_india",
       "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:12:56.288625",
+      "source": "national_stock_exchange_of_india",
+      "target": "evt_20260508_091256_001"
     },
     {
       "type": "affected_by",
@@ -1055,7 +1189,7 @@
     },
     {
       "type": "exposed_to",
-      "created_at": "2026-05-02T21:51:06.531978",
+      "created_at": "2026-05-08T09:12:56.288625",
       "source": "banking",
       "target": "gold"
     },
@@ -1100,6 +1234,36 @@
       "created_at": "2026-05-02T21:52:00.225257",
       "source": "banking",
       "target": "evt_20260502_215200_053"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:12:56.288625",
+      "source": "banking",
+      "target": "evt_20260508_091256_001"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:13:01.173815",
+      "source": "banking",
+      "target": "evt_20260508_091301_003"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:13:03.543719",
+      "source": "banking",
+      "target": "evt_20260508_091303_004"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:13:06.041614",
+      "source": "banking",
+      "target": "evt_20260508_091306_005"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T10:01:33.645444",
+      "source": "banking",
+      "target": "evt_20260508_100133_000"
     },
     {
       "type": "affected_by",
@@ -1148,6 +1312,36 @@
       "created_at": "2026-05-02T21:49:46.405702",
       "source": "metals",
       "target": "evt_20260502_214946_017"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:12:55.688680",
+      "source": "metals",
+      "target": "evt_20260508_091255_000"
+    },
+    {
+      "type": "exposed_to",
+      "created_at": "2026-05-08T10:12:20.368928",
+      "source": "metals",
+      "target": "gold"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:12:56.288625",
+      "source": "metals",
+      "target": "evt_20260508_091256_001"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:12:58.608843",
+      "source": "metals",
+      "target": "evt_20260508_091258_002"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T10:12:20.368928",
+      "source": "metals",
+      "target": "evt_20260508_101220_001"
     },
     {
       "type": "affected_by",
@@ -1583,7 +1777,7 @@
     },
     {
       "type": "exposed_to",
-      "created_at": "2026-05-02T21:52:20.309384",
+      "created_at": "2026-05-08T09:13:08.592525",
       "source": "energy",
       "target": "crude_oil"
     },
@@ -1616,6 +1810,12 @@
       "created_at": "2026-05-02T21:52:20.309384",
       "source": "energy",
       "target": "gold"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:13:08.592525",
+      "source": "energy",
+      "target": "evt_20260508_091308_006"
     },
     {
       "type": "affected_by",
@@ -1715,13 +1915,13 @@
     },
     {
       "type": "belongs_to",
-      "created_at": "2026-05-02T21:50:58.543965",
+      "created_at": "2026-05-08T10:01:33.645444",
       "source": "reserve_bank_of_india",
       "target": "banking"
     },
     {
       "type": "headquartered_in",
-      "created_at": "2026-05-02T21:50:58.543965",
+      "created_at": "2026-05-08T10:01:33.645444",
       "source": "reserve_bank_of_india",
       "target": "india"
     },
@@ -1772,6 +1972,24 @@
       "created_at": "2026-05-02T21:50:58.543965",
       "source": "reserve_bank_of_india",
       "target": "evt_20260502_215058_032"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:13:01.173815",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260508_091301_003"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:13:06.041614",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260508_091306_005"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T10:01:33.645444",
+      "source": "reserve_bank_of_india",
+      "target": "evt_20260508_100133_000"
     },
     {
       "type": "affected_by",
@@ -1901,6 +2119,30 @@
     },
     {
       "type": "affected_by",
+      "created_at": "2026-05-08T09:13:11.037603",
+      "source": "defence",
+      "target": "evt_20260508_091311_007"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:13:13.891881",
+      "source": "defence",
+      "target": "evt_20260508_091313_008"
+    },
+    {
+      "type": "exposed_to",
+      "created_at": "2026-05-08T09:13:13.891881",
+      "source": "defence",
+      "target": "none"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T10:12:19.965947",
+      "source": "defence",
+      "target": "evt_20260508_101219_000"
+    },
+    {
+      "type": "affected_by",
       "created_at": "2026-05-02T21:51:30.730234",
       "source": "finnhub",
       "target": "evt_20260502_215130_041"
@@ -1955,7 +2197,7 @@
     },
     {
       "type": "headquartered_in",
-      "created_at": "2026-05-02T21:51:38.003617",
+      "created_at": "2026-05-08T09:13:13.891881",
       "source": "reuters",
       "target": "iran"
     },
@@ -1979,13 +2221,13 @@
     },
     {
       "type": "belongs_to",
-      "created_at": "2026-05-02T21:51:52.810697",
+      "created_at": "2026-05-08T09:13:13.891881",
       "source": "reuters",
       "target": "defence"
     },
     {
       "type": "headquartered_in",
-      "created_at": "2026-05-02T21:51:50.372067",
+      "created_at": "2026-05-08T09:13:13.891881",
       "source": "reuters",
       "target": "united_states"
     },
@@ -2018,6 +2260,12 @@
       "created_at": "2026-05-02T21:51:52.810697",
       "source": "reuters",
       "target": "germany"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:13:13.891881",
+      "source": "reuters",
+      "target": "evt_20260508_091313_008"
     },
     {
       "type": "affected_by",
@@ -2120,6 +2368,72 @@
       "created_at": "2026-05-02T21:52:02.551568",
       "source": "exxon",
       "target": "united_states"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:12:55.688680",
+      "source": "national_stock_exchange_(nse)",
+      "target": "evt_20260508_091255_000"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-08T09:12:58.608843",
+      "source": "national_stock_exchange_(nse)",
+      "target": "metals"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-08T09:12:58.608843",
+      "source": "national_stock_exchange_(nse)",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:12:58.608843",
+      "source": "national_stock_exchange_(nse)",
+      "target": "evt_20260508_091258_002"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:12:56.288625",
+      "source": "kedia_advisory",
+      "target": "evt_20260508_091256_001"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-08T09:12:56.288625",
+      "source": "kedia_advisory",
+      "target": "metals"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-08T09:12:56.288625",
+      "source": "kedia_advisory",
+      "target": "banking"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-08T09:12:56.288625",
+      "source": "kedia_advisory",
+      "target": "india"
+    },
+    {
+      "type": "affected_by",
+      "created_at": "2026-05-08T09:13:06.041614",
+      "source": "hsbc",
+      "target": "evt_20260508_091306_005"
+    },
+    {
+      "type": "belongs_to",
+      "created_at": "2026-05-08T09:13:06.041614",
+      "source": "hsbc",
+      "target": "banking"
+    },
+    {
+      "type": "headquartered_in",
+      "created_at": "2026-05-08T09:13:06.041614",
+      "source": "hsbc",
+      "target": "india"
     }
   ]
 }

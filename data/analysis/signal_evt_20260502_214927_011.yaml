@@ -1,0 +1,26 @@
+event_id: evt_20260502_214927_011
+event_summary: The Indian stock market declined significantly, with the Sensex falling
+  over 850 points and the Nifty50 dropping below 24,200, due to rising oil prices.
+signal:
+  direction: BEARISH
+  confidence: MEDIUM
+  horizon: days
+  affected_holdings:
+  - ticker: EXXONMOBIL.NS
+    exposure_pct: 20.38
+    expected_impact: negative, estimated range -2% to -5%
+  reasoning: The Indian stock market decline, triggered by rising oil prices, may
+    lead to increased costs for energy and transportation sectors, negatively impacting
+    the portfolio's Exxon Mobil Corp holding. The significant exposure of 20.38% to
+    Exxon Mobil Corp increases the portfolio's vulnerability to oil price shocks.
+    Historically, such shocks have led to declines in economic activity, which may
+    propagate through the market.
+  risk_flags:
+  - A sudden decrease in global oil prices could invalidate this signal
+  - Geopolitical tensions affecting oil prices may exacerbate the negative impact
+  action_insight: Retail investors should be aware of the potential for further market
+    decline in the short term, given the current oil price trends and their portfolio's
+    exposure to the energy sector.
+portfolio_exposure_pct: 20.38
+generated_at: '2026-05-08T09:19:17.969008'
+model_used: gemini-2.0-flash

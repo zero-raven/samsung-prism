@@ -1,1 +1,34 @@
 [2026-05-02 22:00:59] FAILED signal for evt_20260502_214922_000: [LLM] All 3 attempts failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqmqhbyjfxssjzshcf2gdzep` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99365, Requested 1286. Please try again in 9m22.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[2026-05-08 09:19:06] Signal for evt_20260502_214922_000: BULLISH (MEDIUM) | The potential initial public offering of the National Stock 
+[2026-05-08 09:19:07] Signal for evt_20260502_214923_003: BEARISH (MEDIUM) | The National Stock Exchange has scheduled an Extraordinary G
+[2026-05-08 09:19:10] Signal for evt_20260502_214924_006: BULLISH (MEDIUM) | India Shelter Finance Corp reports a 27% increase in Q4 prof
+[2026-05-08 09:19:12] Signal for evt_20260502_214925_007: BULLISH (MEDIUM) | Several major Indian companies, including Jio, Zepto, and Ta
+[2026-05-08 09:19:15] Signal for evt_20260502_214926_010: BULLISH (MEDIUM) | The Indian stock market, including Nifty and Sensex, had its
+[2026-05-08 09:19:17] Signal for evt_20260502_214927_011: BEARISH (MEDIUM) | The Indian stock market declined significantly, with the Sen
+[2026-05-08 09:19:20] Signal for evt_20260502_214927_012: BEARISH (MEDIUM) | The Sensex shed 416 points due to concerns over US President
+[2026-05-08 09:19:22] Signal for evt_20260502_214931_014: BULLISH (MEDIUM) | The Indian stock market bounced back with the Sensex rising 
+[2026-05-08 09:19:25] Signal for evt_20260502_214936_015: BULLISH (MEDIUM) | The Indian stock market rebounded, snapping a three-day losi
+[2026-05-08 09:19:27] Signal for evt_20260502_214941_016: BEARISH (MEDIUM) | The Indian stock market experienced a decline for the third 
+[2026-05-08 09:19:30] Signal for evt_20260502_215008_018: BEARISH (MEDIUM) | The Indian stock market declined sharply as Brent crude pric
+[2026-05-08 09:19:32] Signal for evt_20260502_215009_019: BULLISH (MEDIUM) | The Indian stock market ended higher, with the Sensex rising
+[2026-05-08 09:19:37] Signal for evt_20260502_215009_020: BULLISH (MEDIUM) | The Reserve Bank of India's governor has announced that they
+[2026-05-08 09:19:42] Signal for evt_20260502_215013_021: BULLISH (MEDIUM) | The Reserve Bank of India's monetary policy and other econom
+[2026-05-08 09:19:45] Signal for evt_20260502_215017_022: BEARISH (MEDIUM) | The record low rupee may lead to a shift in the Reserve Bank
+[2026-05-08 09:19:47] Signal for evt_20260502_215021_023: BULLISH (MEDIUM) | The Reserve Bank of India has launched three key surveys to 
+[2026-05-08 09:19:50] Signal for evt_20260502_215025_024: BEARISH (MEDIUM) | The Reserve Bank of India has exempted small non-banking fin
+[2026-05-08 09:19:52] Signal for evt_20260502_215029_025: BULLISH (MEDIUM) | Rohit Jain's appointment as RBI deputy governor for a three-
+[2026-05-08 09:19:55] Signal for evt_20260502_215033_026: NEUTRAL (MEDIUM) | The Reserve Bank of India is expected to hold interest rates
+[2026-05-08 09:19:57] Signal for evt_20260502_215039_027: BULLISH (MEDIUM) | The Reserve Bank of India's Deputy Governor stated that macr
+[2026-05-08 09:20:00] Signal for evt_20260502_215048_029: NEUTRAL (MEDIUM) | Rohit Jain has been appointed as the Deputy Governor of the 
+[2026-05-08 09:20:02] Signal for evt_20260508_091255_000: BULLISH (MEDIUM) | The National Stock Exchange has launched electronic gold rec
+[2026-05-08 09:20:05] Signal for evt_20260508_091256_001: BEARISH (MEDIUM) | The National Stock Exchange of India has introduced a new wa
+[2026-05-08 09:20:07] Signal for evt_20260508_091258_002: BULLISH (MEDIUM) | The introduction of Electronic Gold Receipts by the National
+[2026-05-08 09:20:10] Signal for evt_20260508_091301_003: NEUTRAL (MEDIUM) | The RBI Monetary Policy Committee's decision to keep the rep
+[2026-05-08 09:20:13] Signal for evt_20260508_091303_004: BEARISH (MEDIUM) | Leaders in Karnataka are seeking intervention from the Reser
+[2026-05-08 09:20:15] Signal for evt_20260508_091306_005: NEUTRAL (MEDIUM) | The Reserve Bank of India is likely to hold interest rates i
+[2026-05-08 09:20:20] Signal for evt_20260508_091308_006: BEARISH (MEDIUM) | Oil prices have increased due to renewed hostilities between
+[2026-05-08 09:20:22] Signal for evt_20260508_091311_007: NEUTRAL (LOW) | The US military's retaliatory strikes against Iran may escal
+[2026-05-08 09:20:26] Signal for evt_20260508_091313_008: BEARISH (MEDIUM) | Iran's accusation of the US violating a ceasefire with new a
+[2026-05-08 10:03:33] Signal for evt_20260508_100133_000: BULLISH (MEDIUM) | Economists expect the Reserve Bank of India to maintain its 
+[2026-05-08 10:14:19] Signal for evt_20260508_101219_000: BEARISH (MEDIUM) | The UAE is countering an Iranian air attack, escalating tens
+[2026-05-08 10:14:21] Signal for evt_20260508_101220_001: BULLISH (MEDIUM) | Gold is on track for a weekly gain as markets focus on the p

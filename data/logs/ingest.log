@@ -2,3 +2,7 @@
 [2026-05-02 21:29:04] Ingested 0 new articles (Google: 40, GDELT: 0, Finnhub: 16). Dedup hashes: 56 → 56
 [2026-05-02 21:33:53] Ingested 56 new articles (Google: 40, GDELT: 0, Finnhub: 16). Dedup hashes: 0 → 56
 [2026-05-02 21:49:08] Ingested 56 new articles (Google: 40, GDELT: 0, Finnhub: 16). Dedup hashes: 0 → 56
+[2026-05-08 09:12:41] Ingested 9 new articles (Google: 6, GDELT: 0, Finnhub: 3). Dedup hashes: 56 → 65
+[2026-05-08 10:01:18] Ingested 1 new articles (Google: 6, GDELT: 0, Finnhub: 3). Dedup hashes: 65 → 66
+[2026-05-08 10:11:44] GDELT fetch failed for theme 'ECON_STOCKMARKET': HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=ECON_STOCKMARKET&mode=ArtList&maxrecords=3&format=json&sort=DateDesc (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x2dcf13173b0>, 'Connection to api.gdeltproject.org timed out. (connect timeout=15)'))
+[2026-05-08 10:12:06] Ingested 2 new articles (Google: 6, GDELT: 0, Finnhub: 3). Dedup hashes: 66 → 68

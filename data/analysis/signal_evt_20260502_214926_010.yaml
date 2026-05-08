@@ -1,0 +1,25 @@
+event_id: evt_20260502_214926_010
+event_summary: The Indian stock market, including Nifty and Sensex, had its best month
+  in nearly two years, despite concerns over the Iran war.
+signal:
+  direction: BULLISH
+  confidence: MEDIUM
+  horizon: weeks
+  affected_holdings:
+  - ticker: NIFTY
+    exposure_pct: 0.0
+    expected_impact: positive, +2% to +4%
+  reasoning: The Indian stock market's resilience despite concerns over the Iran war
+    suggests a positive outlook, driven by investors seeking refuge in emerging markets.
+    Historically, similar geopolitical events have created uncertainty, but the market's
+    ability to decouple from global trends is a promising sign. The media sector may
+    be affected due to changes in global sentiment and news coverage.
+  risk_flags:
+  - Escalation of the Iran war into a full-scale conflict
+  - Global economic downturn due to trade disruptions
+  action_insight: Retail investors should be aware of the potential for increased
+    market volatility due to ongoing geopolitical tensions and their impact on emerging
+    markets.
+portfolio_exposure_pct: 0.0
+generated_at: '2026-05-08T09:19:15.245533'
+model_used: gemini-2.0-flash

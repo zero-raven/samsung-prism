@@ -1,0 +1,68 @@
+event_id: evt_20260502_215048_029
+event_summary: Rohit Jain has been appointed as the Deputy Governor of the Reserve
+  Bank of India for a three-year term, succeeding Rabi Sankar.
+event_type: central_bank
+retrieved_analogues:
+- '{''event_id'': ''evt_2023_regional_bank_stress'', ''headline'': ''Multiple US regional
+  banks face deposit runs following SVB failure.'', ''event_type'': ''banking_crisis'',
+  ''direction'': ''negative_sector'', ''primary_entities'': [''Signature Bank'', ''First
+  Republic'', ''FDIC''], ''affected_sectors'': [{''sector'': ''regional_banks'', ''impact'':
+  ''negative'', ''reasoning'': ''Uninsured deposits fled to larger institutions.''},
+  {''sector'': ''commercial_real_estate'', ''impact'': ''negative'', ''reasoning'':
+  ''Lenders tightened standards amid office market weakness.''}, {''sector'': ''large_banks'',
+  ''impact'': ''positive'', ''reasoning'': ''Continued flight to quality benefited
+  JPMorgan, Bank of America.''}], ''time_horizon'': ''short_term''}'
+- '{''event_id'': ''evt_2023_regional_bank_crisis'', ''headline'': ''SVB and regional
+  bank failures spark contagion fears.'', ''event_type'': ''banking_crisis'', ''direction'':
+  ''negative_sector'', ''primary_entities'': [''SVB'', ''FDIC'', ''Federal Reserve''],
+  ''affected_sectors'': [{''sector'': ''regional_banks'', ''impact'': ''negative'',
+  ''reasoning'': ''Deposit runs and stock plunges.''}, {''sector'': ''tech_startups'',
+  ''impact'': ''negative'', ''reasoning'': ''Frozen deposits hit VC funding.''}, {''sector'':
+  ''big_banks'', ''impact'': ''positive'', ''reasoning'': ''Flight to quality benefited
+  JPMorgan, BofA.''}], ''time_horizon'': ''short_term''}'
+- '{''event_id'': ''evt_1981_volcker_rate_hikes'', ''headline'': ''Fed Chair Paul
+  Volcker pushes federal funds rate above 20% to crush inflation.'', ''event_type'':
+  ''macro_policy'', ''direction'': ''negative_macro'', ''primary_entities'': [''Federal
+  Reserve'', ''Paul Volcker''], ''affected_sectors'': [{''sector'': ''housing_construction'',
+  ''impact'': ''negative'', ''reasoning'': ''Mortgage rates exceeded 18%, collapsing
+  home sales.''}, {''sector'': ''automotive'', ''impact'': ''negative'', ''reasoning'':
+  ''High borrowing costs crushed vehicle financing and sales.''}, {''sector'': ''savings_and_loans'',
+  ''impact'': ''negative'', ''reasoning'': ''Asset-liability mismatches led to the
+  eventual S&L crisis.''}], ''time_horizon'': ''long_term''}'
+causal_chain:
+  trigger: Rohit Jain has been appointed as the Deputy Governor of the Reserve Bank
+    of India for a three-year term, succeeding Rabi Sankar.
+  mechanism: The appointment of a new Deputy Governor can influence the Reserve Bank
+    of India's monetary policy decisions, which in turn can impact the banking sector
+    and the overall economy. Historically, changes in central bank leadership have
+    led to shifts in policy direction, affecting interest rates, lending standards,
+    and bank operations. This event may propagate through the market by altering investor
+    expectations and confidence in the banking sector.
+  affected_sectors:
+  - sector: banking
+    direction: neutral
+    magnitude: medium
+    reasoning: As seen in historical analogues such as the appointment of Fed Chair
+      Paul Volcker, changes in central bank leadership can have significant effects
+      on the banking sector, but the direction of the impact depends on the new leader's
+      policies and approach.
+  affected_companies:
+  - name: State Bank of India
+    ticker: SBIN.NS
+    direction: neutral
+    reasoning: As a major bank in India, State Bank of India may be affected by changes
+      in the Reserve Bank of India's policies, but the direction of the impact depends
+      on the new Deputy Governor's approach to banking regulation and monetary policy.
+  time_horizon: short_term
+  confidence: MEDIUM
+  key_risks:
+  - Rohit Jain's policy approach may differ significantly from his predecessor's,
+    leading to unexpected changes in the banking sector.
+  summary_for_investor: The appointment of Rohit Jain as the Deputy Governor of the
+    Reserve Bank of India may lead to changes in the bank's policies, which could
+    impact the banking sector and the overall economy. Investors should monitor the
+    new Deputy Governor's statements and policy decisions to gauge the potential impact
+    on their investments. As the impact is uncertain, investors should maintain a
+    neutral stance and adjust their portfolios accordingly.
+analyzed_at: '2026-05-08T09:15:12.399801'
+model_used: gemini-2.0-flash

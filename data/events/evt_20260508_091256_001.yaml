@@ -1,0 +1,24 @@
+event_id: evt_20260508_091256_001
+source_article:
+  headline: 'NSE’s Gold EGR: India’s Newest Way to Own Gold — Digitally, Yet Physically
+    By Kedia Advisory - Investing.com India'
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS0E5TzU4YnZra05XT0V1RThxNGx5a1lhb3p2R09FN0lsb29Hc0RWMjJXSmxGcnVMMS1XU091QmdTc2pSSXpDUlpuU2lZZWhnT2F3Mk9jcjZ6VXlYOE5HRFJBaTQzREc3Q2FtMlg4LUgwdWktei1tUnRLRG1CN1VVS2tqY1pYNnd0dHVjWlgxbGdUd25TN1FiSWJJdERVMEZTaXg1RkYwcmFoUF8wZ1F1cDk3ajB1aEhGZElZbkhmaEROZw?oc=5
+  published: Fri, 08 May 2026 03:33:45 GMT
+entities:
+  companies:
+  - National Stock Exchange of India
+  - Kedia Advisory
+  sectors:
+  - metals
+  - banking
+  countries:
+  - India
+  commodities:
+  - gold
+event_type: regulatory
+significance: 6
+one_line_summary: The National Stock Exchange of India has introduced a new way to
+  own gold digitally, yet physically, through its Gold EGR, which may impact the metals
+  and banking sectors in India.
+extracted_at: '2026-05-08T09:12:56.254297'

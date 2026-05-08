@@ -1,0 +1,27 @@
+event_id: evt_20260508_091308_006
+event_summary: Oil prices have increased due to renewed hostilities between the United
+  States and Iran, potentially disrupting global energy markets.
+signal:
+  direction: BEARISH
+  confidence: MEDIUM
+  horizon: weeks
+  affected_holdings:
+  - ticker: EXXONMOBIL.NS
+    exposure_pct: 19.52
+    expected_impact: negative, estimated range -2% to -4%
+  reasoning: The increased oil prices due to renewed hostilities between the United
+    States and Iran may lead to higher energy costs, negatively impacting various
+    sectors. However, Exxon Mobil Corp, which accounts for 19.52% of the portfolio,
+    may experience a positive impact due to increased oil prices. The overall portfolio
+    direction is bearish due to the potential ripple effect on the economy.
+  risk_flags:
+  - A swift resolution to the hostilities between the United States and Iran, leading
+    to a decrease in oil prices
+  - The current global economic conditions being more resilient to oil price shocks
+    than expected
+  action_insight: Retail investors should be aware of the potential for increased
+    market volatility in the coming weeks due to the geopolitical tensions and their
+    impact on global energy markets.
+portfolio_exposure_pct: 19.52
+generated_at: '2026-05-08T09:20:20.071438'
+model_used: gemini-2.0-flash

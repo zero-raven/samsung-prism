@@ -29,6 +29,7 @@ import sys
 import os
 import glob
 import datetime
+import requests
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -36,6 +37,33 @@ from shared.config_loader import (
     load_config, get_workspace_path, read_yaml, write_yaml, append_to_log
 )
 from shared.graph_manager import GraphManager
+
+
+def send_telegram(text: str) -> bool:
+    """Send a message to the configured Telegram chat. Returns True on success."""
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    if not token or not chat_id:
+        print("[Telegram] TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set; skipping send.")
+        return False
+    try:
+        r = requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat_id, "text": text, "parse_mode": "Markdown"},
+            timeout=15,
+        )
+        if r.status_code == 200 and r.json().get("ok"):
+            return True
+        # Markdown parse errors → retry without parse_mode
+        r2 = requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat_id, "text": text},
+            timeout=15,
+        )
+        return r2.status_code == 200 and r2.json().get("ok", False)
+    except Exception as e:
+        print(f"[Telegram] send failed: {e}")
+        return False
 
 
 # ═══════════════════════════════════════════════════════════
@@ -362,14 +390,34 @@ if __name__ == "__main__":
     elif args.status:
         print(get_system_status())
     elif args.briefing:
-        # Load briefing queue and format
+        # Load briefing queue, rebuild (chain, impact, signal) tuples, format, send.
         queue_path = get_workspace_path("briefing", "queue.yaml")
         queue = read_yaml(queue_path)
         items = queue.get("items", [])
-        if items:
-            print(f"Morning briefing: {len(items)} queued events")
-            # Would format and send via Telegram
-        else:
+        if not items:
             print("No events in briefing queue.")
+        else:
+            analysis_dir = get_workspace_path("analysis")
+            events = []
+            for item in items:
+                eid = item.get("event_id")
+                if not eid:
+                    continue
+                chain = read_yaml(os.path.join(analysis_dir, f"chain_{eid}.yaml"))
+                impact = read_yaml(os.path.join(analysis_dir, f"impact_{eid}.yaml"))
+                signal_data = read_yaml(os.path.join(analysis_dir, f"signal_{eid}.yaml"))
+                if chain and signal_data:
+                    events.append((chain, impact or {}, signal_data))
+            if not events:
+                print("Briefing queue had entries but no analysis files matched.")
+            else:
+                msg = format_briefing(events)
+                print(f"Morning briefing: {len(items)} queued events; sending top {min(4, len(events))} to Telegram...")
+                ok = send_telegram(msg)
+                print(f"[Telegram] briefing send: {'OK' if ok else 'FAILED'}")
+                # Clear the briefing queue after a successful send
+                if ok:
+                    write_yaml(queue_path, {"items": []})
+                    append_to_log(f"Briefing sent: {len(events)} events", "deliver.log")
     else:
         route_and_deliver()

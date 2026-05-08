@@ -41,3 +41,16 @@
 [2026-05-02 22:00:24] FAILED evt_20260502_215200_053: [LLM] All 3 attempts failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqmqhbyjfxssjzshcf2gdzep` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99405, Requested 1453. Please try again in 12m21.312s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
 [2026-05-02 22:00:31] FAILED evt_20260502_215202_054: [LLM] All 3 attempts failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqmqhbyjfxssjzshcf2gdzep` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99398, Requested 1147. Please try again in 7m50.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
 [2026-05-02 22:00:37] FAILED evt_20260502_215220_055: [LLM] All 3 attempts failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqmqhbyjfxssjzshcf2gdzep` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99391, Requested 1597. Please try again in 14m13.632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[2026-05-08 09:15:12] Analyzed evt_20260502_215048_029 | Confidence: MEDIUM
+[2026-05-08 09:17:33] Analyzed evt_20260508_091255_000 | Confidence: MEDIUM
+[2026-05-08 09:17:38] Analyzed evt_20260508_091256_001 | Confidence: MEDIUM
+[2026-05-08 09:17:43] Analyzed evt_20260508_091258_002 | Confidence: MEDIUM
+[2026-05-08 09:17:49] Analyzed evt_20260508_091301_003 | Confidence: MEDIUM
+[2026-05-08 09:17:54] Analyzed evt_20260508_091303_004 | Confidence: MEDIUM
+[2026-05-08 09:17:59] Analyzed evt_20260508_091306_005 | Confidence: MEDIUM
+[2026-05-08 09:18:04] Analyzed evt_20260508_091308_006 | Confidence: MEDIUM
+[2026-05-08 09:18:09] Analyzed evt_20260508_091311_007 | Confidence: MEDIUM
+[2026-05-08 09:18:19] Analyzed evt_20260508_091313_008 | Confidence: MEDIUM
+[2026-05-08 10:03:30] Analyzed evt_20260508_100133_000 | Confidence: MEDIUM
+[2026-05-08 10:14:10] Analyzed evt_20260508_101219_000 | Confidence: MEDIUM
+[2026-05-08 10:14:14] Analyzed evt_20260508_101220_001 | Confidence: MEDIUM

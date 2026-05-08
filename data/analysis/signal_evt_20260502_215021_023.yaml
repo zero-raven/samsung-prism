@@ -1,0 +1,26 @@
+event_id: evt_20260502_215021_023
+event_summary: The Reserve Bank of India has launched three key surveys to gather
+  input for its monetary policy decisions, which may impact the banking sector and
+  the overall economy.
+signal:
+  direction: BULLISH
+  confidence: MEDIUM
+  horizon: days
+  affected_holdings:
+  - ticker: JPMorgan Chase & Co
+    exposure_pct: 26.05
+    expected_impact: positive, +1% to +3%
+  reasoning: The Reserve Bank of India's surveys may indicate a shift in monetary
+    policy stance, influencing the banking sector and overall economy. Historically,
+    central bank surveys and subsequent policy decisions have triggered market reactions.
+    The affected holding, JPMorgan Chase & Co, has a significant exposure of 26.05%
+    in the portfolio.
+  risk_flags:
+  - The Reserve Bank of India's surveys may not lead to significant policy changes
+  - Unexpected global economic events may overshadow the impact of the surveys
+  action_insight: Retail investors should be aware of potential short-term market
+    fluctuations in the banking sector due to the Reserve Bank of India's surveys
+    and subsequent policy decisions.
+portfolio_exposure_pct: 26.05
+generated_at: '2026-05-08T09:19:47.779875'
+model_used: gemini-2.0-flash

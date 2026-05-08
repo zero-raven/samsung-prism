@@ -1,0 +1,12 @@
+event_id: evt_20260508_091255_000
+event_summary: The National Stock Exchange has launched electronic gold receipts to
+  formalize the gold market, potentially increasing transparency and efficiency in
+  the sector.
+portfolio_exposure:
+  total_portfolio_value: 90127.05
+  affected_value: 0
+  exposure_pct: 0.0
+  direction: positive
+affected_holdings: []
+unaffected_holdings_count: 5
+mapped_at: '2026-05-08T09:18:37.256439'

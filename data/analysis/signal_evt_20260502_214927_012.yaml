@@ -1,0 +1,26 @@
+event_id: evt_20260502_214927_012
+event_summary: The Sensex shed 416 points due to concerns over US President Trump's
+  dissatisfaction with Iran's truce proposal, indicating a potential escalation of
+  geopolitical tensions.
+signal:
+  direction: BEARISH
+  confidence: MEDIUM
+  horizon: days
+  affected_holdings:
+  - ticker: NIFTY.NS
+    exposure_pct: 0.0
+    expected_impact: negative, estimated range -1% to -3%
+  reasoning: The Sensex shed 416 points due to concerns over US President Trump's
+    dissatisfaction with Iran's truce proposal, indicating a potential escalation
+    of geopolitical tensions. Historically, such events have triggered market volatility,
+    leading to a flight to safety and decreased demand for risky assets. The media
+    sector may be particularly affected due to its sensitivity to global events and
+    economic uncertainty.
+  risk_flags:
+  - Unexpected diplomatic resolutions between the US and Iran
+  - Escalations in geopolitical tensions beyond current expectations
+  action_insight: Retail investors should be aware of the potential for increased
+    market volatility in the short term due to geopolitical developments.
+portfolio_exposure_pct: 0.0
+generated_at: '2026-05-08T09:19:20.071960'
+model_used: gemini-2.0-flash

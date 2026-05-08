@@ -1,0 +1,45 @@
+event_id: evt_20260508_101220_001
+event_summary: Gold is on track for a weekly gain as markets focus on the prospects
+  of a US-Iran deal, potentially impacting metal prices and global trade.
+event_type: geopolitical
+retrieved_analogues:
+- '{''event_id'': ''evt_2016_brexit'', ''headline'': ''United Kingdom votes to leave
+  the European Union, shocking global financial markets.'', ''event_type'': ''geopolitical'',
+  ''direction'': ''negative_macro'', ''primary_entities'': [''United Kingdom'', ''European
+  Union'', ''Bank of England'', ''UK Parliament''], ''affected_sectors'': [{''sector'':
+  ''uk_banks'', ''impact'': ''negative'', ''reasoning'': "Banks faced the loss of
+  EU financial services ''passporting'' rights, threatening their London-based operations."},
+  {''sector'': ''uk_housebuilders'', ''impact'': ''negative'', ''reasoning'': ''The
+  vote created immediate uncertainty around UK property demand and immigration, crushing
+  housebuilder stocks.''}, {''sector'': ''uk_multinationals'', ''impact'': ''positive'',
+  ''reasoning'': ''The sharp fall in the British pound benefited FTSE 100 multinationals
+  that generate most of their revenue in US dollars or Euros.''}], ''time_horizon'':
+  ''long_term''}'
+causal_chain:
+  trigger: Gold prices are rising due to potential US-Iran deal prospects, impacting
+    metal prices and global trade.
+  mechanism: Historically, geopolitical events like the UK's Brexit vote have led
+    to market uncertainty, affecting various sectors. The Brexit event showed that
+    multinationals can benefit from currency fluctuations, while sectors closely tied
+    to the affected region may suffer. This mechanism may apply to the current US-Iran
+    situation, with metal prices and trade being key factors.
+  affected_sectors:
+  - sector: metals
+    direction: positive
+    magnitude: medium
+    reasoning: The historical analogue of Brexit shows that multinationals, in this
+      case, metal companies, may benefit from the geopolitical uncertainty and potential
+      currency fluctuations, similar to how UK multinationals benefited from the sharp
+      fall in the British pound.
+  affected_companies: []
+  time_horizon: short_term
+  confidence: MEDIUM
+  key_risks:
+  - Failure of the US-Iran deal negotiations
+  - Unexpected market reactions to the deal's terms
+  summary_for_investor: The potential US-Iran deal could lead to higher gold prices,
+    benefiting metal companies. However, the outcome is uncertain, and investors should
+    be cautious. If the deal fails, metal prices may drop, affecting related companies
+    and investments.
+analyzed_at: '2026-05-08T10:14:14.925801'
+model_used: gemini-2.0-flash

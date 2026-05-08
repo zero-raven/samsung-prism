@@ -11,24 +11,20 @@ news_sources:
     enabled: true
     queries:
       - "NSE India"
-      - "Nifty Sensex"
       - "RBI policy"
-      - "Indian banking"
     region: "IN"
     language: "en"
-    max_articles_per_query: 10
+    max_articles_per_query: 3
   gdelt:
     enabled: true
     themes:
       - "ECON_STOCKMARKET"
-      - "ECON_CENTRALBANK"
-    max_articles: 20
+    max_articles: 3
   finnhub:
     enabled: true
     categories:
       - "general"
-      - "forex"
-    max_articles: 15
+    max_articles: 3
 
 portfolio:
   default_holdings:

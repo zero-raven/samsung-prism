@@ -1,2 +1,6 @@
 [2026-05-02 21:29:04] HEARTBEAT_OK — No new articles.
 [2026-05-02 21:41:16] HEARTBEAT_OK — No significant events.
+[2026-05-08 09:11:14] PIPELINE FAILED at Skill 1: 'charmap' codec can't encode character '\u2192' in position 2: character maps to <undefined>
+[2026-05-08 09:11:14] HEARTBEAT_OK — No new articles.
+[2026-05-08 10:03:33] Pipeline complete in 210.4s. Articles: 1, Events: 1, Analyses: 1, Deliveries: 1
+[2026-05-08 10:14:21] Pipeline complete in 216.5s. Articles: 2, Events: 2, Analyses: 2, Deliveries: 2

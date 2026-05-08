@@ -1,0 +1,23 @@
+event_id: evt_20260508_100133_000
+event_summary: Economists expect the Reserve Bank of India to maintain its current
+  policy rate, indicating no urgency to tighten monetary policy.
+portfolio_exposure:
+  total_portfolio_value: 90127.05
+  affected_value: 22970.25
+  exposure_pct: 25.49
+  direction: positive
+affected_holdings:
+- ticker: JPM
+  name: JPMorgan Chase & Co
+  sector: banking
+  current_price: 306.27
+  quantity: 75
+  holding_value: 22970.25
+  pct_of_portfolio: 25.49
+  impact_direction: positive
+  impact_magnitude: medium
+  impact_reasoning: The decision to maintain the current policy rate is likely to
+    support the banking sector, as seen in the 2008 quantitative easing event, where
+    the Federal Reserve's actions boosted bank balance sheets.
+unaffected_holdings_count: 4
+mapped_at: '2026-05-08T10:03:33.172227'

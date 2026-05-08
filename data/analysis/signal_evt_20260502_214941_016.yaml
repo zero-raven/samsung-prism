@@ -1,0 +1,25 @@
+event_id: evt_20260502_214941_016
+event_summary: The Indian stock market experienced a decline for the third consecutive
+  day, with the Sensex and Nifty losing 2% this week, primarily due to the poor performance
+  of the IT sector.
+signal:
+  direction: BEARISH
+  confidence: MEDIUM
+  horizon: days
+  affected_holdings:
+  - ticker: None
+    exposure_pct: 0.0
+    expected_impact: negative, estimated range like -1% to -3%
+  reasoning: The Indian stock market's decline for the third consecutive day, primarily
+    due to the poor performance of the IT sector, may lead to a broader market downturn.
+    Historically, declines in the IT sector have led to reduced investor sentiment
+    and sell-offs in other sectors. The current decline may propagate through the
+    market, leading to further losses.
+  risk_flags:
+  - Government intervention to support the IT sector
+  - Resilience of the global economic environment to IT sector decline
+  action_insight: Retail investors should be aware of the potential for further market
+    decline in the short term, given the current trend and historical precedents.
+portfolio_exposure_pct: 0.0
+generated_at: '2026-05-08T09:19:27.816468'
+model_used: gemini-2.0-flash

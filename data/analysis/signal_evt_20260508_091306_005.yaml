@@ -1,0 +1,25 @@
+event_id: evt_20260508_091306_005
+event_summary: The Reserve Bank of India is likely to hold interest rates in June
+  due to conflicting objectives, according to HSBC's Chief India Economist.
+signal:
+  direction: NEUTRAL
+  confidence: MEDIUM
+  horizon: days
+  affected_holdings:
+  - ticker: JPMorgan Chase & Co
+    exposure_pct: 25.49
+    expected_impact: negative, estimated range -1% to -3%
+  reasoning: The Reserve Bank of India's decision to hold interest rates may be seen
+    as a sign of economic weakness, potentially leading to a decrease in investor
+    confidence. This could have a negative impact on the banking sector, including
+    JPMorgan Chase & Co. However, the overall effect on the portfolio is mixed, leading
+    to a neutral direction.
+  risk_flags:
+  - A surprise change in the Reserve Bank of India's interest rate decision
+  - Unexpected economic data that contradicts the current outlook
+  action_insight: Retail investors should be aware of the potential decrease in investor
+    confidence due to the Reserve Bank of India's decision to hold interest rates,
+    and monitor the impact on their portfolio's banking sector holdings.
+portfolio_exposure_pct: 25.49
+generated_at: '2026-05-08T09:20:15.301967'
+model_used: gemini-2.0-flash

@@ -1,0 +1,21 @@
+event_id: evt_20260508_091301_003
+source_article:
+  headline: RBI Monetary Policy Committee keeps repo rate unchanged at 5.25% amid
+    global uncertainties - News On AIR
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcWRQMThvRVo4VGVSbF9KT1pLaHYyNl9IV29fQ0dvVDZQeHVqM191X1U3UEZOazJGb0RkZjdnRHNEcDU2aXJqWnN5MFhVRk1jQ21kMzlROXhhQXFjU0RfWjFidjlKQ2liek90X2FDcDQzNE1Lc2xtTjVjcEREbm5mNUdfemc3Z0FESjR4WkU1azUxN3k5YjJXdDROWGdYYzI5Q1JzTVZlQi0tSV9sOG1veDFuLVNLVEFaMWZF?oc=5
+  published: Wed, 22 Apr 2026 07:00:00 GMT
+entities:
+  companies:
+  - Reserve Bank of India
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: central_bank
+significance: 8
+one_line_summary: The RBI Monetary Policy Committee's decision to keep the repo rate
+  unchanged at 5.25% may have significant implications for India's banking sector
+  and overall economy amid global uncertainties.
+extracted_at: '2026-05-08T09:13:01.165395'

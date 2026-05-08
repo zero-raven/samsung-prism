@@ -1,0 +1,31 @@
+event_id: evt_20260502_214923_003
+event_summary: The National Stock Exchange has scheduled an Extraordinary General
+  Meeting to propose a governance overhaul and increase the cap for Non-Resident Indian
+  investments, which may impact the Indian stock market.
+signal:
+  direction: BEARISH
+  confidence: MEDIUM
+  horizon: days
+  affected_holdings:
+  - ticker: JPMorgan Chase & Co
+    exposure_pct: 26.05
+    expected_impact: negative, estimated range -2% to -4%
+  reasoning: The proposed governance overhaul and increase in the cap for Non-Resident
+    Indian investments may lead to increased scrutiny and compliance costs for affected
+    sectors, potentially negatively impacting the Indian stock market. The significant
+    exposure of the portfolio to JPMorgan Chase & Co, which may be affected by these
+    changes, contributes to the bearish direction. Historical analogue events suggest
+    that regulatory responses can lead to increased costs and scrutiny for affected
+    sectors.
+  risk_flags:
+  - The actual outcome of the Extraordinary General Meeting may differ from expectations,
+    potentially altering the impact on the Indian stock market
+  - The increased cap for Non-Resident Indian investments may lead to unforeseen consequences,
+    such as rapid influx of foreign investment, which could affect the market differently
+    than anticipated
+  action_insight: Retail investors should be aware of the potential short-term volatility
+    in the Indian stock market, particularly in sectors that may be affected by the
+    proposed governance overhaul and increased foreign investment.
+portfolio_exposure_pct: 26.05
+generated_at: '2026-05-08T09:19:07.818458'
+model_used: gemini-2.0-flash

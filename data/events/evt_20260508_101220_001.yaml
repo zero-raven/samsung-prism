@@ -1,0 +1,21 @@
+event_id: evt_20260508_101220_001
+source_article:
+  headline: Gold on track for weekly gain; markets focus on US-Iran deal prospects
+    - Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOZXM5QVhTWjRwT2VVN2NHZzlpdFlfTXM3ZDBEMUVmNmx3dlg3aUtfQXVnR2ZBRjNlWmtVVUpSNXlRY2RDQkV4V2tlYnQtR1JwQWtnVFlrajE0ckpiMDc5eGViWVQ5WTU1XzV6Q3lfbXJpOEx3N3EzcHNzMGVtaVpCeVBCUTdBUWt4MTkwZ2VkU2VFOG4wQjM2d2pjNlVURTNucDJwNHQ4Z2ZFRU1XUDZReWpjVQ?oc=5
+  published: '2026-05-08T06:58:00'
+entities:
+  companies: []
+  sectors:
+  - metals
+  countries:
+  - United States
+  - Iran
+  commodities:
+  - gold
+event_type: geopolitical
+significance: 6
+one_line_summary: Gold is on track for a weekly gain as markets focus on the prospects
+  of a US-Iran deal, potentially impacting metal prices and global trade.
+extracted_at: '2026-05-08T10:12:20.366928'

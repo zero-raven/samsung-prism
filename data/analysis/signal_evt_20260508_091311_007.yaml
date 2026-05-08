@@ -1,0 +1,24 @@
+event_id: evt_20260508_091311_007
+event_summary: The US military's retaliatory strikes against Iran may escalate geopolitical
+  tensions and impact global markets, particularly the defence sector.
+signal:
+  direction: NEUTRAL
+  confidence: LOW
+  horizon: days
+  affected_holdings:
+  - ticker: None
+    exposure_pct: 0.0
+    expected_impact: neutral, ±1%
+  reasoning: The US military's retaliatory strikes against Iran may escalate geopolitical
+    tensions, but the portfolio has no direct exposure to the defence sector. The
+    potential impact on the market is uncertain and may be short-lived. The lack of
+    direct holdings and unclear market response leads to a neutral signal.
+  risk_flags:
+  - Escalation of conflict beyond current levels
+  - Unanticipated response from other nations
+  action_insight: Retail investors should be aware of potential short-term market
+    volatility due to geopolitical events and monitor their portfolio's exposure to
+    sensitive sectors.
+portfolio_exposure_pct: 0.0
+generated_at: '2026-05-08T09:20:22.897927'
+model_used: gemini-2.0-flash

@@ -1,0 +1,22 @@
+event_id: evt_20260508_101219_000
+source_article:
+  headline: UAE countering Iranian air attack after Trump says ceasefire still in
+    effect - Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOaG9nWFIyNS0xRHQ0VDZFdnNHQTZtMjQtbzhOUS1HWjg0MG9CLXBBb0Y0WjNFVGppR2hUWjllMllXSjNJMGdfUEluSklFNktiR1FQM1VRVnlDa1JVUmZsSFpZRDJBNGdOZzk1clRKc3NIZGpOX0VQMTlha1R3TVUtS0daUGQyRUNHVEtqa2txSFlmVEtqT0wtaW5qRGpxeFRxWnhxWlZkcTVOYnlsR2UwNHBvVmJTRXZKM1k0UWlFLVRTR2xCdUE?oc=5
+  published: '2026-05-08T09:09:00'
+entities:
+  companies: []
+  sectors:
+  - defence
+  countries:
+  - United Arab Emirates
+  - Iran
+  - United States
+  commodities: []
+event_type: geopolitical
+significance: 8
+one_line_summary: The UAE is countering an Iranian air attack, escalating tensions
+  in the region and potentially impacting global markets, despite President Trump's
+  assertion that a ceasefire is still in effect.
+extracted_at: '2026-05-08T10:12:19.962946'

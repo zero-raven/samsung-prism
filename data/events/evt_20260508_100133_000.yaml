@@ -1,0 +1,20 @@
+event_id: evt_20260508_100133_000
+source_article:
+  headline: Economists don’t expect RBI to exhibit any urgency to tighten policy rate
+    - IANS LIVE
+  source: google_news
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNTmQ1Y05ja2pMeXpUdkowbndTbWVUM2ZFc203U2FQN01UTTd0NDdqdnQ2Q2JxZzJVcHU5SWJPTE9qMGppbUNYVWtwMGpRLW5waDZEdXcyRGtfNThERlhhdW1SNExsY1VpV0xFVWQycE5zdU9iWF9QRnZsQmpEWnZJanhTUDV1ZXZvY1J2dmNKbmlJMzJJbkRyX0VfQmtzNzdrVVpuVDQ1cHZxWmJ3?oc=5
+  published: Fri, 08 May 2026 04:17:00 GMT
+entities:
+  companies:
+  - Reserve Bank of India
+  sectors:
+  - banking
+  countries:
+  - India
+  commodities: []
+event_type: central_bank
+significance: 6
+one_line_summary: Economists expect the Reserve Bank of India to maintain its current
+  policy rate, indicating no urgency to tighten monetary policy.
+extracted_at: '2026-05-08T10:01:33.631422'

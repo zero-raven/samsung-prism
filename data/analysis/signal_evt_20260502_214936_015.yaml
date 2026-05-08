@@ -1,0 +1,25 @@
+event_id: evt_20260502_214936_015
+event_summary: The Indian stock market rebounded, snapping a three-day losing streak,
+  driven by a rally in IT and pharma sectors, led by Sun Pharma.
+signal:
+  direction: BULLISH
+  confidence: MEDIUM
+  horizon: days
+  affected_holdings:
+  - ticker: SUNPHARMA.NS
+    exposure_pct: 0.0
+    expected_impact: positive, +1% to +3%
+  reasoning: The Indian stock market's rebound, driven by a rally in IT and pharma
+    sectors led by Sun Pharma, suggests a short-term positive trend. Historically,
+    sector-specific rallies have had a positive impact on related sectors and the
+    broader market. The current rally may continue in the short term, driven by earnings
+    growth and global trends.
+  risk_flags:
+  - Regulatory changes in the pharma sector affecting Sun Pharma's growth prospects
+  - Global economic trends and trade policies impacting the Indian market
+  action_insight: Retail investors should be aware of the potential for continued
+    short-term gains in the IT and pharma sectors, but also monitor regulatory developments
+    and global economic trends that may impact the market.
+portfolio_exposure_pct: 0.0
+generated_at: '2026-05-08T09:19:25.237546'
+model_used: gemini-2.0-flash

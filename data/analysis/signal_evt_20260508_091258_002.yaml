@@ -1,0 +1,25 @@
+event_id: evt_20260508_091258_002
+event_summary: The introduction of Electronic Gold Receipts by the National Stock
+  Exchange is expected to provide a new investment option for gold investors in India.
+signal:
+  direction: BULLISH
+  confidence: MEDIUM
+  horizon: days
+  affected_holdings:
+  - ticker: None
+    exposure_pct: 0.0
+    expected_impact: positive, estimated range +1% to +3%
+  reasoning: The introduction of Electronic Gold Receipts by the National Stock Exchange
+    is expected to increase transparency and accessibility for gold investors in India,
+    potentially leading to increased investment in the sector. This regulatory event
+    may also lead to a shift in market share among existing players. The lack of direct
+    portfolio exposure suggests a potential opportunity for growth.
+  risk_flags:
+  - Lack of investor awareness and education about Electronic Gold Receipts
+  - Technical issues or glitches in the trading platform
+  action_insight: Retail investors should be aware of the potential for increased
+    market activity and volatility in the gold sector following the introduction of
+    Electronic Gold Receipts.
+portfolio_exposure_pct: 0.0
+generated_at: '2026-05-08T09:20:07.901259'
+model_used: gemini-2.0-flash

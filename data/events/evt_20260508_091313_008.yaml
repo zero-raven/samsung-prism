@@ -1,0 +1,21 @@
+event_id: evt_20260508_091313_008
+source_article:
+  headline: Iran accuses US of violating ceasefire with new attacks - Reuters
+  source: finnhub
+  url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRFFjYzMybXlET01QRW9uRjY5Z0tyQndJNXdvVHFoUWRmMHNJelJXdUZVV3pKRzlZd0RnRmhGdlFPb1dZZmtvQTkxYWpNMHRfTi1hcXdsSDB3b2Q3dTkxQmVrNVd1TUVYTjVkajdnNTk5QlN5WFdESkdMUEJXNjNwY21aWEw1eG51aW5nenhsUFk2UGRSdVZwYTF2QWVVcnE1RGxlcks1c0dJQQ?oc=5
+  published: '2026-05-08T03:33:55'
+entities:
+  companies:
+  - Reuters
+  sectors:
+  - defence
+  countries:
+  - Iran
+  - United States
+  commodities:
+  - none
+event_type: geopolitical
+significance: 8
+one_line_summary: Iran's accusation of the US violating a ceasefire with new attacks
+  may escalate geopolitical tensions and impact global markets.
+extracted_at: '2026-05-08T09:13:13.891881'

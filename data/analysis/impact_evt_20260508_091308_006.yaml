@@ -1,0 +1,25 @@
+event_id: evt_20260508_091308_006
+event_summary: Oil prices have increased due to renewed hostilities between the United
+  States and Iran, potentially disrupting global energy markets.
+portfolio_exposure:
+  total_portfolio_value: 90127.05
+  affected_value: 17589.6
+  exposure_pct: 19.52
+  direction: positive
+affected_holdings:
+- ticker: XOM
+  name: Exxon Mobil Corp
+  sector: energy
+  current_price: 146.58
+  quantity: 120
+  holding_value: 17589.6
+  pct_of_portfolio: 19.52
+  impact_direction: positive
+  impact_magnitude: medium
+  impact_reasoning: The historical analogue of the Brexit vote shows that certain
+    sectors, like multinationals, can benefit from global disruptions. Similarly,
+    the energy sector may see increased revenues due to higher oil prices, as seen
+    in the Brexit example where UK multinationals benefited from the sharp fall in
+    the British pound.
+unaffected_holdings_count: 4
+mapped_at: '2026-05-08T09:18:38.184973'
